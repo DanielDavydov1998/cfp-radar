@@ -52,8 +52,6 @@
 <header>
   <h1>📡 CFP-Radar</h1>
   <span class="status" id="status">lädt…</span>
-  <span style="flex:1"></span>
-  <a class="button" id="subscribeLink" href="#">E-Mail-Benachrichtigung</a>
 </header>
 <div class="wrap">
   <div class="toolbar">
@@ -83,17 +81,19 @@
 </footer>
 
 <script>
-// E-Mail-Adresse für Abo-Anfragen (Betreiber des Radars)
-const ABO_EMAIL = "ironm458@gmail.com";
+// Optionaler Abo-Button: E-Mail eintragen und den auskommentierten Block
+// unten aktivieren, dann erscheint im Header ein "E-Mail-Benachrichtigung"-
+// Button mit vorausgefüllter Mail.
+// const ABO_EMAIL = "deine@adresse.de";
+// const a = document.createElement("a");
+// a.className = "button";
+// a.textContent = "E-Mail-Benachrichtigung";
+// a.href = "mailto:" + ABO_EMAIL +
+//   "?subject=" + encodeURIComponent("CFP-Radar: Benachrichtigung abonnieren") +
+//   "&body=" + encodeURIComponent("Bitte nimm mich in den CFP-Radar-Verteiler auf.\n\nMeine Journals:\n- \n\nDanke!");
+// document.querySelector("header").appendChild(a);
 
 let CFPS = [], JOURNALS = [], sortKey = "first_seen", sortDir = -1;
-
-document.getElementById("subscribeLink").href =
-  "mailto:" + ABO_EMAIL +
-  "?subject=" + encodeURIComponent("CFP-Radar: Benachrichtigung abonnieren") +
-  "&body=" + encodeURIComponent(
-    "Hi Daniel,\n\nbitte nimm mich in den CFP-Radar-Verteiler auf.\n\n" +
-    "Meine Journals (Abkürzungen oder \"alle\"):\n- \n\nDanke!");
 
 async function loadAll() {
   const data = await fetch("data.json?" + Date.now()).then(r => r.json());
