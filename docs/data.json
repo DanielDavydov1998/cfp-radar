@@ -1,0 +1,677 @@
+{
+ "generated": "2026-07-07T19:53:52Z",
+ "journal_count": 89,
+ "journals": [
+  {
+   "name": "MIS Quarterly",
+   "abbrev": "MISQ",
+   "vhb_2024": "A+",
+   "basket11": true
+  },
+  {
+   "name": "Information Systems Research",
+   "abbrev": "ISR",
+   "vhb_2024": "A+",
+   "basket11": true
+  },
+  {
+   "name": "Journal of the Association for Information Systems",
+   "abbrev": "JAIS",
+   "vhb_2024": "A",
+   "basket11": true
+  },
+  {
+   "name": "Journal of Management Information Systems",
+   "abbrev": "JMIS",
+   "vhb_2024": "A",
+   "basket11": true
+  },
+  {
+   "name": "Information Systems Journal",
+   "abbrev": "ISJ",
+   "vhb_2024": "A",
+   "basket11": true
+  },
+  {
+   "name": "European Journal of Information Systems",
+   "abbrev": "EJIS",
+   "vhb_2024": "A",
+   "basket11": true
+  },
+  {
+   "name": "The Journal of Strategic Information Systems",
+   "abbrev": "JSIS",
+   "vhb_2024": "A",
+   "basket11": true
+  },
+  {
+   "name": "Journal of Information Technology",
+   "abbrev": "JIT",
+   "vhb_2024": "A",
+   "basket11": true
+  },
+  {
+   "name": "Decision Support Systems",
+   "abbrev": "DSS",
+   "vhb_2024": "B",
+   "basket11": true
+  },
+  {
+   "name": "Information & Management",
+   "abbrev": "I&M",
+   "vhb_2024": "B",
+   "basket11": true
+  },
+  {
+   "name": "Information and Organization",
+   "abbrev": "I&O",
+   "vhb_2024": "B",
+   "basket11": true
+  },
+  {
+   "name": "Business & Information Systems Engineering",
+   "abbrev": "BISE",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "ACM SIGMIS Database: The DATA BASE for Advances in Information Systems",
+   "abbrev": "DATA BASE",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "ACM Transactions on Information Systems",
+   "abbrev": "ACM TOIS",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "ACM Transactions on Management Information Systems",
+   "abbrev": "ACM TMIS",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "AIS Transactions on Human-Computer Interaction",
+   "abbrev": "THCI",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Information Technology & People",
+   "abbrev": "ITP",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "MIS Quarterly Executive",
+   "abbrev": "MISQE",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Electronic Markets",
+   "abbrev": "EM",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Information Systems Frontiers",
+   "abbrev": "ISF",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Behaviour & Information Technology",
+   "abbrev": "BIT",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "International Journal of Electronic Commerce",
+   "abbrev": "IJEC",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Software and Systems Modeling",
+   "abbrev": "SoSyM",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Information Systems",
+   "abbrev": null,
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Group Decision and Negotiation",
+   "abbrev": "GDN",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Journal of Decision Systems",
+   "abbrev": "JDS",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "International Journal of Information Management",
+   "abbrev": "IJIM",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Communications of the Association for Information Systems",
+   "abbrev": "CAIS",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Internet Research",
+   "abbrev": "INTR",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Information Systems Management",
+   "abbrev": "ISM",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Scandinavian Journal of Information Systems",
+   "abbrev": "SJIS",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Information Technology and Management",
+   "abbrev": "ITM",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Management Science",
+   "abbrev": "MS",
+   "vhb_2024": "A+",
+   "basket11": false
+  },
+  {
+   "name": "Organization Science",
+   "abbrev": "OrgSci",
+   "vhb_2024": "A+",
+   "basket11": false
+  },
+  {
+   "name": "Operations Research",
+   "abbrev": "OR",
+   "vhb_2024": "A+",
+   "basket11": false
+  },
+  {
+   "name": "Transportation Science",
+   "abbrev": null,
+   "vhb_2024": "A",
+   "basket11": false
+  },
+  {
+   "name": "European Journal of Operational Research",
+   "abbrev": "EJOR",
+   "vhb_2024": "A",
+   "basket11": false
+  },
+  {
+   "name": "Production and Operations Management",
+   "abbrev": "POM",
+   "vhb_2024": "A",
+   "basket11": false
+  },
+  {
+   "name": "Journal of Service Research",
+   "abbrev": "JSR",
+   "vhb_2024": "A",
+   "basket11": false
+  },
+  {
+   "name": "Manufacturing & Service Operations Management",
+   "abbrev": "M&SOM",
+   "vhb_2024": "A",
+   "basket11": false
+  },
+  {
+   "name": "Journal of Operations Management",
+   "abbrev": "JOM",
+   "vhb_2024": "A",
+   "basket11": false
+  },
+  {
+   "name": "Nature Human Behaviour",
+   "abbrev": null,
+   "vhb_2024": "A",
+   "basket11": false
+  },
+  {
+   "name": "INFORMS Journal on Computing",
+   "abbrev": "IJOC",
+   "vhb_2024": "A",
+   "basket11": false
+  },
+  {
+   "name": "OR Spectrum",
+   "abbrev": null,
+   "vhb_2024": "A",
+   "basket11": false
+  },
+  {
+   "name": "Nature Machine Intelligence",
+   "abbrev": null,
+   "vhb_2024": "A",
+   "basket11": false
+  },
+  {
+   "name": "SIAM Journal on Computing",
+   "abbrev": "SICOMP",
+   "vhb_2024": "A",
+   "basket11": false
+  },
+  {
+   "name": "Annals of Operations Research",
+   "abbrev": "AOR",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Journal of Interactive Marketing",
+   "abbrev": null,
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Journal of the ACM",
+   "abbrev": "JACM",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Decision Sciences",
+   "abbrev": null,
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Computers & Operations Research",
+   "abbrev": "COR",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Technological Forecasting and Social Change",
+   "abbrev": "TFSC",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Omega",
+   "abbrev": null,
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "IEEE Transactions on Engineering Management",
+   "abbrev": "IEEE TEM",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Computers in Human Behavior",
+   "abbrev": "CHB",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "INFORMS Journal on Applied Analytics",
+   "abbrev": "IJAA",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "ACM Transactions on Computer-Human Interaction",
+   "abbrev": "TOCHI",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Artificial Intelligence",
+   "abbrev": "AIJ",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Computer",
+   "abbrev": null,
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Human-Computer Interaction",
+   "abbrev": "HCI",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Government Information Quarterly",
+   "abbrev": "GIQ",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Communications of the ACM",
+   "abbrev": "CACM",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Data & Knowledge Engineering",
+   "abbrev": "DKE",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Journal of Service Management",
+   "abbrev": "JOSM",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Computer Supported Cooperative Work",
+   "abbrev": "CSCW",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Information and Software Technology",
+   "abbrev": "IST",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "IEEE Transactions on Software Engineering",
+   "abbrev": "TSE",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Journal of Cleaner Production",
+   "abbrev": "JCLP",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Operations Research Letters",
+   "abbrev": "ORL",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "MIT Sloan Management Review",
+   "abbrev": "MIT SMR",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "ACM Transactions on Software Engineering and Methodology",
+   "abbrev": "TOSEM",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "IEEE Software",
+   "abbrev": null,
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Journal of Medical Internet Research",
+   "abbrev": "JMIR",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "IEEE Transactions on Knowledge and Data Engineering",
+   "abbrev": "TKDE",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Technovation",
+   "abbrev": null,
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "ACM Transactions on Human-Robot Interaction",
+   "abbrev": "THRI",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Service Science",
+   "abbrev": null,
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "INFORMS Journal on Data Science",
+   "abbrev": "IJDS",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Journal of Systems and Software",
+   "abbrev": "JSS",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "International Journal of Innovation Management",
+   "abbrev": null,
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "IEEE Transactions on Human-Machine Systems",
+   "abbrev": "THMS",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "International Journal of Human Computer Studies",
+   "abbrev": "IJHCS",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "ACM Transactions on Interactive Intelligent Systems",
+   "abbrev": "TiiS",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Computers in Industry",
+   "abbrev": null,
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Computers & Education",
+   "abbrev": null,
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "Expert Systems with Applications",
+   "abbrev": "ESWA",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "IEEE Access",
+   "abbrev": null,
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "International Journal of Accounting Information Systems",
+   "abbrev": "IJAIS",
+   "vhb_2024": "B",
+   "basket11": false
+  },
+  {
+   "name": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+   "abbrev": "IEEE TSMC",
+   "vhb_2024": "B",
+   "basket11": false
+  }
+ ],
+ "cfps": [
+  {
+   "hash": "4e61770c9e49603531232c1c",
+   "journal": "Information and Organization",
+   "abbrev": "I&O",
+   "vhb_2024": "B",
+   "basket11": true,
+   "title": "Hype Studies: A Research Agenda for Organizing in Digital Futures",
+   "url": "https://www.sciencedirect.com/special-issue/331903/hype-studies-a-research-agenda-for-organizing-in-digital-futures",
+   "deadline": "2027-01-31",
+   "description": null,
+   "source": "cfpsorg",
+   "first_seen": "2026-07-07T19:53:52Z",
+   "last_seen": "2026-07-07T19:53:52Z",
+   "active": true
+  },
+  {
+   "hash": "ebfa473312353629a3318a33",
+   "journal": "MIS Quarterly",
+   "abbrev": "MISQ",
+   "vhb_2024": "A+",
+   "basket11": true,
+   "title": "Ethics, Regulation, and Policy",
+   "url": "https://misq.umn.edu/pages/call_for_papers_ethics_and_regulations",
+   "deadline": "2026-11-13",
+   "description": null,
+   "source": "cfpsorg",
+   "first_seen": "2026-07-07T19:53:52Z",
+   "last_seen": "2026-07-07T19:53:52Z",
+   "active": true
+  },
+  {
+   "hash": "b78be0ec318348cef8d1fa67",
+   "journal": "The Journal of Strategic Information Systems",
+   "abbrev": "JSIS",
+   "vhb_2024": "A",
+   "basket11": true,
+   "title": "India at the Intersection: Reconfiguring Commerce, Capabilities and Culture in Age of Technological Acceleration",
+   "url": "https://www.sciencedirect.com/special-issue/327852/india-at-the-intersection-reconfiguring-commerce-capabilities-and-culture-in-age-of-technological-acceleration",
+   "deadline": "2026-09-30",
+   "description": null,
+   "source": "cfpsorg",
+   "first_seen": "2026-07-07T19:53:52Z",
+   "last_seen": "2026-07-07T19:53:52Z",
+   "active": true
+  },
+  {
+   "hash": "1f4a993ce14fa97895772437",
+   "journal": "The Journal of Strategic Information Systems",
+   "abbrev": "JSIS",
+   "vhb_2024": "A",
+   "basket11": true,
+   "title": "Unpacking the Multifaceted Impact of Generative Artificial Intelligence on Organisations",
+   "url": "https://www.sciencedirect.com/special-issue/325167/unpacking-the-multifaceted-impact-of-generative-artificial-intelligence-on-organisations",
+   "deadline": "2026-07-31",
+   "description": null,
+   "source": "cfpsorg",
+   "first_seen": "2026-07-07T19:53:52Z",
+   "last_seen": "2026-07-07T19:53:52Z",
+   "active": true
+  },
+  {
+   "hash": "38aa98763ac1a33e524966cc",
+   "journal": "European Journal of Information Systems",
+   "abbrev": "EJIS",
+   "vhb_2024": "A",
+   "basket11": true,
+   "title": "The future of creating and distributing value in digital health ecosystems",
+   "url": "https://think.taylorandfrancis.com/special_issues/digital-health-ecosystems/",
+   "deadline": "2026-11-30",
+   "description": null,
+   "source": "cfpsorg",
+   "first_seen": "2026-07-07T19:53:52Z",
+   "last_seen": "2026-07-07T19:53:52Z",
+   "active": true
+  },
+  {
+   "hash": "9fa03e899155edb5b1729f8c",
+   "journal": "Business & Information Systems Engineering",
+   "abbrev": "BISE",
+   "vhb_2024": "B",
+   "basket11": false,
+   "title": "01/2027 Managing Digital Responsibility: Strategies for Ethical Development, Deployment, and Governance of Digital Technologies",
+   "url": "https://bise-journal.com/?p=2282",
+   "deadline": null,
+   "description": null,
+   "source": "springer",
+   "first_seen": "2026-07-07T19:53:52Z",
+   "last_seen": "2026-07-07T19:53:52Z",
+   "active": true
+  },
+  {
+   "hash": "dded4dff9074be8aca9dd6b4",
+   "journal": "Business & Information Systems Engineering",
+   "abbrev": "BISE",
+   "vhb_2024": "B",
+   "basket11": false,
+   "title": "01/2026 Generative Artificial Intelligence and Conceptual Modeling",
+   "url": "https://bise-journal.com/?p=2206",
+   "deadline": null,
+   "description": null,
+   "source": "springer",
+   "first_seen": "2026-07-07T19:53:52Z",
+   "last_seen": "2026-07-07T19:53:52Z",
+   "active": true
+  },
+  {
+   "hash": "133fb9eee40655da4090de23",
+   "journal": "OR Spectrum",
+   "abbrev": null,
+   "vhb_2024": "A",
+   "basket11": false,
+   "title": "Behavioral Operations – Experimental Studies on Human Decision Making",
+   "url": "https://link.springer.com/journal/291/updates/27791416",
+   "deadline": "2026-12-31",
+   "description": null,
+   "source": "springer",
+   "first_seen": "2026-07-07T19:53:52Z",
+   "last_seen": "2026-07-07T19:53:52Z",
+   "active": true
+  },
+  {
+   "hash": "5251ab1ec79933d6b7cd8ea0",
+   "journal": "MIS Quarterly",
+   "abbrev": "MISQ",
+   "vhb_2024": "A+",
+   "basket11": true,
+   "title": "Indigenous Theory Development",
+   "url": "https://misq.umn.edu/pages/call_for_papers_indigenous_theory_development",
+   "deadline": "2027-07-01",
+   "description": null,
+   "source": "misq",
+   "first_seen": "2026-07-07T19:53:52Z",
+   "last_seen": "2026-07-07T19:53:52Z",
+   "active": true
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+jinja2
+requests
+beautifulsoup4
+lxml
+apscheduler
+python-dotenv
+dateparser
+feedparser
+curl_cffi
+playwright

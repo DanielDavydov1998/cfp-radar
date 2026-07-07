@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+cfp.db
+.env
+subscribers.json

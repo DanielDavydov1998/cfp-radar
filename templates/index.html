@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CFP-Radar – Calls for Papers (WI-Journals)</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #ffffff; --text: #1a2233; --muted: #6b7486;
+    --accent: #2456d6; --accent-soft: #e8eefc; --border: #e2e6ee;
+    --aplus: #7c3aed; --a: #2456d6; --b: #0d9488; --basket: #b45309;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12151c; --card: #1b2029; --text: #e8ebf2; --muted: #9aa3b5;
+      --accent: #6b95ff; --accent-soft: #22304d; --border: #2a3140;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: "Segoe UI", system-ui, sans-serif; background: var(--bg); color: var(--text); }
+  header { padding: 1.4rem 2rem 1rem; display: flex; flex-wrap: wrap; gap: 1rem; align-items: baseline; }
+  header h1 { margin: 0; font-size: 1.5rem; }
+  header .status { color: var(--muted); font-size: .85rem; }
+  .wrap { padding: 0 2rem 3rem; max-width: 1200px; margin: 0 auto; }
+  .toolbar { display: flex; flex-wrap: wrap; gap: .6rem; margin: 1rem 0; align-items: center; }
+  .toolbar input[type=search], .toolbar select {
+    padding: .5rem .7rem; border: 1px solid var(--border); border-radius: 8px;
+    background: var(--card); color: var(--text); font-size: .9rem;
+  }
+  .toolbar input[type=search] { flex: 1 1 220px; }
+  button {
+    padding: .5rem .9rem; border: none; border-radius: 8px; cursor: pointer;
+    background: var(--accent); color: #fff; font-size: .9rem;
+  }
+  button.secondary { background: var(--accent-soft); color: var(--accent); }
+  table { width: 100%; border-collapse: collapse; background: var(--card); border-radius: 12px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+  th, td { text-align: left; padding: .7rem .9rem; border-bottom: 1px solid var(--border); font-size: .9rem; vertical-align: top; }
+  th { background: var(--accent-soft); color: var(--accent); font-weight: 600; cursor: pointer; user-select: none; white-space: nowrap; }
+  tr:last-child td { border-bottom: none; }
+  td a { color: var(--accent); text-decoration: none; }
+  td a:hover { text-decoration: underline; }
+  .badge { display: inline-block; padding: .1rem .45rem; border-radius: 6px; font-size: .75rem; font-weight: 700; color: #fff; }
+  .badge.aplus { background: var(--aplus); } .badge.a { background: var(--a); }
+  .badge.b { background: var(--b); } .badge.basket { background: var(--basket); }
+  .deadline-soon { color: #dc2626; font-weight: 600; }
+  .muted { color: var(--muted); }
+  .empty { padding: 3rem; text-align: center; color: var(--muted); }
+  dialog { border: 1px solid var(--border); border-radius: 14px; background: var(--card); color: var(--text); max-width: 560px; width: 92%; padding: 1.5rem; }
+  dialog::backdrop { background: rgba(0,0,0,.45); }
+  dialog h2 { margin-top: 0; }
+  .journal-list { max-height: 300px; overflow-y: auto; border: 1px solid var(--border); border-radius: 8px; padding: .6rem; margin: .8rem 0; }
+  .journal-list label { display: block; padding: .25rem 0; font-size: .88rem; }
+  dialog input[type=email] { width: 100%; padding: .55rem .7rem; border: 1px solid var(--border); border-radius: 8px; background: var(--bg); color: var(--text); }
+  .dialog-actions { display: flex; gap: .6rem; justify-content: flex-end; margin-top: 1rem; }
+  #toast { position: fixed; bottom: 1.5rem; left: 50%; transform: translateX(-50%); background: var(--text); color: var(--bg); padding: .7rem 1.2rem; border-radius: 10px; opacity: 0; transition: opacity .3s; pointer-events: none; font-size: .9rem; }
+  #toast.show { opacity: 1; }
+</style>
+</head>
+<body>
+<header>
+  <h1>📡 CFP-Radar</h1>
+  <span class="status" id="status">lädt…</span>
+  <span style="flex:1"></span>
+  <button class="secondary" id="refreshBtn" title="Alle Quellen jetzt neu abrufen">Jetzt aktualisieren</button>
+  <button id="subscribeBtn">E-Mail-Benachrichtigung</button>
+</header>
+<div class="wrap">
+  <div class="toolbar">
+    <input type="search" id="q" placeholder="Suche in Titel / Journal…">
+    <select id="fRating">
+      <option value="">Rating: alle</option>
+      <option value="A+">A+</option><option value="A">A</option><option value="B">B</option>
+    </select>
+    <select id="fJournal"><option value="">Journal: alle</option></select>
+    <label style="font-size:.88rem"><input type="checkbox" id="fBasket"> nur Basket of 11</label>
+  </div>
+  <table>
+    <thead><tr>
+      <th data-k="journal">Journal</th><th data-k="vhb_2024">VHB</th>
+      <th data-k="title">Call for Papers</th><th data-k="deadline">Deadline</th>
+      <th data-k="first_seen">Gefunden</th>
+    </tr></thead>
+    <tbody id="rows"></tbody>
+  </table>
+  <div class="empty" id="empty" hidden>Keine Calls for Papers gefunden (Filter aktiv oder noch kein Scrape-Lauf).</div>
+</div>
+
+<dialog id="subDialog">
+  <h2>E-Mail-Benachrichtigung</h2>
+  <p class="muted" style="font-size:.88rem">Du bekommst eine Mail, sobald für eines der ausgewählten Journals ein neuer Call for Papers gefunden wird.</p>
+  <input type="email" id="subEmail" placeholder="deine@email.de" required>
+  <div style="margin-top:.8rem; display:flex; gap:.6rem">
+    <button class="secondary" type="button" id="selAll">Alle</button>
+    <button class="secondary" type="button" id="selBasket">Basket of 11</button>
+    <button class="secondary" type="button" id="selNone">Keine</button>
+  </div>
+  <div class="journal-list" id="subJournals"></div>
+  <div class="dialog-actions">
+    <button class="secondary" id="subCancel">Abbrechen</button>
+    <button id="subSave">Abonnieren</button>
+  </div>
+</dialog>
+<div id="toast"></div>
+
+<script>
+let CFPS = [], JOURNALS = [], sortKey = "first_seen", sortDir = -1;
+
+function toast(msg) {
+  const t = document.getElementById("toast");
+  t.textContent = msg; t.classList.add("show");
+  setTimeout(() => t.classList.remove("show"), 3500);
+}
+
+async function loadAll() {
+  const [cfps, journals, status] = await Promise.all([
+    fetch("/api/cfps").then(r => r.json()),
+    fetch("/api/journals").then(r => r.json()),
+    fetch("/api/status").then(r => r.json()),
+  ]);
+  CFPS = cfps; JOURNALS = journals;
+  renderStatus(status); renderJournalFilter(); render(); renderSubList();
+}
+
+function renderStatus(s) {
+  const dt = s.last_run ? new Date(s.last_run).toLocaleString("de-DE") : "noch nie";
+  document.getElementById("status").textContent =
+    `${s.cfp_count} aktive Calls · ${s.journal_count} Journals · letzter Abruf: ${dt}` +
+    (s.scraping ? " · aktualisiert gerade…" : "") +
+    (s.smtp_configured ? "" : " · ⚠ SMTP nicht konfiguriert (Mails werden nur geloggt)");
+}
+
+function renderJournalFilter() {
+  const sel = document.getElementById("fJournal");
+  const cur = sel.value;
+  sel.innerHTML = '<option value="">Journal: alle</option>' +
+    JOURNALS.map(j => `<option value="${j.id}">${esc(j.abbrev || j.name)}</option>`).join("");
+  sel.value = cur;
+}
+
+function esc(s) { return (s ?? "").toString().replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+
+function ratingBadge(r, basket) {
+  let html = "";
+  if (r) html += `<span class="badge ${r === "A+" ? "aplus" : r.startsWith("A") ? "a" : "b"}">${esc(r)}</span>`;
+  if (basket) html += ` <span class="badge basket" title="AIS Senior Scholars' Basket of 11">B11</span>`;
+  return html;
+}
+
+function render() {
+  const q = document.getElementById("q").value.toLowerCase();
+  const fr = document.getElementById("fRating").value;
+  const fj = document.getElementById("fJournal").value;
+  const fb = document.getElementById("fBasket").checked;
+  let rows = CFPS.filter(c =>
+    (!q || (c.title + " " + c.journal).toLowerCase().includes(q)) &&
+    (!fr || (c.vhb_2024 || "").replace("?", "") === fr) &&
+    (!fj || String(c.journal_id) === fj) &&
+    (!fb || c.basket11));
+  rows.sort((a, b) => {
+    const va = a[sortKey] ?? "", vb = b[sortKey] ?? "";
+    return (va < vb ? -1 : va > vb ? 1 : 0) * sortDir;
+  });
+  const soon = new Date(); soon.setDate(soon.getDate() + 30);
+  document.getElementById("rows").innerHTML = rows.map(c => {
+    const dl = c.deadline ? new Date(c.deadline) : null;
+    const dlCls = dl && dl < soon ? "deadline-soon" : "";
+    return `<tr>
+      <td><strong>${esc(c.abbrev || c.journal)}</strong><br><span class="muted" style="font-size:.78rem">${esc(c.abbrev ? c.journal : "")}</span></td>
+      <td>${ratingBadge(c.vhb_2024, c.basket11)}</td>
+      <td>${c.url ? `<a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.title)}</a>` : esc(c.title)}
+          ${c.description ? `<br><span class="muted" style="font-size:.8rem">${esc(c.description.slice(0, 180))}${c.description.length > 180 ? "…" : ""}</span>` : ""}</td>
+      <td class="${dlCls}">${c.deadline ? new Date(c.deadline).toLocaleDateString("de-DE") : "<span class='muted'>–</span>"}</td>
+      <td class="muted">${new Date(c.first_seen).toLocaleDateString("de-DE")}</td>
+    </tr>`;
+  }).join("");
+  document.getElementById("empty").hidden = rows.length > 0;
+}
+
+function renderSubList() {
+  document.getElementById("subJournals").innerHTML = JOURNALS.map(j =>
+    `<label><input type="checkbox" value="${j.id}" data-basket="${j.basket11}">
+     ${esc(j.name)} <span class="muted">(${esc(j.vhb_2024 || "?")}${j.basket11 ? ", B11" : ""})</span></label>`).join("");
+}
+
+// Events
+["q", "fRating", "fJournal", "fBasket"].forEach(id =>
+  document.getElementById(id).addEventListener("input", render));
+document.querySelectorAll("th").forEach(th => th.addEventListener("click", () => {
+  const k = th.dataset.k;
+  if (sortKey === k) sortDir *= -1; else { sortKey = k; sortDir = 1; }
+  render();
+}));
+
+document.getElementById("refreshBtn").addEventListener("click", async () => {
+  const r = await fetch("/api/scrape", { method: "POST" }).then(r => r.json());
+  toast(r.ok ? "Aktualisierung gestartet – Ergebnisse erscheinen in wenigen Minuten." : r.error);
+});
+
+const dlg = document.getElementById("subDialog");
+document.getElementById("subscribeBtn").addEventListener("click", () => dlg.showModal());
+document.getElementById("subCancel").addEventListener("click", () => dlg.close());
+document.getElementById("selAll").addEventListener("click", () =>
+  dlg.querySelectorAll("input[type=checkbox]").forEach(c => c.checked = true));
+document.getElementById("selNone").addEventListener("click", () =>
+  dlg.querySelectorAll("input[type=checkbox]").forEach(c => c.checked = false));
+document.getElementById("selBasket").addEventListener("click", () =>
+  dlg.querySelectorAll("input[type=checkbox]").forEach(c => c.checked = c.dataset.basket === "1"));
+
+document.getElementById("subSave").addEventListener("click", async () => {
+  const email = document.getElementById("subEmail").value.trim();
+  const ids = [...dlg.querySelectorAll("input[type=checkbox]:checked")].map(c => +c.value);
+  const r = await fetch("/api/subscribe", {
+    method: "POST", headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ email, journal_ids: ids }),
+  }).then(r => r.json());
+  if (r.ok) { dlg.close(); toast("Abonniert! Du bekommst Mails bei neuen Calls."); }
+  else toast(r.error || "Fehler beim Abonnieren");
+});
+
+// Auto-Refresh: Daten alle 2 Minuten neu laden
+loadAll();
+setInterval(loadAll, 120000);
+</script>
+</body>
+</html>

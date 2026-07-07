@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CFP-Radar – Calls for Papers (WI-Journals)</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #ffffff; --text: #1a2233; --muted: #6b7486;
+    --accent: #2456d6; --accent-soft: #e8eefc; --border: #e2e6ee;
+    --aplus: #7c3aed; --a: #2456d6; --b: #0d9488; --basket: #b45309;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12151c; --card: #1b2029; --text: #e8ebf2; --muted: #9aa3b5;
+      --accent: #6b95ff; --accent-soft: #22304d; --border: #2a3140;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: "Segoe UI", system-ui, sans-serif; background: var(--bg); color: var(--text); }
+  header { padding: 1.4rem 2rem 1rem; display: flex; flex-wrap: wrap; gap: 1rem; align-items: baseline; }
+  header h1 { margin: 0; font-size: 1.5rem; }
+  header .status { color: var(--muted); font-size: .85rem; }
+  .wrap { padding: 0 2rem 3rem; max-width: 1200px; margin: 0 auto; }
+  .toolbar { display: flex; flex-wrap: wrap; gap: .6rem; margin: 1rem 0; align-items: center; }
+  .toolbar input[type=search], .toolbar select {
+    padding: .5rem .7rem; border: 1px solid var(--border); border-radius: 8px;
+    background: var(--card); color: var(--text); font-size: .9rem;
+  }
+  .toolbar input[type=search] { flex: 1 1 220px; }
+  a.button, button {
+    padding: .5rem .9rem; border: none; border-radius: 8px; cursor: pointer;
+    background: var(--accent); color: #fff; font-size: .9rem; text-decoration: none;
+    display: inline-block;
+  }
+  table { width: 100%; border-collapse: collapse; background: var(--card); border-radius: 12px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+  th, td { text-align: left; padding: .7rem .9rem; border-bottom: 1px solid var(--border); font-size: .9rem; vertical-align: top; }
+  th { background: var(--accent-soft); color: var(--accent); font-weight: 600; cursor: pointer; user-select: none; white-space: nowrap; }
+  tr:last-child td { border-bottom: none; }
+  td a { color: var(--accent); text-decoration: none; }
+  td a:hover { text-decoration: underline; }
+  .badge { display: inline-block; padding: .1rem .45rem; border-radius: 6px; font-size: .75rem; font-weight: 700; color: #fff; }
+  .badge.aplus { background: var(--aplus); } .badge.a { background: var(--a); }
+  .badge.b { background: var(--b); } .badge.basket { background: var(--basket); }
+  .deadline-soon { color: #dc2626; font-weight: 600; }
+  .muted { color: var(--muted); }
+  .empty { padding: 3rem; text-align: center; color: var(--muted); }
+  footer { padding: 1.5rem 2rem; color: var(--muted); font-size: .8rem; max-width: 1200px; margin: 0 auto; }
+</style>
+</head>
+<body>
+<header>
+  <h1>📡 CFP-Radar</h1>
+  <span class="status" id="status">lädt…</span>
+  <span style="flex:1"></span>
+  <a class="button" id="subscribeLink" href="#">E-Mail-Benachrichtigung</a>
+</header>
+<div class="wrap">
+  <div class="toolbar">
+    <input type="search" id="q" placeholder="Suche in Titel / Journal…">
+    <select id="fRating">
+      <option value="">Rating: alle</option>
+      <option value="A+">A+</option><option value="A">A</option><option value="B">B</option>
+    </select>
+    <select id="fJournal"><option value="">Journal: alle</option></select>
+    <label style="font-size:.88rem"><input type="checkbox" id="fBasket"> nur Basket of 11</label>
+  </div>
+  <table>
+    <thead><tr>
+      <th data-k="journal">Journal</th><th data-k="vhb_2024">VHB</th>
+      <th data-k="title">Call for Papers</th><th data-k="deadline">Deadline</th>
+      <th data-k="first_seen">Gefunden</th>
+    </tr></thead>
+    <tbody id="rows"></tbody>
+  </table>
+  <div class="empty" id="empty" hidden>Keine Calls for Papers gefunden (Filter aktiv oder noch kein Scrape-Lauf).</div>
+</div>
+<footer>
+  Überwacht die Journals des VHB-Ratings 2024 (Teilrating Wirtschaftsinformatik, B oder besser)
+  sowie den AIS Senior Scholars' Basket of 11. Aktualisiert sich automatisch zweimal täglich.
+  Quellen u.&nbsp;a.: <a href="https://callsforpapers.org" style="color:var(--accent)">callsforpapers.org</a>,
+  Springer, MISQ, JMIS.
+</footer>
+
+<script>
+// E-Mail-Adresse für Abo-Anfragen (Betreiber des Radars)
+const ABO_EMAIL = "ironm458@gmail.com";
+
+let CFPS = [], JOURNALS = [], sortKey = "first_seen", sortDir = -1;
+
+document.getElementById("subscribeLink").href =
+  "mailto:" + ABO_EMAIL +
+  "?subject=" + encodeURIComponent("CFP-Radar: Benachrichtigung abonnieren") +
+  "&body=" + encodeURIComponent(
+    "Hi Daniel,\n\nbitte nimm mich in den CFP-Radar-Verteiler auf.\n\n" +
+    "Meine Journals (Abkürzungen oder \"alle\"):\n- \n\nDanke!");
+
+async function loadAll() {
+  const data = await fetch("data.json?" + Date.now()).then(r => r.json());
+  CFPS = data.cfps.filter(c => c.active);
+  JOURNALS = data.journals;
+  const dt = data.generated ? new Date(data.generated).toLocaleString("de-DE") : "?";
+  document.getElementById("status").textContent =
+    `${CFPS.length} aktive Calls · ${data.journal_count} Journals · Stand: ${dt}`;
+  renderJournalFilter(); render();
+}
+
+function renderJournalFilter() {
+  const sel = document.getElementById("fJournal");
+  const cur = sel.value;
+  const names = [...new Set(CFPS.map(c => c.abbrev || c.journal))].sort();
+  sel.innerHTML = '<option value="">Journal: alle</option>' +
+    names.map(n => `<option value="${esc(n)}">${esc(n)}</option>`).join("");
+  sel.value = cur;
+}
+
+function esc(s) { return (s ?? "").toString().replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+
+function ratingBadge(r, basket) {
+  let html = "";
+  if (r) html += `<span class="badge ${r === "A+" ? "aplus" : r.startsWith("A") ? "a" : "b"}">${esc(r)}</span>`;
+  if (basket) html += ` <span class="badge basket" title="AIS Senior Scholars' Basket of 11">B11</span>`;
+  return html;
+}
+
+function render() {
+  const q = document.getElementById("q").value.toLowerCase();
+  const fr = document.getElementById("fRating").value;
+  const fj = document.getElementById("fJournal").value;
+  const fb = document.getElementById("fBasket").checked;
+  let rows = CFPS.filter(c =>
+    (!q || (c.title + " " + c.journal).toLowerCase().includes(q)) &&
+    (!fr || (c.vhb_2024 || "").replace("?", "") === fr) &&
+    (!fj || (c.abbrev || c.journal) === fj) &&
+    (!fb || c.basket11));
+  rows.sort((a, b) => {
+    const va = a[sortKey] ?? "", vb = b[sortKey] ?? "";
+    return (va < vb ? -1 : va > vb ? 1 : 0) * sortDir;
+  });
+  const soon = new Date(); soon.setDate(soon.getDate() + 30);
+  document.getElementById("rows").innerHTML = rows.map(c => {
+    const dl = c.deadline ? new Date(c.deadline) : null;
+    const dlCls = dl && dl < soon ? "deadline-soon" : "";
+    return `<tr>
+      <td><strong>${esc(c.abbrev || c.journal)}</strong><br><span class="muted" style="font-size:.78rem">${esc(c.abbrev ? c.journal : "")}</span></td>
+      <td>${ratingBadge(c.vhb_2024, c.basket11)}</td>
+      <td>${c.url ? `<a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.title)}</a>` : esc(c.title)}
+          ${c.description ? `<br><span class="muted" style="font-size:.8rem">${esc(c.description.slice(0, 180))}${c.description.length > 180 ? "…" : ""}</span>` : ""}</td>
+      <td class="${dlCls}">${c.deadline ? new Date(c.deadline).toLocaleDateString("de-DE") : "<span class='muted'>–</span>"}</td>
+      <td class="muted">${c.first_seen ? new Date(c.first_seen).toLocaleDateString("de-DE") : "–"}</td>
+    </tr>`;
+  }).join("");
+  document.getElementById("empty").hidden = rows.length > 0;
+}
+
+["q", "fRating", "fJournal", "fBasket"].forEach(id =>
+  document.getElementById(id).addEventListener("input", render));
+document.querySelectorAll("th").forEach(th => th.addEventListener("click", () => {
+  const k = th.dataset.k;
+  if (sortKey === k) sortDir *= -1; else { sortKey = k; sortDir = 1; }
+  render();
+}));
+
+loadAll();
+setInterval(loadAll, 30 * 60 * 1000); // alle 30 Minuten neu laden
+</script>
+</body>
+</html>

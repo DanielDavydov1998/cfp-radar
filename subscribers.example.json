@@ -1,0 +1,10 @@
+[
+  {
+    "email": "kollege@uni-beispiel.de",
+    "journals": ["MISQ", "EJIS", "Decision Support Systems"]
+  },
+  {
+    "email": "kollegin@uni-beispiel.de",
+    "journals": ["*"]
+  }
+]
