@@ -52,6 +52,8 @@
 <header>
   <h1>📡 CFP-Radar</h1>
   <span class="status" id="status">lädt…</span>
+  <span style="flex:1"></span>
+  <button id="reloadBtn" title="Neueste Daten vom Server holen">↻ Neu laden</button>
 </header>
 <div class="wrap">
   <div class="toolbar">
@@ -155,6 +157,11 @@ function render() {
 
 ["q", "fRating", "fJournal", "fBasket"].forEach(id =>
   document.getElementById(id).addEventListener("input", render));
+document.getElementById("reloadBtn").addEventListener("click", async (e) => {
+  e.target.disabled = true; e.target.textContent = "lädt…";
+  await loadAll();
+  e.target.disabled = false; e.target.textContent = "↻ Neu laden";
+});
 document.querySelectorAll("th").forEach(th => th.addEventListener("click", () => {
   const k = th.dataset.k;
   if (sortKey === k) sortDir *= -1; else { sortKey = k; sortDir = 1; }
