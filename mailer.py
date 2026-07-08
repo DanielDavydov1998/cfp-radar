@@ -6,12 +6,14 @@ from email.mime.text import MIMEText
 
 log = logging.getLogger("cfp.mailer")
 
-SMTP_HOST = os.getenv("SMTP_HOST", "")
-SMTP_PORT = int(os.getenv("SMTP_PORT", "587"))
-SMTP_USER = os.getenv("SMTP_USER", "")
-SMTP_PASS = os.getenv("SMTP_PASS", "")
-FROM_EMAIL = os.getenv("FROM_EMAIL", SMTP_USER or "cfp-radar@localhost")
-BASE_URL = os.getenv("BASE_URL", "http://127.0.0.1:8000")
+# "or"-Fallbacks statt getenv-Default: in CI sind nicht gesetzte Secrets
+# LEERE Strings, kein fehlender Key
+SMTP_HOST = os.getenv("SMTP_HOST") or ""
+SMTP_PORT = int(os.getenv("SMTP_PORT") or "587")
+SMTP_USER = os.getenv("SMTP_USER") or ""
+SMTP_PASS = os.getenv("SMTP_PASS") or ""
+FROM_EMAIL = os.getenv("FROM_EMAIL") or SMTP_USER or "cfp-radar@localhost"
+BASE_URL = os.getenv("BASE_URL") or "http://127.0.0.1:8000"
 
 
 def smtp_configured():
