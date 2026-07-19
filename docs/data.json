@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-19T11:20:14Z",
+ "generated": "2026-07-19T18:18:39Z",
  "journal_count": 89,
  "journals": [
   {
@@ -550,7 +550,7 @@
    "description": null,
    "source": "ieeecs",
    "first_seen": "2026-07-19T11:20:14Z",
-   "last_seen": "2026-07-19T11:20:14Z",
+   "last_seen": "2026-07-19T18:18:39Z",
    "active": true
   },
   {
@@ -565,7 +565,7 @@
    "description": null,
    "source": "ieeecs",
    "first_seen": "2026-07-19T11:20:14Z",
-   "last_seen": "2026-07-19T11:20:14Z",
+   "last_seen": "2026-07-19T18:18:39Z",
    "active": true
   },
   {
@@ -580,7 +580,7 @@
    "description": null,
    "source": "ieeecs",
    "first_seen": "2026-07-19T11:20:14Z",
-   "last_seen": "2026-07-19T11:20:14Z",
+   "last_seen": "2026-07-19T18:18:39Z",
    "active": true
   },
   {
@@ -595,7 +595,7 @@
    "description": null,
    "source": "ieeecs",
    "first_seen": "2026-07-19T11:20:14Z",
-   "last_seen": "2026-07-19T11:20:14Z",
+   "last_seen": "2026-07-19T18:18:39Z",
    "active": true
   },
   {
@@ -610,7 +610,7 @@
    "description": null,
    "source": "ieeecs",
    "first_seen": "2026-07-19T11:20:14Z",
-   "last_seen": "2026-07-19T11:20:14Z",
+   "last_seen": "2026-07-19T18:18:39Z",
    "active": true
   },
   {
@@ -625,7 +625,7 @@
    "description": null,
    "source": "ieeecs",
    "first_seen": "2026-07-19T11:20:14Z",
-   "last_seen": "2026-07-19T11:20:14Z",
+   "last_seen": "2026-07-19T18:18:39Z",
    "active": true
   },
   {
@@ -640,7 +640,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-19T11:20:14Z",
-   "last_seen": "2026-07-19T11:20:14Z",
+   "last_seen": "2026-07-19T18:18:39Z",
    "active": true
   },
   {
@@ -655,7 +655,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-19T11:20:14Z",
-   "last_seen": "2026-07-19T11:20:14Z",
+   "last_seen": "2026-07-19T18:18:39Z",
    "active": true
   },
   {
@@ -670,7 +670,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-19T11:20:14Z",
-   "last_seen": "2026-07-19T11:20:14Z",
+   "last_seen": "2026-07-19T18:18:39Z",
    "active": true
   },
   {
@@ -685,7 +685,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-19T11:20:14Z",
-   "last_seen": "2026-07-19T11:20:14Z",
+   "last_seen": "2026-07-19T18:18:39Z",
    "active": true
   },
   {
@@ -700,7 +700,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-19T11:20:14Z",
-   "last_seen": "2026-07-19T11:20:14Z",
+   "last_seen": "2026-07-19T18:18:39Z",
    "active": true
   },
   {
@@ -715,7 +715,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-19T11:20:14Z",
-   "last_seen": "2026-07-19T11:20:14Z",
+   "last_seen": "2026-07-19T18:18:39Z",
    "active": true
   },
   {
@@ -730,7 +730,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-19T11:20:14Z",
-   "last_seen": "2026-07-19T11:20:14Z",
+   "last_seen": "2026-07-19T18:18:39Z",
    "active": true
   },
   {
@@ -745,7 +745,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-19T11:20:14Z",
-   "last_seen": "2026-07-19T11:20:14Z",
+   "last_seen": "2026-07-19T18:18:39Z",
    "active": true
   },
   {
@@ -760,7 +760,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-19T11:20:14Z",
-   "last_seen": "2026-07-19T11:20:14Z",
+   "last_seen": "2026-07-19T18:18:39Z",
    "active": true
   },
   {
@@ -775,7 +775,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-19T11:20:14Z",
-   "last_seen": "2026-07-19T11:20:14Z",
+   "last_seen": "2026-07-19T18:18:39Z",
    "active": true
   },
   {
@@ -790,7 +790,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-19T11:20:14Z",
-   "last_seen": "2026-07-19T11:20:14Z",
+   "last_seen": "2026-07-19T18:18:39Z",
    "active": true
   },
   {
@@ -805,7 +805,7 @@
    "description": null,
    "source": "sage",
    "first_seen": "2026-07-19T11:20:14Z",
-   "last_seen": "2026-07-19T11:20:14Z",
+   "last_seen": "2026-07-19T18:18:39Z",
    "active": true
   },
   {
@@ -850,7 +850,7 @@
    "description": null,
    "source": "cfpsorg",
    "first_seen": "2026-07-07T19:53:52Z",
-   "last_seen": "2026-07-19T11:20:14Z",
+   "last_seen": "2026-07-19T18:18:39Z",
    "active": true
   },
   {
@@ -865,7 +865,7 @@
    "description": null,
    "source": "cfpsorg",
    "first_seen": "2026-07-07T19:53:52Z",
-   "last_seen": "2026-07-19T11:20:14Z",
+   "last_seen": "2026-07-19T18:18:39Z",
    "active": true
   },
   {
@@ -880,7 +880,7 @@
    "description": null,
    "source": "cfpsorg",
    "first_seen": "2026-07-07T19:53:52Z",
-   "last_seen": "2026-07-19T11:20:14Z",
+   "last_seen": "2026-07-19T18:18:39Z",
    "active": true
   },
   {
@@ -895,7 +895,7 @@
    "description": null,
    "source": "cfpsorg",
    "first_seen": "2026-07-07T19:53:52Z",
-   "last_seen": "2026-07-19T11:20:14Z",
+   "last_seen": "2026-07-19T18:18:39Z",
    "active": true
   },
   {
@@ -910,7 +910,7 @@
    "description": null,
    "source": "cfpsorg",
    "first_seen": "2026-07-07T19:53:52Z",
-   "last_seen": "2026-07-19T11:20:14Z",
+   "last_seen": "2026-07-19T18:18:39Z",
    "active": true
   },
   {
@@ -925,7 +925,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-07T19:53:52Z",
-   "last_seen": "2026-07-19T11:20:14Z",
+   "last_seen": "2026-07-19T18:18:39Z",
    "active": true
   },
   {
@@ -940,7 +940,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-07T19:53:52Z",
-   "last_seen": "2026-07-19T11:20:14Z",
+   "last_seen": "2026-07-19T18:18:39Z",
    "active": true
   },
   {
@@ -955,7 +955,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-07T19:53:52Z",
-   "last_seen": "2026-07-19T11:20:14Z",
+   "last_seen": "2026-07-19T18:18:39Z",
    "active": true
   },
   {
