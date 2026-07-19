@@ -140,6 +140,86 @@ def get_html(url, browser_fallback=True, not_found_ok=True):
     return None
 
 
+# --- Workarounds für hart blockierte Verlage -------------------------------
+
+JINA_MARKERS = BLOCK_MARKERS + ("Cookies disabled", "Are you a robot")
+_last_jina = [0.0]
+
+
+def get_html_jina(url, min_gap=4.0):
+    """Abruf über den Jina-Reader-Proxy (rendert mit echtem Browser).
+
+    Funktioniert für Sage, INFORMS, computer.org – nicht für Elsevier/Wiley
+    (deren Bot-Erkennung greift auch dort). Sanfte Taktung wegen Rate-Limit.
+    """
+    for attempt in range(2):
+        wait = _last_jina[0] + min_gap - time.time()
+        if wait > 0:
+            time.sleep(wait)
+        try:
+            r = _get_session().get("https://r.jina.ai/" + url, timeout=120,
+                                   headers={"X-Return-Format": "html"},
+                                   **_IMPERSONATE)
+        except Exception as e:
+            log.info("Jina-Fehler %s: %s", url, e)
+            return None
+        finally:
+            _last_jina[0] = time.time()
+        if r.status_code == 429:
+            log.info("Jina-Rate-Limit, warte 30s (%s)", url)
+            time.sleep(30)
+            continue
+        if r.status_code == 200 and not any(m in r.text[:5000] for m in JINA_MARKERS):
+            return r.text
+        log.info("Jina liefert nichts Brauchbares (HTTP %s): %s", r.status_code, url)
+        return None
+    return None
+
+
+def get_html_wayback(url, max_age_days=540):
+    """Jüngster Wayback-Machine-Snapshot (Original-HTML), falls nicht zu alt."""
+    from datetime import date, timedelta
+    snap = None
+    for attempt in range(3):
+        time.sleep(3)  # die Availability-API drosselt schnelle Abfrageserien
+        try:
+            r = _get_session().get("http://archive.org/wayback/available",
+                                   params={"url": url}, timeout=30, **_IMPERSONATE)
+            snap = (r.json().get("archived_snapshots") or {}).get("closest")
+            break
+        except Exception as e:
+            if attempt == 2:
+                log.info("Wayback-Abfrage fehlgeschlagen %s: %s", url, e)
+                return None
+            time.sleep(15)
+    if not snap or not snap.get("timestamp"):
+        return None
+    ts = snap["timestamp"]
+    snap_date = date(int(ts[:4]), int(ts[4:6]), int(ts[6:8]))
+    if snap_date < date.today() - timedelta(days=max_age_days):
+        log.info("Wayback-Snapshot zu alt (%s): %s", ts[:8], url)
+        return None
+    # id_-Suffix liefert das unmodifizierte Original-HTML
+    try:
+        r = _get_session().get(f"https://web.archive.org/web/{ts}id_/{url}",
+                               timeout=60, **_IMPERSONATE)
+        if r.status_code == 200:
+            return r.text
+    except Exception as e:
+        log.info("Wayback-Snapshot-Abruf fehlgeschlagen %s: %s", url, e)
+    return None
+
+
+def get_html_hard(url):
+    """Kaskade für bot-blockierte Seiten: direkt -> Jina -> Wayback."""
+    status, text = _http_get(url)
+    if status == 200 and not _looks_blocked(text):
+        return text
+    if status == 404:
+        return None
+    return get_html_jina(url) or get_html_wayback(url)
+
+
 DEADLINE_RE = re.compile(
     r"(?:submission\s+deadline|deadline(?:\s+for\s+(?:full\s+)?(?:paper\s+)?submissions?)?|"
     r"submissions?\s+due|due\s+date|papers?\s+due)\s*[:\-–]?\s*"
@@ -181,7 +261,7 @@ def normalize_title(title):
     prev = None
     while prev != t:
         prev = t
-        t = TITLE_NOISE_RE.sub("", t).strip(" -–:.,")
+        t = TITLE_NOISE_RE.sub("", t).strip(" -–—:.,\"'“”‘’")
     return t or clean(title)
 
 
@@ -193,7 +273,13 @@ GENERIC_TITLE_RE = re.compile(
     r"see\s+all|read\s+more|learn\s+more|view\s+all.*|submit.*|about.*|"
     r"new\s+content\s+alerts?|content\s+alerts?|sign\s+up.*|subscribe.*|"
     r"quicklinks.*|resources|latest\s+(?:articles?|issues?)|browse.*|"
-    r"editorial\s+board.*|aims\s+and\s+scope.*)$",
+    r"editorial\s+board.*|aims\s+and\s+scope.*|"
+    r"editors?|submission\s+(?:process|deadline|guidelines?).*|"
+    r".*deadline\s+extended.*|deadline[:\s].*|"
+    r"current\s+calls?[\s-]*for[\s-]*papers?|past\s+calls?[\s-]*for[\s-]*papers?|"
+    r"calls?-for-papers|new\s+special\s+issues?|registered\s+papers|"
+    r"replicated\s+computational.*|of\s+.*|submissions?\s+open.*|"
+    r"themes?\s+\d.*|call\s+for\s+practice\s+summaries)$",
     re.IGNORECASE,
 )
 

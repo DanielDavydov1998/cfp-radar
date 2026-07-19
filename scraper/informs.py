@@ -4,8 +4,8 @@ import re
 
 from bs4 import BeautifulSoup
 
-from scraper.base import (clean, extract_deadline, get_html, is_generic_title,
-                          normalize_title)
+from scraper.base import (clean, extract_deadline, get_html_hard,
+                          is_generic_title, normalize_title)
 
 log = logging.getLogger("cfp.scraper.informs")
 
@@ -21,7 +21,7 @@ def scrape(journals):
         code = m.group(1)
         for page in ("calls-for-papers", "special-issues"):
             url = f"https://pubsonline.informs.org/page/{code}/{page}"
-            html = get_html(url)
+            html = get_html_hard(url)
             if not html:
                 continue
             found = _parse_sections(html, url, j)

@@ -32,7 +32,8 @@ import mailer  # noqa: E402
 DOCS = ROOT / "docs"
 DATA_FILE = DOCS / "data.json"
 
-SOURCES = ("cfpsorg", "springer", "tandf", "misq", "aisworld", "wikicfp")
+SOURCES = ("cfpsorg", "springer", "emerald", "ieeecs", "informs", "sage",
+           "acm", "tandf", "misq", "aisworld", "wikicfp")
 DEADLINE_GRACE_DAYS = 14
 UNSEEN_EXPIRY_DAYS = 45
 

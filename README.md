@@ -50,9 +50,15 @@ Scrapt automatisch alle 6 h, solange die App läuft.
   (GitHub: julianprester/calls-for-papers) – deckt die 13 Kern-IS-Journals
   inkl. des kompletten Basket of 11 ab.
 - Direkt gescrapt: Springer (`/updates`), bise-journal.com, jmis-web.org,
-  MISQ (per Headless-Browser), WikiCFP.
-- **Nicht abgedeckt:** ACM-, IEEE-, Emerald-Journals u. a. – deren Verlags-
-  seiten blockieren automatisierte Abrufe hart (403/Cloudflare), auch per
-  Headless-Browser. Adapter für Elsevier/Wiley/INFORMS/Sage liegen in
-  `scraper/`, sind aber deaktiviert, bis sich die Blockade-Lage ändert.
+  Emerald (zentrale CFP-Liste), WikiCFP.
+- Über den **Jina-Reader-Proxy** (rendert blockierte Seiten mit echtem
+  Browser): Sage, INFORMS, computer.org (IEEE-CS-Journals wie TSE, TKDE,
+  IEEE Software, Computer).
+- Über **Wayback-Machine-Snapshots** (leicht zeitverzögert): ACM-Journals.
+- **Nicht abgedeckt:** Elsevier-Journals außerhalb des
+  callsforpapers.org-Datensatzes (EJOR, Omega, CHB, ESWA …) und Wiley
+  (JOM, Decision Sciences) – deren Bot-Erkennung blockiert alles inkl.
+  Jina und Headless-Browser; T&F-Special-Issue-Listen (BIT, IJEC, JDS,
+  ISM, HCI) sind JS-gerendert und auch per Proxy leer. Nicht-IEEE-CS-Titel
+  (TEM, THMS, TSMC, Access) stehen nicht auf der computer.org-Liste.
 - Journals pflegen: `journals.json` bearbeiten (im GitHub-Modus: committen).

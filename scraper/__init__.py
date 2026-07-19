@@ -10,10 +10,12 @@ from scraper.base import close_browser, is_generic_title
 log = logging.getLogger("cfp.scraper")
 
 # cfpsorg zuerst: gepflegter Datensatz für die 13 Kern-IS-Journals (inkl.
-# Basket of 11) – deckt genau die Verlage ab, deren Seiten Scraper blocken.
-# elsevier/wiley/informs/sage bleiben als Module erhalten, sind aber aus dem
-# Lauf genommen: die Verlage blocken derzeit auch Headless-Browser.
-SOURCES = ("cfpsorg", "springer", "tandf", "misq", "aisworld", "wikicfp")
+# Basket of 11). informs/sage laufen über den Jina-Proxy, acm über Wayback,
+# ieeecs über die zentrale computer.org-Liste (Jina), emerald direkt.
+# elsevier/wiley bleiben deaktiviert: deren Bot-Erkennung greift überall
+# (auch Jina bekommt nur "Are you a robot?"-Seiten).
+SOURCES = ("cfpsorg", "springer", "emerald", "ieeecs", "informs", "sage",
+           "acm", "tandf", "misq", "aisworld", "wikicfp")
 
 # CFPs, deren Deadline länger her ist, werden weder aufgenommen noch angezeigt
 DEADLINE_GRACE_DAYS = 14
