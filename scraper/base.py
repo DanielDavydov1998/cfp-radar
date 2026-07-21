@@ -279,7 +279,9 @@ GENERIC_TITLE_RE = re.compile(
     r"current\s+calls?[\s-]*for[\s-]*papers?|past\s+calls?[\s-]*for[\s-]*papers?|"
     r"calls?-for-papers|new\s+special\s+issues?|registered\s+papers|"
     r"replicated\s+computational.*|of\s+.*|submissions?\s+open.*|"
-    r"themes?\s+\d.*|call\s+for\s+practice\s+summaries)$",
+    r"themes?\s+\d.*|call\s+for\s+practice\s+summaries|"
+    r".*editorial\s+timeline.*|[a-z]{2,8}\s+calls?\s+for\s+papers?|"
+    r"call\s+for\s+proposals?.*)$",
     re.IGNORECASE,
 )
 

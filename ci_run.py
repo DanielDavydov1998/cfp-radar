@@ -173,6 +173,8 @@ def merge(prev, found):
     unseen_cutoff = (date.today() - timedelta(days=UNSEEN_EXPIRY_DAYS)).isoformat()
     merged, new = {}, []
     for h, c in prev.items():
+        if is_generic_title(c.get("title") or ""):
+            continue  # nachträglich verschärfte Filter auch auf Bestand anwenden
         c = dict(c)
         if h in found:
             c.update({k: v for k, v in found[h].items() if v is not None})
