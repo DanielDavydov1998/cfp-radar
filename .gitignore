@@ -4,3 +4,5 @@ __pycache__/
 cfp.db
 .env
 subscribers.json
+enrich_*
+journals_merged.json

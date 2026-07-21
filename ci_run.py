@@ -55,7 +55,69 @@ def load_journals():
     for i, j in enumerate(journals):
         j["id"] = i + 1
         j["basket11"] = bool(j.get("basket11"))
+        j.setdefault("areas", [])
     return journals
+
+
+# --- Abdeckungs-Klassifikation (für die Journal-Ansicht im Frontend) --------
+
+CFPSORG_CORE = {
+    "MIS Quarterly", "Information Systems Research",
+    "Journal of the Association for Information Systems",
+    "Journal of Management Information Systems", "Information Systems Journal",
+    "European Journal of Information Systems",
+    "The Journal of Strategic Information Systems", "Journal of Information Technology",
+    "Decision Support Systems", "Information & Management",
+    "Information and Organization", "International Journal of Information Management",
+}
+IEEE_CS = {"IEEE Transactions on Software Engineering",
+           "IEEE Transactions on Knowledge and Data Engineering",
+           "Computer", "IEEE Software"}
+
+
+def coverage(j):
+    """-> (covered: bool, source: str, reason: str)"""
+    name, pub, home = j["name"], j.get("publisher") or "", j.get("homepage") or ""
+    if name in CFPSORG_CORE:
+        return True, "callsforpapers.org-Datensatz", ""
+    if pub == "Springer" and ("link.springer.com/journal/" in home
+                              or (j.get("abbrev") or "") == "BISE"):
+        return True, ("bise-journal.com" if (j.get("abbrev") or "") == "BISE"
+                      else "Springer Journal-Updates"), ""
+    if pub == "Sage" and "journals.sagepub.com/home/" in home:
+        return True, "Sage CFP-Seite (via Proxy)", ""
+    if pub == "INFORMS" and "pubsonline.informs.org/journal/" in home:
+        return True, "INFORMS CFP-Seite (via Proxy)", "Deadline-Zuordnung nicht immer exakt"
+    if pub == "ACM":
+        if "dl.acm.org/journal/" in home:
+            return True, "dl.acm.org (Wayback-Snapshot)", "leicht zeitverzögert"
+        return False, "cacm.acm.org", "keine maschinenlesbare CFP-Listenseite"
+    if pub == "Emerald":
+        return True, "zentrale Emerald-CFP-Liste", ""
+    if pub == "IEEE":
+        if name in IEEE_CS:
+            return True, "computer.org CFP-Liste (via Proxy)", ""
+        return False, "IEEE Xplore / Society-Websites", \
+            "nicht auf der computer.org-Liste (andere IEEE-Society); IEEE Xplore blockiert Bots"
+    if pub == "Elsevier":
+        return False, "ScienceDirect CFP-Seite", \
+            "Elsevier blockiert alle automatisierten Abrufe (auch Render-Proxys)"
+    if pub == "Wiley":
+        return False, "Wiley Online Library CFP-Seite", \
+            "Wiley blockiert alle automatisierten Abrufe inkl. Render-Proxy"
+    if pub == "Taylor & Francis":
+        return False, "tandfonline.com Special-Issues-Seite", \
+            "Liste wird per JavaScript geladen, bleibt auch im Proxy leer"
+    if pub == "AIS":
+        return False, "AIS-Plattform (AIS Engage)", \
+            "CFPs nur hinter Login; öffentliches AISWorld-Archiv seit 2025 inaktiv"
+    if pub == "Springer Nature":
+        return False, "nature.com", "kaum klassische Special-Issue-CFPs"
+    if pub == "JMIR":
+        return False, "jmir.org Theme Issues", "keine stabile Listenseite"
+    if pub == "MIT SMR":
+        return False, "sloanreview.mit.edu", "Praxismagazin ohne klassische CFPs"
+    return False, pub or "unbekannt", "Verlag/Plattform noch nicht angebunden"
 
 
 def load_prev():
@@ -203,9 +265,12 @@ def main():
     out = {
         "generated": now_iso(),
         "journal_count": len(journals),
-        "journals": [{"name": j["name"], "abbrev": j.get("abbrev"),
-                      "vhb_2024": j.get("vhb_2024"), "basket11": j["basket11"]}
-                     for j in journals],
+        "journals": [dict(zip(
+            ("name", "abbrev", "vhb_2024", "basket11", "areas",
+             "covered", "source", "reason"),
+            (j["name"], j.get("abbrev"), j.get("vhb_2024"), j["basket11"],
+             j.get("areas") or [], *coverage(j))))
+            for j in journals],
         "cfps": active + inactive,
     }
     with open(DATA_FILE, "w", encoding="utf-8") as f:

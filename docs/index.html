@@ -3,38 +3,43 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CFP-Radar – Calls for Papers (WI-Journals)</title>
+<title>CFP-Radar – Calls for Papers (VHB-Journals)</title>
 <style>
   :root {
     --bg: #f6f7f9; --card: #ffffff; --text: #1a2233; --muted: #6b7486;
     --accent: #2456d6; --accent-soft: #e8eefc; --border: #e2e6ee;
     --aplus: #7c3aed; --a: #2456d6; --b: #0d9488; --basket: #b45309;
+    --ok: #15803d; --ok-soft: #dcfce7; --no: #b91c1c; --no-soft: #fee2e2;
   }
   @media (prefers-color-scheme: dark) {
     :root {
       --bg: #12151c; --card: #1b2029; --text: #e8ebf2; --muted: #9aa3b5;
       --accent: #6b95ff; --accent-soft: #22304d; --border: #2a3140;
+      --ok: #4ade80; --ok-soft: #14321f; --no: #f87171; --no-soft: #3b1517;
     }
   }
   * { box-sizing: border-box; }
   body { margin: 0; font-family: "Segoe UI", system-ui, sans-serif; background: var(--bg); color: var(--text); }
-  header { padding: 1.4rem 2rem 1rem; display: flex; flex-wrap: wrap; gap: 1rem; align-items: baseline; }
+  header { padding: 1.4rem 2rem .6rem; display: flex; flex-wrap: wrap; gap: 1rem; align-items: baseline; }
   header h1 { margin: 0; font-size: 1.5rem; }
   header .status { color: var(--muted); font-size: .85rem; }
-  .wrap { padding: 0 2rem 3rem; max-width: 1200px; margin: 0 auto; }
+  .tabs { display: flex; gap: .4rem; padding: 0 2rem; border-bottom: 1px solid var(--border); }
+  .tabs button {
+    background: none; border: none; border-bottom: 3px solid transparent;
+    padding: .6rem 1rem; font-size: .95rem; color: var(--muted); cursor: pointer;
+  }
+  .tabs button.active { color: var(--accent); border-bottom-color: var(--accent); font-weight: 600; }
+  .wrap { padding: 0 2rem 3rem; max-width: 1280px; margin: 0 auto; }
   .toolbar { display: flex; flex-wrap: wrap; gap: .6rem; margin: 1rem 0; align-items: center; }
   .toolbar input[type=search], .toolbar select {
     padding: .5rem .7rem; border: 1px solid var(--border); border-radius: 8px;
     background: var(--card); color: var(--text); font-size: .9rem;
   }
-  .toolbar input[type=search] { flex: 1 1 220px; }
-  a.button, button {
-    padding: .5rem .9rem; border: none; border-radius: 8px; cursor: pointer;
-    background: var(--accent); color: #fff; font-size: .9rem; text-decoration: none;
-    display: inline-block;
-  }
+  .toolbar input[type=search] { flex: 1 1 200px; }
+  button.btn { padding: .5rem .9rem; border: none; border-radius: 8px; cursor: pointer;
+    background: var(--accent); color: #fff; font-size: .9rem; }
   table { width: 100%; border-collapse: collapse; background: var(--card); border-radius: 12px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
-  th, td { text-align: left; padding: .7rem .9rem; border-bottom: 1px solid var(--border); font-size: .9rem; vertical-align: top; }
+  th, td { text-align: left; padding: .65rem .8rem; border-bottom: 1px solid var(--border); font-size: .88rem; vertical-align: top; }
   th { background: var(--accent-soft); color: var(--accent); font-weight: 600; cursor: pointer; user-select: none; white-space: nowrap; }
   tr:last-child td { border-bottom: none; }
   td a { color: var(--accent); text-decoration: none; }
@@ -42,10 +47,16 @@
   .badge { display: inline-block; padding: .1rem .45rem; border-radius: 6px; font-size: .75rem; font-weight: 700; color: #fff; }
   .badge.aplus { background: var(--aplus); } .badge.a { background: var(--a); }
   .badge.b { background: var(--b); } .badge.basket { background: var(--basket); }
+  .pill { display: inline-block; padding: .15rem .55rem; border-radius: 999px; font-size: .78rem; font-weight: 600; }
+  .pill.ok { background: var(--ok-soft); color: var(--ok); }
+  .pill.no { background: var(--no-soft); color: var(--no); }
+  .area-tag { display: inline-block; background: var(--accent-soft); color: var(--accent);
+    border-radius: 5px; padding: .05rem .4rem; font-size: .72rem; margin: 0 .15rem .15rem 0; }
   .deadline-soon { color: #dc2626; font-weight: 600; }
   .muted { color: var(--muted); }
   .empty { padding: 3rem; text-align: center; color: var(--muted); }
-  footer { padding: 1.5rem 2rem; color: var(--muted); font-size: .8rem; max-width: 1200px; margin: 0 auto; }
+  .summary { display: flex; gap: 1.2rem; flex-wrap: wrap; margin: .4rem 0 0; font-size: .85rem; color: var(--muted); }
+  footer { padding: 1.5rem 2rem; color: var(--muted); font-size: .8rem; max-width: 1280px; margin: 0 auto; }
 </style>
 </head>
 <body>
@@ -53,15 +64,21 @@
   <h1>📡 CFP-Radar</h1>
   <span class="status" id="status">lädt…</span>
   <span style="flex:1"></span>
-  <button id="reloadBtn" title="Neueste Daten vom Server holen">↻ Neu laden</button>
+  <button class="btn" id="reloadBtn" title="Neueste Daten vom Server holen">↻ Neu laden</button>
 </header>
-<div class="wrap">
+<div class="tabs">
+  <button id="tabCalls" class="active">Aktuelle Calls</button>
+  <button id="tabJournals">Journals &amp; Abdeckung</button>
+</div>
+
+<div class="wrap" id="viewCalls">
   <div class="toolbar">
     <input type="search" id="q" placeholder="Suche in Titel / Journal…">
     <select id="fRating">
       <option value="">Rating: alle</option>
       <option value="A+">A+</option><option value="A">A</option><option value="B">B</option>
     </select>
+    <select id="fArea"><option value="">Fachbereich: alle</option></select>
     <select id="fJournal"><option value="">Journal: alle</option></select>
     <label style="font-size:.88rem"><input type="checkbox" id="fBasket"> nur Basket of 11</label>
   </div>
@@ -75,46 +92,51 @@
   </table>
   <div class="empty" id="empty" hidden>Keine Calls for Papers gefunden (Filter aktiv oder noch kein Scrape-Lauf).</div>
 </div>
+
+<div class="wrap" id="viewJournals" hidden>
+  <div class="toolbar">
+    <input type="search" id="jq" placeholder="Journal suchen…">
+    <select id="jfRating">
+      <option value="">Rating: alle</option>
+      <option value="A+">A+</option><option value="A">A</option><option value="B">B</option>
+    </select>
+    <select id="jfArea"><option value="">Fachbereich: alle</option></select>
+    <select id="jfCovered">
+      <option value="">Abdeckung: alle</option>
+      <option value="ja">✓ abgedeckt</option>
+      <option value="nein">✗ nicht abgedeckt</option>
+    </select>
+  </div>
+  <div class="summary" id="jSummary"></div>
+  <p class="muted" style="font-size:.83rem">
+    „Abgedeckt" heißt: Das Tool überwacht eine Quelle, auf der dieses Journal seine Calls
+    veröffentlicht. Bei nicht abgedeckten Journals steht, wo die Calls erscheinen und warum
+    das Tool dort (noch) nicht rankommt.
+  </p>
+  <table style="margin-top:.6rem">
+    <thead><tr>
+      <th data-jk="name">Journal</th><th data-jk="vhb_2024">VHB</th>
+      <th data-jk="areas">Fachbereiche</th><th data-jk="covered">Abdeckung</th>
+      <th>CFP-Quelle</th><th>Begründung / Hinweis</th>
+    </tr></thead>
+    <tbody id="jRows"></tbody>
+  </table>
+</div>
+
 <footer>
-  Überwacht die Journals des VHB-Ratings 2024 (Teilrating Wirtschaftsinformatik, B oder besser)
-  sowie den AIS Senior Scholars' Basket of 11. Aktualisiert sich automatisch zweimal täglich.
+  Überwacht die Journals des VHB-Ratings 2024 (Rating B oder besser)
+  inkl. AIS Senior Scholars' Basket of 11. Aktualisiert sich automatisch zweimal täglich.
   Quellen u.&nbsp;a.: <a href="https://callsforpapers.org" style="color:var(--accent)">callsforpapers.org</a>,
-  Springer, MISQ, JMIS.
+  Springer, Sage, INFORMS, Emerald, computer.org, ACM (Archiv).
 </footer>
 
 <script>
-// Optionaler Abo-Button: E-Mail eintragen und den auskommentierten Block
-// unten aktivieren, dann erscheint im Header ein "E-Mail-Benachrichtigung"-
-// Button mit vorausgefüllter Mail.
-// const ABO_EMAIL = "deine@adresse.de";
-// const a = document.createElement("a");
-// a.className = "button";
-// a.textContent = "E-Mail-Benachrichtigung";
-// a.href = "mailto:" + ABO_EMAIL +
-//   "?subject=" + encodeURIComponent("CFP-Radar: Benachrichtigung abonnieren") +
-//   "&body=" + encodeURIComponent("Bitte nimm mich in den CFP-Radar-Verteiler auf.\n\nMeine Journals:\n- \n\nDanke!");
-// document.querySelector("header").appendChild(a);
+let CFPS = [], JOURNALS = [], AREAS = [];
+let sortKey = "first_seen", sortDir = -1;
+let jSortKey = "vhb_2024", jSortDir = 1;
 
-let CFPS = [], JOURNALS = [], sortKey = "first_seen", sortDir = -1;
-
-async function loadAll() {
-  const data = await fetch("data.json?" + Date.now()).then(r => r.json());
-  CFPS = data.cfps.filter(c => c.active);
-  JOURNALS = data.journals;
-  const dt = data.generated ? new Date(data.generated).toLocaleString("de-DE") : "?";
-  document.getElementById("status").textContent =
-    `${CFPS.length} aktive Calls · ${data.journal_count} Journals · Stand: ${dt}`;
-  renderJournalFilter(); render();
-}
-
-function renderJournalFilter() {
-  const sel = document.getElementById("fJournal");
-  const cur = sel.value;
-  const names = [...new Set(CFPS.map(c => c.abbrev || c.journal))].sort();
-  sel.innerHTML = '<option value="">Journal: alle</option>' +
-    names.map(n => `<option value="${esc(n)}">${esc(n)}</option>`).join("");
-  sel.value = cur;
-}
+const RANK = { "A+": 0, "A": 1, "B": 2, "B?": 3 };
+const rank = r => RANK[(r || "").trim()] ?? 9;
 
 function esc(s) { return (s ?? "").toString().replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
 
@@ -125,51 +147,136 @@ function ratingBadge(r, basket) {
   return html;
 }
 
-function render() {
+function cmp(a, b, key, dir, isRating) {
+  let va = a[key] ?? "", vb = b[key] ?? "";
+  if (isRating) { va = rank(va); vb = rank(vb); }
+  if (Array.isArray(va)) va = va.join(",");
+  if (Array.isArray(vb)) vb = vb.join(",");
+  return (va < vb ? -1 : va > vb ? 1 : 0) * dir;
+}
+
+async function loadAll() {
+  const data = await fetch("data.json?" + Date.now()).then(r => r.json());
+  CFPS = data.cfps.filter(c => c.active);
+  JOURNALS = data.journals;
+  const byName = Object.fromEntries(JOURNALS.map(j => [j.name, j]));
+  CFPS.forEach(c => { c.areas = (byName[c.journal] || {}).areas || []; });
+  AREAS = [...new Set(JOURNALS.flatMap(j => j.areas || []))].sort();
+  const dt = data.generated ? new Date(data.generated).toLocaleString("de-DE") : "?";
+  const covered = JOURNALS.filter(j => j.covered).length;
+  document.getElementById("status").textContent =
+    `${CFPS.length} aktive Calls · ${JOURNALS.length} Journals (${covered} abgedeckt) · Stand: ${dt}`;
+  fillAreaSelects(); renderCalls(); renderJournals();
+}
+
+function fillAreaSelects() {
+  for (const id of ["fArea", "jfArea"]) {
+    const sel = document.getElementById(id);
+    const cur = sel.value;
+    sel.innerHTML = '<option value="">Fachbereich: alle</option>' +
+      AREAS.map(a => `<option value="${esc(a)}">${esc(a)}</option>`).join("");
+    sel.value = cur;
+  }
+  const sel = document.getElementById("fJournal");
+  const cur = sel.value;
+  const names = [...new Set(CFPS.map(c => c.abbrev || c.journal))].sort();
+  sel.innerHTML = '<option value="">Journal: alle</option>' +
+    names.map(n => `<option value="${esc(n)}">${esc(n)}</option>`).join("");
+  sel.value = cur;
+}
+
+function renderCalls() {
   const q = document.getElementById("q").value.toLowerCase();
   const fr = document.getElementById("fRating").value;
+  const fa = document.getElementById("fArea").value;
   const fj = document.getElementById("fJournal").value;
   const fb = document.getElementById("fBasket").checked;
   let rows = CFPS.filter(c =>
     (!q || (c.title + " " + c.journal).toLowerCase().includes(q)) &&
     (!fr || (c.vhb_2024 || "").replace("?", "") === fr) &&
+    (!fa || (c.areas || []).includes(fa)) &&
     (!fj || (c.abbrev || c.journal) === fj) &&
     (!fb || c.basket11));
-  rows.sort((a, b) => {
-    const va = a[sortKey] ?? "", vb = b[sortKey] ?? "";
-    return (va < vb ? -1 : va > vb ? 1 : 0) * sortDir;
-  });
+  rows.sort((a, b) => cmp(a, b, sortKey, sortDir, sortKey === "vhb_2024"));
   const soon = new Date(); soon.setDate(soon.getDate() + 30);
   document.getElementById("rows").innerHTML = rows.map(c => {
     const dl = c.deadline ? new Date(c.deadline) : null;
-    const dlCls = dl && dl < soon ? "deadline-soon" : "";
     return `<tr>
       <td><strong>${esc(c.abbrev || c.journal)}</strong><br><span class="muted" style="font-size:.78rem">${esc(c.abbrev ? c.journal : "")}</span></td>
       <td>${ratingBadge(c.vhb_2024, c.basket11)}</td>
       <td>${c.url ? `<a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.title)}</a>` : esc(c.title)}
           ${c.description ? `<br><span class="muted" style="font-size:.8rem">${esc(c.description.slice(0, 180))}${c.description.length > 180 ? "…" : ""}</span>` : ""}</td>
-      <td class="${dlCls}">${c.deadline ? new Date(c.deadline).toLocaleDateString("de-DE") : "<span class='muted'>–</span>"}</td>
+      <td class="${dl && dl < soon ? "deadline-soon" : ""}">${c.deadline ? new Date(c.deadline).toLocaleDateString("de-DE") : "<span class='muted'>–</span>"}</td>
       <td class="muted">${c.first_seen ? new Date(c.first_seen).toLocaleDateString("de-DE") : "–"}</td>
     </tr>`;
   }).join("");
   document.getElementById("empty").hidden = rows.length > 0;
 }
 
-["q", "fRating", "fJournal", "fBasket"].forEach(id =>
-  document.getElementById(id).addEventListener("input", render));
+function renderJournals() {
+  const q = document.getElementById("jq").value.toLowerCase();
+  const fr = document.getElementById("jfRating").value;
+  const fa = document.getElementById("jfArea").value;
+  const fc = document.getElementById("jfCovered").value;
+  let rows = JOURNALS.filter(j =>
+    (!q || (j.name + " " + (j.abbrev || "")).toLowerCase().includes(q)) &&
+    (!fr || (j.vhb_2024 || "").replace("?", "") === fr) &&
+    (!fa || (j.areas || []).includes(fa)) &&
+    (!fc || (j.covered ? "ja" : "nein") === fc));
+  rows.sort((a, b) =>
+    cmp(a, b, jSortKey, jSortDir, jSortKey === "vhb_2024") ||
+    cmp(a, b, "name", 1, false));
+  const covered = rows.filter(j => j.covered).length;
+  document.getElementById("jSummary").innerHTML =
+    `<span><strong>${rows.length}</strong> Journals angezeigt</span>` +
+    `<span style="color:var(--ok)"><strong>${covered}</strong> ✓ abgedeckt</span>` +
+    `<span style="color:var(--no)"><strong>${rows.length - covered}</strong> ✗ nicht abgedeckt</span>`;
+  document.getElementById("jRows").innerHTML = rows.map(j => `<tr>
+    <td><strong>${esc(j.abbrev || j.name)}</strong><br><span class="muted" style="font-size:.78rem">${esc(j.abbrev ? j.name : "")}</span></td>
+    <td>${ratingBadge(j.vhb_2024, j.basket11)}</td>
+    <td>${(j.areas || []).map(a => `<span class="area-tag">${esc(a)}</span>`).join("")}</td>
+    <td>${j.covered ? '<span class="pill ok">✓ abgedeckt</span>' : '<span class="pill no">✗ nicht abgedeckt</span>'}</td>
+    <td style="font-size:.82rem">${esc(j.source || "")}</td>
+    <td class="muted" style="font-size:.82rem">${esc(j.reason || "")}</td>
+  </tr>`).join("");
+}
+
+// Tabs
+function showTab(calls) {
+  document.getElementById("viewCalls").hidden = !calls;
+  document.getElementById("viewJournals").hidden = calls;
+  document.getElementById("tabCalls").classList.toggle("active", calls);
+  document.getElementById("tabJournals").classList.toggle("active", !calls);
+}
+document.getElementById("tabCalls").addEventListener("click", () => showTab(true));
+document.getElementById("tabJournals").addEventListener("click", () => showTab(false));
+
+// Filter-Events
+["q", "fRating", "fArea", "fJournal", "fBasket"].forEach(id =>
+  document.getElementById(id).addEventListener("input", renderCalls));
+["jq", "jfRating", "jfArea", "jfCovered"].forEach(id =>
+  document.getElementById(id).addEventListener("input", renderJournals));
+
+// Sortier-Events (Rating sortiert nach Rang: A+ vor A vor B)
+document.querySelectorAll("th[data-k]").forEach(th => th.addEventListener("click", () => {
+  const k = th.dataset.k;
+  if (sortKey === k) sortDir *= -1; else { sortKey = k; sortDir = 1; }
+  renderCalls();
+}));
+document.querySelectorAll("th[data-jk]").forEach(th => th.addEventListener("click", () => {
+  const k = th.dataset.jk;
+  if (jSortKey === k) jSortDir *= -1; else { jSortKey = k; jSortDir = 1; }
+  renderJournals();
+}));
+
 document.getElementById("reloadBtn").addEventListener("click", async (e) => {
   e.target.disabled = true; e.target.textContent = "lädt…";
   await loadAll();
   e.target.disabled = false; e.target.textContent = "↻ Neu laden";
 });
-document.querySelectorAll("th").forEach(th => th.addEventListener("click", () => {
-  const k = th.dataset.k;
-  if (sortKey === k) sortDir *= -1; else { sortKey = k; sortDir = 1; }
-  render();
-}));
 
 loadAll();
-setInterval(loadAll, 30 * 60 * 1000); // alle 30 Minuten neu laden
+setInterval(loadAll, 30 * 60 * 1000);
 </script>
 </body>
 </html>

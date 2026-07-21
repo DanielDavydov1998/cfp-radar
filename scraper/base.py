@@ -289,9 +289,14 @@ def is_generic_title(title):
 
 
 # Journalnamen, die zu generisch sind, um sie per Volltext zu matchen
-# ("Information Systems" steckt in zig Konferenz-/Journalnamen; das Elsevier-
-# Journal dieses Namens wird ohnehin direkt über seine URL gescrapt)
-GENERIC_NAMES = {"computer", "information systems", "omega"}
+# ("Information Systems" steckt in zig Konferenz-/Journalnamen; solche Journals
+# werden nur über ihre eigene URL/Quelle gescrapt, nie über Namens-Matching)
+GENERIC_NAMES = {
+    "computer", "information systems", "omega", "organization", "leadership",
+    "energy", "nature", "science", "transportation", "appetite", "governance",
+    "higher education", "human factors", "business horizons", "human relations",
+    "journal of business", "networks", "business research", "der betrieb",
+}
 
 
 def match_journals(text, journals):

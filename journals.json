@@ -1,91 +1,7680 @@
 [
-{"name":"MIS Quarterly","abbrev":"MISQ","vhb_2024":"A+","basket11":true,"publisher":"MISQ","homepage":"https://misq.umn.edu/"},
-{"name":"Information Systems Research","abbrev":"ISR","vhb_2024":"A+","basket11":true,"publisher":"INFORMS","homepage":"https://pubsonline.informs.org/journal/isre"},
-{"name":"Journal of the Association for Information Systems","abbrev":"JAIS","vhb_2024":"A","basket11":true,"publisher":"AIS","homepage":"https://aisel.aisnet.org/jais/"},
-{"name":"Journal of Management Information Systems","abbrev":"JMIS","vhb_2024":"A","basket11":true,"publisher":"Taylor & Francis","homepage":"https://www.tandfonline.com/journals/mmis20"},
-{"name":"Information Systems Journal","abbrev":"ISJ","vhb_2024":"A","basket11":true,"publisher":"Wiley","homepage":"https://onlinelibrary.wiley.com/journal/13652575"},
-{"name":"European Journal of Information Systems","abbrev":"EJIS","vhb_2024":"A","basket11":true,"publisher":"Taylor & Francis","homepage":"https://www.tandfonline.com/journals/tjis20"},
-{"name":"The Journal of Strategic Information Systems","abbrev":"JSIS","vhb_2024":"A","basket11":true,"publisher":"Elsevier","homepage":"https://www.sciencedirect.com/journal/the-journal-of-strategic-information-systems"},
-{"name":"Journal of Information Technology","abbrev":"JIT","vhb_2024":"A","basket11":true,"publisher":"Sage","homepage":"https://journals.sagepub.com/home/jin"},
-{"name":"Decision Support Systems","abbrev":"DSS","vhb_2024":"B","basket11":true,"publisher":"Elsevier","homepage":"https://www.sciencedirect.com/journal/decision-support-systems"},
-{"name":"Information & Management","abbrev":"I&M","vhb_2024":"B","basket11":true,"publisher":"Elsevier","homepage":"https://www.sciencedirect.com/journal/information-and-management"},
-{"name":"Information and Organization","abbrev":"I&O","vhb_2024":"B","basket11":true,"publisher":"Elsevier","homepage":"https://www.sciencedirect.com/journal/information-and-organization"},
-{"name":"Business & Information Systems Engineering","abbrev":"BISE","vhb_2024":"B","basket11":false,"publisher":"Springer","homepage":"https://link.springer.com/journal/12599"},
-{"name":"ACM SIGMIS Database: The DATA BASE for Advances in Information Systems","abbrev":"DATA BASE","vhb_2024":"B","basket11":false,"publisher":"ACM","homepage":"https://dl.acm.org/journal/sigmis"},
-{"name":"ACM Transactions on Information Systems","abbrev":"ACM TOIS","vhb_2024":"B","basket11":false,"publisher":"ACM","homepage":"https://dl.acm.org/journal/tois"},
-{"name":"ACM Transactions on Management Information Systems","abbrev":"ACM TMIS","vhb_2024":"B","basket11":false,"publisher":"ACM","homepage":"https://dl.acm.org/journal/tmis"},
-{"name":"AIS Transactions on Human-Computer Interaction","abbrev":"THCI","vhb_2024":"B","basket11":false,"publisher":"AIS","homepage":"https://aisel.aisnet.org/thci/"},
-{"name":"Information Technology & People","abbrev":"ITP","vhb_2024":"B","basket11":false,"publisher":"Emerald","homepage":"https://www.emerald.com/insight/publication/issn/0959-3845"},
-{"name":"MIS Quarterly Executive","abbrev":"MISQE","vhb_2024":"B","basket11":false,"publisher":"AIS","homepage":"https://aisel.aisnet.org/misqe/"},
-{"name":"Electronic Markets","abbrev":"EM","vhb_2024":"B","basket11":false,"publisher":"Springer","homepage":"https://link.springer.com/journal/12525"},
-{"name":"Information Systems Frontiers","abbrev":"ISF","vhb_2024":"B","basket11":false,"publisher":"Springer","homepage":"https://link.springer.com/journal/10796"},
-{"name":"Behaviour & Information Technology","abbrev":"BIT","vhb_2024":"B","basket11":false,"publisher":"Taylor & Francis","homepage":"https://www.tandfonline.com/journals/tbit20"},
-{"name":"International Journal of Electronic Commerce","abbrev":"IJEC","vhb_2024":"B","basket11":false,"publisher":"Taylor & Francis","homepage":"https://www.tandfonline.com/journals/mjec20"},
-{"name":"Software and Systems Modeling","abbrev":"SoSyM","vhb_2024":"B","basket11":false,"publisher":"Springer","homepage":"https://link.springer.com/journal/10270"},
-{"name":"Information Systems","abbrev":null,"vhb_2024":"B","basket11":false,"publisher":"Elsevier","homepage":"https://www.sciencedirect.com/journal/information-systems"},
-{"name":"Group Decision and Negotiation","abbrev":"GDN","vhb_2024":"B","basket11":false,"publisher":"Springer","homepage":"https://link.springer.com/journal/10726"},
-{"name":"Journal of Decision Systems","abbrev":"JDS","vhb_2024":"B","basket11":false,"publisher":"Taylor & Francis","homepage":"https://www.tandfonline.com/journals/tjds20"},
-{"name":"International Journal of Information Management","abbrev":"IJIM","vhb_2024":"B","basket11":false,"publisher":"Elsevier","homepage":"https://www.sciencedirect.com/journal/international-journal-of-information-management"},
-{"name":"Communications of the Association for Information Systems","abbrev":"CAIS","vhb_2024":"B","basket11":false,"publisher":"AIS","homepage":"https://aisel.aisnet.org/cais/"},
-{"name":"Internet Research","abbrev":"INTR","vhb_2024":"B","basket11":false,"publisher":"Emerald","homepage":"https://www.emerald.com/insight/publication/issn/1066-2243"},
-{"name":"Information Systems Management","abbrev":"ISM","vhb_2024":"B","basket11":false,"publisher":"Taylor & Francis","homepage":"https://www.tandfonline.com/journals/uism20"},
-{"name":"Scandinavian Journal of Information Systems","abbrev":"SJIS","vhb_2024":"B","basket11":false,"publisher":"AIS","homepage":"https://aisel.aisnet.org/sjis/"},
-{"name":"Information Technology and Management","abbrev":"ITM","vhb_2024":"B","basket11":false,"publisher":"Springer","homepage":"https://link.springer.com/journal/10799"},
-{"name":"Management Science","abbrev":"MS","vhb_2024":"A+","basket11":false,"publisher":"INFORMS","homepage":"https://pubsonline.informs.org/journal/mnsc"},
-{"name":"Organization Science","abbrev":"OrgSci","vhb_2024":"A+","basket11":false,"publisher":"INFORMS","homepage":"https://pubsonline.informs.org/journal/orsc"},
-{"name":"Operations Research","abbrev":"OR","vhb_2024":"A+","basket11":false,"publisher":"INFORMS","homepage":"https://pubsonline.informs.org/journal/opre"},
-{"name":"Transportation Science","abbrev":null,"vhb_2024":"A","basket11":false,"publisher":"INFORMS","homepage":"https://pubsonline.informs.org/journal/trsc"},
-{"name":"European Journal of Operational Research","abbrev":"EJOR","vhb_2024":"A","basket11":false,"publisher":"Elsevier","homepage":"https://www.sciencedirect.com/journal/european-journal-of-operational-research"},
-{"name":"Production and Operations Management","abbrev":"POM","vhb_2024":"A","basket11":false,"publisher":"Sage","homepage":"https://journals.sagepub.com/home/pao"},
-{"name":"Journal of Service Research","abbrev":"JSR","vhb_2024":"A","basket11":false,"publisher":"Sage","homepage":"https://journals.sagepub.com/home/jsr"},
-{"name":"Manufacturing & Service Operations Management","abbrev":"M&SOM","vhb_2024":"A","basket11":false,"publisher":"INFORMS","homepage":"https://pubsonline.informs.org/journal/msom"},
-{"name":"Journal of Operations Management","abbrev":"JOM","vhb_2024":"A","basket11":false,"publisher":"Wiley","homepage":"https://onlinelibrary.wiley.com/journal/18731317"},
-{"name":"Nature Human Behaviour","abbrev":null,"vhb_2024":"A","basket11":false,"publisher":"Springer Nature","homepage":"https://www.nature.com/nathumbehav/"},
-{"name":"INFORMS Journal on Computing","abbrev":"IJOC","vhb_2024":"A","basket11":false,"publisher":"INFORMS","homepage":"https://pubsonline.informs.org/journal/ijoc"},
-{"name":"OR Spectrum","abbrev":null,"vhb_2024":"A","basket11":false,"publisher":"Springer","homepage":"https://link.springer.com/journal/291"},
-{"name":"Nature Machine Intelligence","abbrev":null,"vhb_2024":"A","basket11":false,"publisher":"Springer Nature","homepage":"https://www.nature.com/natmachintell/"},
-{"name":"SIAM Journal on Computing","abbrev":"SICOMP","vhb_2024":"A","basket11":false,"publisher":"SIAM","homepage":"https://epubs.siam.org/journal/smjcat"},
-{"name":"Annals of Operations Research","abbrev":"AOR","vhb_2024":"B","basket11":false,"publisher":"Springer","homepage":"https://link.springer.com/journal/10479"},
-{"name":"Journal of Interactive Marketing","abbrev":null,"vhb_2024":"B","basket11":false,"publisher":"Sage","homepage":"https://journals.sagepub.com/home/jnm"},
-{"name":"Journal of the ACM","abbrev":"JACM","vhb_2024":"B","basket11":false,"publisher":"ACM","homepage":"https://dl.acm.org/journal/jacm"},
-{"name":"Decision Sciences","abbrev":null,"vhb_2024":"B","basket11":false,"publisher":"Wiley","homepage":"https://onlinelibrary.wiley.com/journal/15405915"},
-{"name":"Computers & Operations Research","abbrev":"COR","vhb_2024":"B","basket11":false,"publisher":"Elsevier","homepage":"https://www.sciencedirect.com/journal/computers-and-operations-research"},
-{"name":"Technological Forecasting and Social Change","abbrev":"TFSC","vhb_2024":"B","basket11":false,"publisher":"Elsevier","homepage":"https://www.sciencedirect.com/journal/technological-forecasting-and-social-change"},
-{"name":"Omega","abbrev":null,"vhb_2024":"B","basket11":false,"publisher":"Elsevier","homepage":"https://www.sciencedirect.com/journal/omega"},
-{"name":"IEEE Transactions on Engineering Management","abbrev":"IEEE TEM","vhb_2024":"B","basket11":false,"publisher":"IEEE","homepage":"https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=17"},
-{"name":"Computers in Human Behavior","abbrev":"CHB","vhb_2024":"B","basket11":false,"publisher":"Elsevier","homepage":"https://www.sciencedirect.com/journal/computers-in-human-behavior"},
-{"name":"INFORMS Journal on Applied Analytics","abbrev":"IJAA","vhb_2024":"B","basket11":false,"publisher":"INFORMS","homepage":"https://pubsonline.informs.org/journal/inte"},
-{"name":"ACM Transactions on Computer-Human Interaction","abbrev":"TOCHI","vhb_2024":"B","basket11":false,"publisher":"ACM","homepage":"https://dl.acm.org/journal/tochi"},
-{"name":"Artificial Intelligence","abbrev":"AIJ","vhb_2024":"B","basket11":false,"publisher":"Elsevier","homepage":"https://www.sciencedirect.com/journal/artificial-intelligence"},
-{"name":"Computer","abbrev":null,"vhb_2024":"B","basket11":false,"publisher":"IEEE","homepage":"https://www.computer.org/csdl/magazine/co"},
-{"name":"Human-Computer Interaction","abbrev":"HCI","vhb_2024":"B","basket11":false,"publisher":"Taylor & Francis","homepage":"https://www.tandfonline.com/journals/hhci20"},
-{"name":"Government Information Quarterly","abbrev":"GIQ","vhb_2024":"B","basket11":false,"publisher":"Elsevier","homepage":"https://www.sciencedirect.com/journal/government-information-quarterly"},
-{"name":"Communications of the ACM","abbrev":"CACM","vhb_2024":"B","basket11":false,"publisher":"ACM","homepage":"https://cacm.acm.org/"},
-{"name":"Data & Knowledge Engineering","abbrev":"DKE","vhb_2024":"B","basket11":false,"publisher":"Elsevier","homepage":"https://www.sciencedirect.com/journal/data-and-knowledge-engineering"},
-{"name":"Journal of Service Management","abbrev":"JOSM","vhb_2024":"B","basket11":false,"publisher":"Emerald","homepage":"https://www.emerald.com/insight/publication/issn/1757-5818"},
-{"name":"Computer Supported Cooperative Work","abbrev":"CSCW","vhb_2024":"B","basket11":false,"publisher":"Springer","homepage":"https://link.springer.com/journal/10606"},
-{"name":"Information and Software Technology","abbrev":"IST","vhb_2024":"B","basket11":false,"publisher":"Elsevier","homepage":"https://www.sciencedirect.com/journal/information-and-software-technology"},
-{"name":"IEEE Transactions on Software Engineering","abbrev":"TSE","vhb_2024":"B","basket11":false,"publisher":"IEEE","homepage":"https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=32"},
-{"name":"Journal of Cleaner Production","abbrev":"JCLP","vhb_2024":"B","basket11":false,"publisher":"Elsevier","homepage":"https://www.sciencedirect.com/journal/journal-of-cleaner-production"},
-{"name":"Operations Research Letters","abbrev":"ORL","vhb_2024":"B","basket11":false,"publisher":"Elsevier","homepage":"https://www.sciencedirect.com/journal/operations-research-letters"},
-{"name":"MIT Sloan Management Review","abbrev":"MIT SMR","vhb_2024":"B","basket11":false,"publisher":"MIT SMR","homepage":"https://sloanreview.mit.edu/"},
-{"name":"ACM Transactions on Software Engineering and Methodology","abbrev":"TOSEM","vhb_2024":"B","basket11":false,"publisher":"ACM","homepage":"https://dl.acm.org/journal/tosem"},
-{"name":"IEEE Software","abbrev":null,"vhb_2024":"B","basket11":false,"publisher":"IEEE","homepage":"https://www.computer.org/csdl/magazine/so"},
-{"name":"Journal of Medical Internet Research","abbrev":"JMIR","vhb_2024":"B","basket11":false,"publisher":"JMIR","homepage":"https://www.jmir.org/"},
-{"name":"IEEE Transactions on Knowledge and Data Engineering","abbrev":"TKDE","vhb_2024":"B","basket11":false,"publisher":"IEEE","homepage":"https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=69"},
-{"name":"Technovation","abbrev":null,"vhb_2024":"B","basket11":false,"publisher":"Elsevier","homepage":"https://www.sciencedirect.com/journal/technovation"},
-{"name":"ACM Transactions on Human-Robot Interaction","abbrev":"THRI","vhb_2024":"B","basket11":false,"publisher":"ACM","homepage":"https://dl.acm.org/journal/thri"},
-{"name":"Service Science","abbrev":null,"vhb_2024":"B","basket11":false,"publisher":"INFORMS","homepage":"https://pubsonline.informs.org/journal/serv"},
-{"name":"INFORMS Journal on Data Science","abbrev":"IJDS","vhb_2024":"B","basket11":false,"publisher":"INFORMS","homepage":"https://pubsonline.informs.org/journal/ijds"},
-{"name":"Journal of Systems and Software","abbrev":"JSS","vhb_2024":"B","basket11":false,"publisher":"Elsevier","homepage":"https://www.sciencedirect.com/journal/journal-of-systems-and-software"},
-{"name":"International Journal of Innovation Management","abbrev":null,"vhb_2024":"B","basket11":false,"publisher":"World Scientific","homepage":"https://www.worldscientific.com/worldscinet/ijim"},
-{"name":"IEEE Transactions on Human-Machine Systems","abbrev":"THMS","vhb_2024":"B","basket11":false,"publisher":"IEEE","homepage":"https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221037"},
-{"name":"International Journal of Human Computer Studies","abbrev":"IJHCS","vhb_2024":"B","basket11":false,"publisher":"Elsevier","homepage":"https://www.sciencedirect.com/journal/international-journal-of-human-computer-studies"},
-{"name":"ACM Transactions on Interactive Intelligent Systems","abbrev":"TiiS","vhb_2024":"B","basket11":false,"publisher":"ACM","homepage":"https://dl.acm.org/journal/tiis"},
-{"name":"Computers in Industry","abbrev":null,"vhb_2024":"B","basket11":false,"publisher":"Elsevier","homepage":"https://www.sciencedirect.com/journal/computers-in-industry"},
-{"name":"Computers & Education","abbrev":null,"vhb_2024":"B","basket11":false,"publisher":"Elsevier","homepage":"https://www.sciencedirect.com/journal/computers-and-education"},
-{"name":"Expert Systems with Applications","abbrev":"ESWA","vhb_2024":"B","basket11":false,"publisher":"Elsevier","homepage":"https://www.sciencedirect.com/journal/expert-systems-with-applications"},
-{"name":"IEEE Access","abbrev":null,"vhb_2024":"B","basket11":false,"publisher":"IEEE","homepage":"https://ieeeaccess.ieee.org/"},
-{"name":"International Journal of Accounting Information Systems","abbrev":"IJAIS","vhb_2024":"B","basket11":false,"publisher":"Elsevier","homepage":"https://www.sciencedirect.com/journal/international-journal-of-accounting-information-systems"},
-{"name":"IEEE Transactions on Systems, Man, and Cybernetics: Systems","abbrev":"IEEE TSMC","vhb_2024":"B","basket11":false,"publisher":"IEEE","homepage":"https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221021"}
+ {
+  "name": "MIS Quarterly",
+  "abbrev": "MISQ",
+  "vhb_2024": "A+",
+  "basket11": true,
+  "publisher": "MISQ",
+  "homepage": "https://misq.umn.edu/",
+  "areas": [
+   "Accounting",
+   "Dienstleistung",
+   "OR",
+   "TIE",
+   "WI"
+  ]
+ },
+ {
+  "name": "Information Systems Research",
+  "abbrev": "ISR",
+  "vhb_2024": "A+",
+  "basket11": true,
+  "publisher": "INFORMS",
+  "homepage": "https://pubsonline.informs.org/journal/isre",
+  "areas": [
+   "Dienstleistung",
+   "OR",
+   "Org",
+   "TIE",
+   "WI"
+  ]
+ },
+ {
+  "name": "Journal of the Association for Information Systems",
+  "abbrev": "JAIS",
+  "vhb_2024": "A",
+  "basket11": true,
+  "publisher": "AIS",
+  "homepage": "https://aisel.aisnet.org/jais/",
+  "areas": [
+   "Dienstleistung",
+   "TIE",
+   "WI"
+  ]
+ },
+ {
+  "name": "Journal of Management Information Systems",
+  "abbrev": "JMIS",
+  "vhb_2024": "A",
+  "basket11": true,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/mmis20",
+  "areas": [
+   "Dienstleistung",
+   "TIE",
+   "WI"
+  ]
+ },
+ {
+  "name": "Information Systems Journal",
+  "abbrev": "ISJ",
+  "vhb_2024": "A",
+  "basket11": true,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/13652575",
+  "areas": [
+   "Dienstleistung",
+   "TIE",
+   "WI"
+  ]
+ },
+ {
+  "name": "European Journal of Information Systems",
+  "abbrev": "EJIS",
+  "vhb_2024": "A",
+  "basket11": true,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/tjis20",
+  "areas": [
+   "Dienstleistung",
+   "TIE",
+   "WI"
+  ]
+ },
+ {
+  "name": "The Journal of Strategic Information Systems",
+  "abbrev": "JSIS",
+  "vhb_2024": "A",
+  "basket11": true,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/the-journal-of-strategic-information-systems",
+  "areas": [
+   "Dienstleistung",
+   "TIE",
+   "WI"
+  ]
+ },
+ {
+  "name": "Journal of Information Technology",
+  "abbrev": "JIT",
+  "vhb_2024": "A",
+  "basket11": true,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/jin",
+  "areas": [
+   "Dienstleistung",
+   "Org",
+   "TIE",
+   "WI"
+  ]
+ },
+ {
+  "name": "Decision Support Systems",
+  "abbrev": "DSS",
+  "vhb_2024": "B",
+  "basket11": true,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/decision-support-systems",
+  "areas": [
+   "Dienstleistung",
+   "Marketing",
+   "OR",
+   "Produktion",
+   "WI"
+  ]
+ },
+ {
+  "name": "Information & Management",
+  "abbrev": "I&M",
+  "vhb_2024": "B",
+  "basket11": true,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/information-and-management",
+  "areas": [
+   "Dienstleistung",
+   "Org",
+   "TIE",
+   "WI"
+  ]
+ },
+ {
+  "name": "Information and Organization",
+  "abbrev": "I&O",
+  "vhb_2024": "B",
+  "basket11": true,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/information-and-organization",
+  "areas": [
+   "Accounting",
+   "Dienstleistung",
+   "Org",
+   "TIE",
+   "WI"
+  ]
+ },
+ {
+  "name": "Business & Information Systems Engineering",
+  "abbrev": "BISE",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/12599",
+  "areas": [
+   "Dienstleistung",
+   "Marketing",
+   "OR",
+   "WI"
+  ]
+ },
+ {
+  "name": "ACM SIGMIS Database: The DATA BASE for Advances in Information Systems",
+  "abbrev": "DATA BASE",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "ACM",
+  "homepage": "https://dl.acm.org/journal/sigmis",
+  "areas": [
+   "Dienstleistung",
+   "WI"
+  ]
+ },
+ {
+  "name": "ACM Transactions on Information Systems",
+  "abbrev": "ACM TOIS",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "ACM",
+  "homepage": "https://dl.acm.org/journal/tois",
+  "areas": [
+   "WI"
+  ]
+ },
+ {
+  "name": "ACM Transactions on Management Information Systems",
+  "abbrev": "ACM TMIS",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "ACM",
+  "homepage": "https://dl.acm.org/journal/tmis",
+  "areas": [
+   "Dienstleistung",
+   "WI"
+  ]
+ },
+ {
+  "name": "AIS Transactions on Human-Computer Interaction",
+  "abbrev": "THCI",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "AIS",
+  "homepage": "https://aisel.aisnet.org/thci/",
+  "areas": [
+   "WI"
+  ]
+ },
+ {
+  "name": "Information Technology & People",
+  "abbrev": "ITP",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Emerald",
+  "homepage": "https://www.emerald.com/insight/publication/issn/0959-3845",
+  "areas": [
+   "WI"
+  ]
+ },
+ {
+  "name": "MIS Quarterly Executive",
+  "abbrev": "MISQE",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "AIS",
+  "homepage": "https://aisel.aisnet.org/misqe/",
+  "areas": [
+   "Dienstleistung",
+   "Org",
+   "WI"
+  ]
+ },
+ {
+  "name": "Electronic Markets",
+  "abbrev": "EM",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/12525",
+  "areas": [
+   "Dienstleistung",
+   "Logistik",
+   "Marketing",
+   "WI"
+  ]
+ },
+ {
+  "name": "Information Systems Frontiers",
+  "abbrev": "ISF",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/10796",
+  "areas": [
+   "Dienstleistung",
+   "WI"
+  ]
+ },
+ {
+  "name": "Behaviour & Information Technology",
+  "abbrev": "BIT",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/tbit20",
+  "areas": [
+   "WI"
+  ]
+ },
+ {
+  "name": "International Journal of Electronic Commerce",
+  "abbrev": "IJEC",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/mjec20",
+  "areas": [
+   "Dienstleistung",
+   "Marketing",
+   "WI"
+  ]
+ },
+ {
+  "name": "Software and Systems Modeling",
+  "abbrev": "SoSyM",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/10270",
+  "areas": [
+   "WI"
+  ]
+ },
+ {
+  "name": "Information Systems",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/information-systems",
+  "areas": [
+   "Dienstleistung",
+   "WI"
+  ]
+ },
+ {
+  "name": "Group Decision and Negotiation",
+  "abbrev": "GDN",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/10726",
+  "areas": [
+   "OR",
+   "WI"
+  ]
+ },
+ {
+  "name": "Journal of Decision Systems",
+  "abbrev": "JDS",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/tjds20",
+  "areas": [
+   "OR",
+   "WI"
+  ]
+ },
+ {
+  "name": "International Journal of Information Management",
+  "abbrev": "IJIM",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/international-journal-of-information-management",
+  "areas": [
+   "Dienstleistung",
+   "Logistik",
+   "WI"
+  ]
+ },
+ {
+  "name": "Communications of the Association for Information Systems",
+  "abbrev": "CAIS",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "AIS",
+  "homepage": "https://aisel.aisnet.org/cais/",
+  "areas": [
+   "Dienstleistung",
+   "WI"
+  ]
+ },
+ {
+  "name": "Internet Research",
+  "abbrev": "INTR",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Emerald",
+  "homepage": "https://www.emerald.com/insight/publication/issn/1066-2243",
+  "areas": [
+   "Marketing",
+   "WI"
+  ]
+ },
+ {
+  "name": "Information Systems Management",
+  "abbrev": "ISM",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/uism20",
+  "areas": [
+   "Dienstleistung",
+   "WI"
+  ]
+ },
+ {
+  "name": "Scandinavian Journal of Information Systems",
+  "abbrev": "SJIS",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "AIS",
+  "homepage": "https://aisel.aisnet.org/sjis/",
+  "areas": [
+   "Dienstleistung",
+   "WI"
+  ]
+ },
+ {
+  "name": "Information Technology and Management",
+  "abbrev": "ITM",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/10799",
+  "areas": [
+   "Dienstleistung",
+   "WI"
+  ]
+ },
+ {
+  "name": "Management Science",
+  "abbrev": "MS",
+  "vhb_2024": "A+",
+  "basket11": false,
+  "publisher": "INFORMS",
+  "homepage": "https://pubsonline.informs.org/journal/mnsc",
+  "areas": [
+   "WI"
+  ]
+ },
+ {
+  "name": "Organization Science",
+  "abbrev": "OrgSci",
+  "vhb_2024": "A+",
+  "basket11": false,
+  "publisher": "INFORMS",
+  "homepage": "https://pubsonline.informs.org/journal/orsc",
+  "areas": [
+   "WI"
+  ]
+ },
+ {
+  "name": "Operations Research",
+  "abbrev": "OR",
+  "vhb_2024": "A+",
+  "basket11": false,
+  "publisher": "INFORMS",
+  "homepage": "https://pubsonline.informs.org/journal/opre",
+  "areas": [
+   "Logistik",
+   "OR",
+   "WI"
+  ]
+ },
+ {
+  "name": "Transportation Science",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "INFORMS",
+  "homepage": "https://pubsonline.informs.org/journal/trsc",
+  "areas": [
+   "Logistik",
+   "OR",
+   "WI"
+  ]
+ },
+ {
+  "name": "European Journal of Operational Research",
+  "abbrev": "EJOR",
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/european-journal-of-operational-research",
+  "areas": [
+   "Dienstleistung",
+   "Logistik",
+   "OR",
+   "Produktion",
+   "WI"
+  ]
+ },
+ {
+  "name": "Production and Operations Management",
+  "abbrev": "POM",
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/pao",
+  "areas": [
+   "WI"
+  ]
+ },
+ {
+  "name": "Journal of Service Research",
+  "abbrev": "JSR",
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/jsr",
+  "areas": [
+   "Dienstleistung",
+   "Marketing",
+   "TIE",
+   "WI"
+  ]
+ },
+ {
+  "name": "Manufacturing & Service Operations Management",
+  "abbrev": "M&SOM",
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "INFORMS",
+  "homepage": "https://pubsonline.informs.org/journal/msom",
+  "areas": [
+   "Dienstleistung",
+   "Logistik",
+   "OR",
+   "Produktion",
+   "TIE",
+   "WI"
+  ]
+ },
+ {
+  "name": "Journal of Operations Management",
+  "abbrev": "JOM",
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/18731317",
+  "areas": [
+   "Dienstleistung",
+   "Logistik",
+   "OR",
+   "Produktion",
+   "TIE",
+   "WI"
+  ]
+ },
+ {
+  "name": "Nature Human Behaviour",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Springer Nature",
+  "homepage": "https://www.nature.com/nathumbehav/",
+  "areas": [
+   "Int. Management",
+   "Management",
+   "Marketing",
+   "Org",
+   "WI"
+  ]
+ },
+ {
+  "name": "INFORMS Journal on Computing",
+  "abbrev": "IJOC",
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "INFORMS",
+  "homepage": "https://pubsonline.informs.org/journal/ijoc",
+  "areas": [
+   "Logistik",
+   "OR",
+   "Produktion",
+   "WI"
+  ]
+ },
+ {
+  "name": "OR Spectrum",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/291",
+  "areas": [
+   "Logistik",
+   "OR",
+   "Produktion",
+   "WI"
+  ]
+ },
+ {
+  "name": "Nature Machine Intelligence",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Springer Nature",
+  "homepage": "https://www.nature.com/natmachintell/",
+  "areas": [
+   "WI"
+  ]
+ },
+ {
+  "name": "SIAM Journal on Computing",
+  "abbrev": "SICOMP",
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "SIAM",
+  "homepage": "https://epubs.siam.org/journal/smjcat",
+  "areas": [
+   "OR",
+   "WI"
+  ]
+ },
+ {
+  "name": "Annals of Operations Research",
+  "abbrev": "AOR",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/10479",
+  "areas": [
+   "Logistik",
+   "OR",
+   "Produktion",
+   "WI"
+  ]
+ },
+ {
+  "name": "Journal of Interactive Marketing",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/jnm",
+  "areas": [
+   "Dienstleistung",
+   "Marketing",
+   "WI"
+  ]
+ },
+ {
+  "name": "Journal of the ACM",
+  "abbrev": "JACM",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "ACM",
+  "homepage": "https://dl.acm.org/journal/jacm",
+  "areas": [
+   "WI"
+  ]
+ },
+ {
+  "name": "Decision Sciences",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/15405915",
+  "areas": [
+   "Logistik",
+   "OR",
+   "Produktion",
+   "TIE",
+   "WI"
+  ]
+ },
+ {
+  "name": "Computers & Operations Research",
+  "abbrev": "COR",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/computers-and-operations-research",
+  "areas": [
+   "Dienstleistung",
+   "Logistik",
+   "OR",
+   "Produktion",
+   "WI"
+  ]
+ },
+ {
+  "name": "Technological Forecasting and Social Change",
+  "abbrev": "TFSC",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change",
+  "areas": [
+   "WI"
+  ]
+ },
+ {
+  "name": "Omega",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/omega",
+  "areas": [
+   "Dienstleistung",
+   "Int. Management",
+   "Logistik",
+   "Management",
+   "Nachhaltigkeit",
+   "OR",
+   "Produktion",
+   "TIE",
+   "WI"
+  ]
+ },
+ {
+  "name": "IEEE Transactions on Engineering Management",
+  "abbrev": "IEEE TEM",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "IEEE",
+  "homepage": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=17",
+  "areas": [
+   "Dienstleistung",
+   "Org",
+   "TIE",
+   "WI"
+  ]
+ },
+ {
+  "name": "Computers in Human Behavior",
+  "abbrev": "CHB",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/computers-in-human-behavior",
+  "areas": [
+   "Dienstleistung",
+   "Marketing",
+   "Org",
+   "Personal",
+   "WI"
+  ]
+ },
+ {
+  "name": "INFORMS Journal on Applied Analytics",
+  "abbrev": "IJAA",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "INFORMS",
+  "homepage": "https://pubsonline.informs.org/journal/inte",
+  "areas": [
+   "Logistik",
+   "OR",
+   "Produktion",
+   "WI"
+  ]
+ },
+ {
+  "name": "ACM Transactions on Computer-Human Interaction",
+  "abbrev": "TOCHI",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "ACM",
+  "homepage": "https://dl.acm.org/journal/tochi",
+  "areas": [
+   "WI"
+  ]
+ },
+ {
+  "name": "Artificial Intelligence",
+  "abbrev": "AIJ",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/artificial-intelligence",
+  "areas": [
+   "WI"
+  ]
+ },
+ {
+  "name": "Computer",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "IEEE",
+  "homepage": "https://www.computer.org/csdl/magazine/co",
+  "areas": [
+   "WI"
+  ]
+ },
+ {
+  "name": "Human-Computer Interaction",
+  "abbrev": "HCI",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/hhci20",
+  "areas": [
+   "Dienstleistung",
+   "Logistik",
+   "Personal",
+   "WI"
+  ]
+ },
+ {
+  "name": "Government Information Quarterly",
+  "abbrev": "GIQ",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/government-information-quarterly",
+  "areas": [
+   "WI",
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Communications of the ACM",
+  "abbrev": "CACM",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "ACM",
+  "homepage": "https://cacm.acm.org/",
+  "areas": [
+   "WI"
+  ]
+ },
+ {
+  "name": "Data & Knowledge Engineering",
+  "abbrev": "DKE",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/data-and-knowledge-engineering",
+  "areas": [
+   "WI"
+  ]
+ },
+ {
+  "name": "Journal of Service Management",
+  "abbrev": "JOSM",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Emerald",
+  "homepage": "https://www.emerald.com/insight/publication/issn/1757-5818",
+  "areas": [
+   "Dienstleistung",
+   "Marketing",
+   "WI"
+  ]
+ },
+ {
+  "name": "Computer Supported Cooperative Work",
+  "abbrev": "CSCW",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/10606",
+  "areas": [
+   "WI"
+  ]
+ },
+ {
+  "name": "Information and Software Technology",
+  "abbrev": "IST",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/information-and-software-technology",
+  "areas": [
+   "WI"
+  ]
+ },
+ {
+  "name": "IEEE Transactions on Software Engineering",
+  "abbrev": "TSE",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "IEEE",
+  "homepage": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=32",
+  "areas": [
+   "WI"
+  ]
+ },
+ {
+  "name": "Journal of Cleaner Production",
+  "abbrev": "JCLP",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-cleaner-production",
+  "areas": [
+   "Accounting",
+   "Logistik",
+   "Management",
+   "Nachhaltigkeit",
+   "OR",
+   "Org",
+   "Produktion",
+   "WI",
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Operations Research Letters",
+  "abbrev": "ORL",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/operations-research-letters",
+  "areas": [
+   "OR",
+   "WI"
+  ]
+ },
+ {
+  "name": "MIT Sloan Management Review",
+  "abbrev": "MIT SMR",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "MIT SMR",
+  "homepage": "https://sloanreview.mit.edu/",
+  "areas": [
+   "WI"
+  ]
+ },
+ {
+  "name": "ACM Transactions on Software Engineering and Methodology",
+  "abbrev": "TOSEM",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "ACM",
+  "homepage": "https://dl.acm.org/journal/tosem",
+  "areas": [
+   "WI"
+  ]
+ },
+ {
+  "name": "IEEE Software",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "IEEE",
+  "homepage": "https://www.computer.org/csdl/magazine/so",
+  "areas": [
+   "WI"
+  ]
+ },
+ {
+  "name": "Journal of Medical Internet Research",
+  "abbrev": "JMIR",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "JMIR",
+  "homepage": "https://www.jmir.org/",
+  "areas": [
+   "Dienstleistung",
+   "WI",
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "IEEE Transactions on Knowledge and Data Engineering",
+  "abbrev": "TKDE",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "IEEE",
+  "homepage": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=69",
+  "areas": [
+   "WI"
+  ]
+ },
+ {
+  "name": "Technovation",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/technovation",
+  "areas": [
+   "WI"
+  ]
+ },
+ {
+  "name": "ACM Transactions on Human-Robot Interaction",
+  "abbrev": "THRI",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "ACM",
+  "homepage": "https://dl.acm.org/journal/thri",
+  "areas": [
+   "WI"
+  ]
+ },
+ {
+  "name": "Service Science",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "INFORMS",
+  "homepage": "https://pubsonline.informs.org/journal/serv",
+  "areas": [
+   "Dienstleistung",
+   "Logistik",
+   "OR",
+   "WI"
+  ]
+ },
+ {
+  "name": "INFORMS Journal on Data Science",
+  "abbrev": "IJDS",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "INFORMS",
+  "homepage": "https://pubsonline.informs.org/journal/ijds",
+  "areas": [
+   "OR",
+   "WI"
+  ]
+ },
+ {
+  "name": "Journal of Systems and Software",
+  "abbrev": "JSS",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-systems-and-software",
+  "areas": [
+   "WI"
+  ]
+ },
+ {
+  "name": "International Journal of Innovation Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "World Scientific",
+  "homepage": "https://www.worldscientific.com/worldscinet/ijim",
+  "areas": [
+   "Dienstleistung",
+   "Management",
+   "Marketing",
+   "TIE",
+   "WI"
+  ]
+ },
+ {
+  "name": "IEEE Transactions on Human-Machine Systems",
+  "abbrev": "THMS",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "IEEE",
+  "homepage": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221037",
+  "areas": [
+   "WI"
+  ]
+ },
+ {
+  "name": "International Journal of Human Computer Studies",
+  "abbrev": "IJHCS",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/international-journal-of-human-computer-studies",
+  "areas": [
+   "WI"
+  ]
+ },
+ {
+  "name": "ACM Transactions on Interactive Intelligent Systems",
+  "abbrev": "TiiS",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "ACM",
+  "homepage": "https://dl.acm.org/journal/tiis",
+  "areas": [
+   "WI"
+  ]
+ },
+ {
+  "name": "Computers in Industry",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/computers-in-industry",
+  "areas": [
+   "Dienstleistung",
+   "Logistik",
+   "OR",
+   "Produktion",
+   "WI"
+  ]
+ },
+ {
+  "name": "Computers & Education",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/computers-and-education",
+  "areas": [
+   "WI"
+  ]
+ },
+ {
+  "name": "Expert Systems with Applications",
+  "abbrev": "ESWA",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/expert-systems-with-applications",
+  "areas": [
+   "OR",
+   "Produktion",
+   "WI"
+  ]
+ },
+ {
+  "name": "IEEE Access",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "IEEE",
+  "homepage": "https://ieeeaccess.ieee.org/",
+  "areas": [
+   "WI"
+  ]
+ },
+ {
+  "name": "International Journal of Accounting Information Systems",
+  "abbrev": "IJAIS",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/international-journal-of-accounting-information-systems",
+  "areas": [
+   "Accounting",
+   "WI"
+  ]
+ },
+ {
+  "name": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+  "abbrev": "IEEE TSMC",
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "IEEE",
+  "homepage": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221021",
+  "areas": [
+   "WI"
+  ]
+ },
+ {
+  "name": "Abacus",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/14676281",
+  "areas": [
+   "Accounting",
+   "Finance"
+  ]
+ },
+ {
+  "name": "Academy of Management Annals",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Academy of Management",
+  "homepage": "https://journals.aom.org/journal/annals",
+  "areas": [
+   "Int. Management",
+   "Logistik",
+   "Management",
+   "Marketing",
+   "Nachhaltigkeit",
+   "OR",
+   "Org",
+   "Personal",
+   "TIE",
+   "WI",
+   "Wissenschaftstheorie"
+  ]
+ },
+ {
+  "name": "Academy of Management Discoveries",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Academy of Management",
+  "homepage": "https://journals.aom.org/journal/amd",
+  "areas": [
+   "Logistik",
+   "Management",
+   "Nachhaltigkeit",
+   "Org",
+   "Personal",
+   "TIE",
+   "WI"
+  ]
+ },
+ {
+  "name": "Academy of Management Journal",
+  "abbrev": null,
+  "vhb_2024": "A+",
+  "basket11": false,
+  "publisher": "Academy of Management",
+  "homepage": "https://journals.aom.org/journal/amj",
+  "areas": [
+   "Accounting",
+   "Dienstleistung",
+   "Int. Management",
+   "Logistik",
+   "Management",
+   "Marketing",
+   "Nachhaltigkeit",
+   "OR",
+   "Org",
+   "Personal",
+   "TIE",
+   "WI",
+   "Wissenschaftstheorie"
+  ]
+ },
+ {
+  "name": "Academy of Management Learning & Education",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Academy of Management",
+  "homepage": "https://journals.aom.org/journal/amle",
+  "areas": [
+   "Hochschulmanagement",
+   "Logistik",
+   "Nachhaltigkeit",
+   "Org",
+   "Personal",
+   "TIE",
+   "WI"
+  ]
+ },
+ {
+  "name": "Academy of Management Perspectives",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Academy of Management",
+  "homepage": "https://journals.aom.org/journal/amp",
+  "areas": [
+   "Int. Management",
+   "Logistik",
+   "Management",
+   "Marketing",
+   "Nachhaltigkeit",
+   "OR",
+   "Org",
+   "Personal",
+   "TIE",
+   "WI",
+   "Wissenschaftstheorie"
+  ]
+ },
+ {
+  "name": "Academy of Management Review",
+  "abbrev": null,
+  "vhb_2024": "A+",
+  "basket11": false,
+  "publisher": "Academy of Management",
+  "homepage": "https://journals.aom.org/journal/amr",
+  "areas": [
+   "Accounting",
+   "Dienstleistung",
+   "Int. Management",
+   "Logistik",
+   "Management",
+   "Marketing",
+   "Nachhaltigkeit",
+   "OR",
+   "Org",
+   "Personal",
+   "TIE",
+   "WI",
+   "Wissenschaftstheorie"
+  ]
+ },
+ {
+  "name": "Accounting and Business Research",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/rabr20",
+  "areas": [
+   "Accounting",
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Accounting and Finance",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/1467629x",
+  "areas": [
+   "Accounting",
+   "Finance"
+  ]
+ },
+ {
+  "name": "Accounting and the Public Interest",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "AAA",
+  "homepage": "https://publications.aaahq.org/api",
+  "areas": [
+   "Accounting"
+  ]
+ },
+ {
+  "name": "Accounting, Auditing & Accountability Journal",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Emerald",
+  "homepage": "https://www.emerald.com/insight/publication/issn/0951-3574",
+  "areas": [
+   "Accounting",
+   "Nachhaltigkeit"
+  ]
+ },
+ {
+  "name": "Accounting, Economics, and Law - A Convivium",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "De Gruyter",
+  "homepage": "https://www.degruyter.com/journal/key/ael/html",
+  "areas": [
+   "Accounting"
+  ]
+ },
+ {
+  "name": "Accounting Education: An International Journal",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/raed20",
+  "areas": [
+   "Accounting"
+  ]
+ },
+ {
+  "name": "Accounting Forum",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/racc20",
+  "areas": [
+   "Accounting"
+  ]
+ },
+ {
+  "name": "Accounting Historians Journal",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "AAA",
+  "homepage": "https://publications.aaahq.org/aahj",
+  "areas": [
+   "Accounting"
+  ]
+ },
+ {
+  "name": "Accounting History",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/ach",
+  "areas": [
+   "Accounting"
+  ]
+ },
+ {
+  "name": "Accounting History Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/rabf21",
+  "areas": [
+   "Accounting"
+  ]
+ },
+ {
+  "name": "Accounting Horizons",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "AAA",
+  "homepage": "https://publications.aaahq.org/accounting-horizons",
+  "areas": [
+   "Accounting",
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Accounting in Europe",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/raie20",
+  "areas": [
+   "Accounting"
+  ]
+ },
+ {
+  "name": "Accounting, Organizations and Society",
+  "abbrev": null,
+  "vhb_2024": "A+",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/accounting-organizations-and-society",
+  "areas": [
+   "Accounting",
+   "Finance",
+   "Nachhaltigkeit",
+   "Org",
+   "Steuern",
+   "TIE"
+  ]
+ },
+ {
+  "name": "Accounting Perspectives",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/19113838",
+  "areas": [
+   "Accounting"
+  ]
+ },
+ {
+  "name": "Accounting Review",
+  "abbrev": null,
+  "vhb_2024": "A+",
+  "basket11": false,
+  "publisher": "AAA",
+  "homepage": "https://publications.aaahq.org/accounting-review",
+  "areas": [
+   "Accounting",
+   "Finance",
+   "Steuern"
+  ]
+ },
+ {
+  "name": "ACM Computing Surveys",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "ACM",
+  "homepage": "https://dl.acm.org/journal/csur",
+  "areas": [
+   "WI"
+  ]
+ },
+ {
+  "name": "Administration & Society",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/aas",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Administrative Science Quarterly",
+  "abbrev": null,
+  "vhb_2024": "A+",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/asq",
+  "areas": [
+   "Accounting",
+   "Dienstleistung",
+   "Int. Management",
+   "Management",
+   "Marketing",
+   "Nachhaltigkeit",
+   "OR",
+   "Org",
+   "Personal",
+   "TIE",
+   "WI",
+   "Wissenschaftstheorie"
+  ]
+ },
+ {
+  "name": "Advances in Accounting",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/advances-in-accounting",
+  "areas": [
+   "Accounting"
+  ]
+ },
+ {
+  "name": "Advances in Accounting Behavioral Research",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Emerald",
+  "homepage": "https://www.emerald.com/insight/publication/issn/1475-1488",
+  "areas": [
+   "Accounting"
+  ]
+ },
+ {
+  "name": "Advances in Strategic Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Emerald",
+  "homepage": "https://www.emerald.com/insight/publication/issn/0742-3322",
+  "areas": [
+   "Int. Management",
+   "Management",
+   "Org"
+  ]
+ },
+ {
+  "name": "Advances of Applied Energy",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/advances-in-applied-energy",
+  "areas": [
+   "Nachhaltigkeit"
+  ]
+ },
+ {
+  "name": "American Economic Journal: Applied Economics",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "AEA",
+  "homepage": "https://www.aeaweb.org/journals/app",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "American Economic Journal: Economic Policy",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "AEA",
+  "homepage": "https://www.aeaweb.org/journals/pol",
+  "areas": [
+   "Finance",
+   "Steuern"
+  ]
+ },
+ {
+  "name": "American Economic Journal: Macroeconomics",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "AEA",
+  "homepage": "https://www.aeaweb.org/journals/mac",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "American Economic Journal: Microeconomics",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "AEA",
+  "homepage": "https://www.aeaweb.org/journals/mic",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "American Economic Review",
+  "abbrev": null,
+  "vhb_2024": "A+",
+  "basket11": false,
+  "publisher": "AEA",
+  "homepage": "https://www.aeaweb.org/journals/aer",
+  "areas": [
+   "Finance",
+   "Int. Management",
+   "Marketing",
+   "OR",
+   "Wissenschaftstheorie"
+  ]
+ },
+ {
+  "name": "American Economic Review: Insights",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "AEA",
+  "homepage": "https://www.aeaweb.org/journals/aeri",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "American Journal of Health Economics",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Chicago UP",
+  "homepage": "https://www.journals.uchicago.edu/journals/ajhe",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "AMS Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/13162",
+  "areas": [
+   "Dienstleistung",
+   "Marketing"
+  ]
+ },
+ {
+  "name": "Annual Review of Financial Economics",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Annual Reviews",
+  "homepage": "https://www.annualreviews.org/journal/financial",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Annual Review of Organizational Psychology and Organizational Behavior",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Annual Reviews",
+  "homepage": "https://www.annualreviews.org/content/journals/orgpsych",
+  "areas": [
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Appetite",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/appetite",
+  "areas": [
+   "Marketing"
+  ]
+ },
+ {
+  "name": "Applied Energy",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/applied-energy",
+  "areas": [
+   "Nachhaltigkeit",
+   "WI"
+  ]
+ },
+ {
+  "name": "Applied Health Economics and Health Policy",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/40258",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Applied Mathematical Modelling",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/applied-mathematical-modelling",
+  "areas": [
+   "Logistik",
+   "OR",
+   "Produktion"
+  ]
+ },
+ {
+  "name": "Applied Psychology: An International Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/14640597",
+  "areas": [
+   "Int. Management",
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Asia Pacific Journal of Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/10490",
+  "areas": [
+   "Personal"
+  ]
+ },
+ {
+  "name": "Auditing: A Journal of Practice & Theory",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "AAA",
+  "homepage": "https://publications.aaahq.org/ajpt",
+  "areas": [
+   "Accounting"
+  ]
+ },
+ {
+  "name": "Australian Accounting Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/18352561",
+  "areas": [
+   "Accounting"
+  ]
+ },
+ {
+  "name": "BB-Betriebs-Berater",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Deutscher Fachverlag",
+  "homepage": "https://www.betriebs-berater.de",
+  "areas": [
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Behavior Research Methods",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/13428",
+  "areas": [
+   "Marketing"
+  ]
+ },
+ {
+  "name": "Behavioral Public Policy",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Cambridge UP",
+  "homepage": "https://www.cambridge.org/core/journals/behavioural-public-policy",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Behavioral Research in Accounting",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "AAA",
+  "homepage": "https://publications.aaahq.org/bria",
+  "areas": [
+   "Accounting",
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Betriebswirtschaftliche Forschung und Praxis (BFuP)",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "NWB Verlag",
+  "homepage": null,
+  "areas": [
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Big Data & Society",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/bds",
+  "areas": [
+   "Org"
+  ]
+ },
+ {
+  "name": "Biomass and Bioenergy",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/biomass-and-bioenergy",
+  "areas": [
+   "Nachhaltigkeit"
+  ]
+ },
+ {
+  "name": "British Food Journal",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Emerald",
+  "homepage": "https://www.emerald.com/insight/publication/issn/0007-070X",
+  "areas": [
+   "Marketing"
+  ]
+ },
+ {
+  "name": "British Journal of Industrial Relations",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/14678543",
+  "areas": [
+   "Int. Management",
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "British Journal of Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/14678551",
+  "areas": [
+   "Accounting",
+   "Dienstleistung",
+   "Int. Management",
+   "Management",
+   "Marketing",
+   "Nachhaltigkeit",
+   "Org",
+   "Personal",
+   "TIE",
+   "Wissenschaftstheorie"
+  ]
+ },
+ {
+  "name": "British Tax Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sweet & Maxwell",
+  "homepage": null,
+  "areas": [
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Business and Society Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/14678594",
+  "areas": [
+   "Nachhaltigkeit",
+   "Wissenschaftstheorie"
+  ]
+ },
+ {
+  "name": "Business Ethics: A European Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/14678608",
+  "areas": [
+   "Accounting",
+   "Nachhaltigkeit"
+  ]
+ },
+ {
+  "name": "Business Ethics Quarterly",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Cambridge UP",
+  "homepage": "https://www.cambridge.org/core/journals/business-ethics-quarterly",
+  "areas": [
+   "Accounting",
+   "Management",
+   "Nachhaltigkeit",
+   "Org",
+   "Personal",
+   "Wissenschaftstheorie"
+  ]
+ },
+ {
+  "name": "Business Ethics, the Environment & Responsibility",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/26946424",
+  "areas": [
+   "Wissenschaftstheorie"
+  ]
+ },
+ {
+  "name": "Business Horizons",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/business-horizons",
+  "areas": [
+   "Org"
+  ]
+ },
+ {
+  "name": "Business Research",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/40685",
+  "areas": [
+   "Finance",
+   "Logistik",
+   "Org",
+   "Personal",
+   "Wissenschaftstheorie"
+  ]
+ },
+ {
+  "name": "Business Research Quarterly",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/brq",
+  "areas": [
+   "Personal"
+  ]
+ },
+ {
+  "name": "Business & Society",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/bas",
+  "areas": [
+   "Accounting",
+   "Management",
+   "Nachhaltigkeit",
+   "Org",
+   "Personal",
+   "Wissenschaftstheorie",
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Business Strategy and Development",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/25723170",
+  "areas": [
+   "Nachhaltigkeit"
+  ]
+ },
+ {
+  "name": "Business Strategy and the Environment",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/10990836",
+  "areas": [
+   "Accounting",
+   "Management",
+   "Marketing",
+   "Nachhaltigkeit",
+   "Org"
+  ]
+ },
+ {
+  "name": "California Management Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/cmr",
+  "areas": [
+   "Accounting",
+   "Dienstleistung",
+   "Int. Management",
+   "Logistik",
+   "Management",
+   "Marketing",
+   "Nachhaltigkeit",
+   "OR",
+   "Org",
+   "Personal",
+   "Produktion",
+   "TIE",
+   "WI",
+   "Wissenschaftstheorie"
+  ]
+ },
+ {
+  "name": "Canadian Journal of Economics",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/15405982",
+  "areas": [
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Computational Management Science",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/10287",
+  "areas": [
+   "OR"
+  ]
+ },
+ {
+  "name": "Computers and Industrial Engineering",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/computers-and-industrial-engineering",
+  "areas": [
+   "Dienstleistung",
+   "Logistik",
+   "OR",
+   "Produktion"
+  ]
+ },
+ {
+  "name": "Computers & Chemical Engineering",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/computers-and-chemical-engineering",
+  "areas": [
+   "Produktion"
+  ]
+ },
+ {
+  "name": "Computers & Security",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/computers-and-security",
+  "areas": [
+   "WI"
+  ]
+ },
+ {
+  "name": "Contemporary Accounting Research",
+  "abbrev": null,
+  "vhb_2024": "A+",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/19113846",
+  "areas": [
+   "Accounting",
+   "Finance",
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Corporate Governance: An International Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/14678683",
+  "areas": [
+   "Accounting",
+   "Int. Management",
+   "Management",
+   "Org",
+   "Wissenschaftstheorie"
+  ]
+ },
+ {
+  "name": "Corporate Social Responsibility and Environmental Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/15353966",
+  "areas": [
+   "Nachhaltigkeit"
+  ]
+ },
+ {
+  "name": "Creativity and Innovation Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/14678691",
+  "areas": [
+   "Dienstleistung",
+   "Org",
+   "Personal",
+   "TIE"
+  ]
+ },
+ {
+  "name": "Critical Finance Review",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Now Publishers",
+  "homepage": "https://www.nowpublishers.com/CFR",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Critical Perspectives on Accounting",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/critical-perspectives-on-accounting",
+  "areas": [
+   "Accounting"
+  ]
+ },
+ {
+  "name": "Cross Cultural & Strategic Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Emerald",
+  "homepage": "https://www.emerald.com/insight/publication/issn/2059-5794",
+  "areas": [
+   "Int. Management"
+  ]
+ },
+ {
+  "name": "Culture and Organization",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/gsco20",
+  "areas": [
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "DBW Die Betriebswirtschaft - Business Administration Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Schäffer-Poeschel",
+  "homepage": null,
+  "areas": [
+   "Org"
+  ]
+ },
+ {
+  "name": "Decision Analysis",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "INFORMS",
+  "homepage": "https://pubsonline.informs.org/journal/deca",
+  "areas": [
+   "OR"
+  ]
+ },
+ {
+  "name": "Der Betrieb",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Fachmedien Otto Schmidt",
+  "homepage": "https://www.der-betrieb.de",
+  "areas": [
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Deutsches Steuerrecht (DStR)",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Beck",
+  "homepage": "https://rsw.beck.de/zeitschriften/dstr",
+  "areas": [
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Die Unternehmensbesteuerung (Ubg)",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Otto Schmidt",
+  "homepage": "https://www.otto-schmidt.de/ubg",
+  "areas": [
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Die Wirtschaftsprüfung (WPg)",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "IDW Verlag",
+  "homepage": "https://www.idw-verlag.de",
+  "areas": [
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Discrete Applied Mathematics",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/discrete-applied-mathematics",
+  "areas": [
+   "Logistik",
+   "OR",
+   "Produktion"
+  ]
+ },
+ {
+  "name": "Ecological Economics",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/ecological-economics",
+  "areas": [
+   "Nachhaltigkeit"
+  ]
+ },
+ {
+  "name": "Econometrica",
+  "abbrev": null,
+  "vhb_2024": "A+",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/14680262",
+  "areas": [
+   "Finance",
+   "Int. Management",
+   "Marketing",
+   "OR"
+  ]
+ },
+ {
+  "name": "Economic and Industrial Democracy",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/eid",
+  "areas": [
+   "Personal"
+  ]
+ },
+ {
+  "name": "Economics Letters",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/economics-letters",
+  "areas": [
+   "Finance",
+   "Personal",
+   "Steuern",
+   "WI"
+  ]
+ },
+ {
+  "name": "Employee Relations",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Emerald",
+  "homepage": "https://www.emerald.com/insight/publication/issn/0142-5455",
+  "areas": [
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Energy",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/energy",
+  "areas": [
+   "OR",
+   "WI"
+  ]
+ },
+ {
+  "name": "Energy Economics",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/energy-economics",
+  "areas": [
+   "Nachhaltigkeit",
+   "OR",
+   "TIE"
+  ]
+ },
+ {
+  "name": "Energy Policy",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/energy-policy",
+  "areas": [
+   "Logistik",
+   "Nachhaltigkeit",
+   "OR",
+   "TIE",
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Energy Research and Social Science",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/energy-research-and-social-science",
+  "areas": [
+   "Nachhaltigkeit"
+  ]
+ },
+ {
+  "name": "Energy Strategy Reviews",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/energy-strategy-reviews",
+  "areas": [
+   "Nachhaltigkeit"
+  ]
+ },
+ {
+  "name": "Entrepreneurship and Regional Development",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/tepn20",
+  "areas": [
+   "Management",
+   "Org",
+   "TIE"
+  ]
+ },
+ {
+  "name": "Entrepreneurship, Theory and Practice",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/etp",
+  "areas": [
+   "Management",
+   "Org",
+   "TIE"
+  ]
+ },
+ {
+  "name": "Environmental Science and Technology",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "American Chemical Society",
+  "homepage": "https://pubs.acs.org/journal/esthag",
+  "areas": [
+   "Nachhaltigkeit"
+  ]
+ },
+ {
+  "name": "Equality, Diversity and Inclusion: An International Journal",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Emerald",
+  "homepage": "https://www.emerald.com/insight/publication/issn/2040-7149",
+  "areas": [
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "EURO Journal on Computational Optimization",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/euro-journal-on-computational-optimization",
+  "areas": [
+   "Logistik",
+   "OR",
+   "Produktion"
+  ]
+ },
+ {
+  "name": "EURO Journal on Decision Processes",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/euro-journal-on-decision-processes",
+  "areas": [
+   "Logistik",
+   "OR"
+  ]
+ },
+ {
+  "name": "EURO Journal on Transportation and Logistics",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/euro-journal-on-transportation-and-logistics",
+  "areas": [
+   "Logistik",
+   "OR",
+   "Produktion"
+  ]
+ },
+ {
+  "name": "European Accounting Review",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/rear20",
+  "areas": [
+   "Accounting",
+   "Finance",
+   "Steuern"
+  ]
+ },
+ {
+  "name": "European Business Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Emerald",
+  "homepage": "https://www.emerald.com/insight/publication/issn/0955-534X",
+  "areas": [
+   "Management",
+   "Org"
+  ]
+ },
+ {
+  "name": "European Economic Review",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/european-economic-review",
+  "areas": [
+   "Finance",
+   "Steuern"
+  ]
+ },
+ {
+  "name": "European Financial Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/1468036X",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "European Journal of Finance",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/rejf20",
+  "areas": [
+   "Accounting",
+   "Finance"
+  ]
+ },
+ {
+  "name": "European Journal of Industrial Relations",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/ejd",
+  "areas": [
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "European Journal of International Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Inderscience",
+  "homepage": "https://www.inderscience.com/jhome.php?jcode=ejim",
+  "areas": [
+   "Int. Management",
+   "Management",
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "European Journal of Law and Economics",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/10657",
+  "areas": [
+   "Steuern"
+  ]
+ },
+ {
+  "name": "European Journal of Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "IABE",
+  "homepage": null,
+  "areas": [
+   "Int. Management",
+   "Marketing",
+   "Nachhaltigkeit",
+   "Personal"
+  ]
+ },
+ {
+  "name": "European Journal of Marketing",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Emerald",
+  "homepage": "https://www.emerald.com/insight/publication/issn/0309-0566",
+  "areas": [
+   "Dienstleistung",
+   "Marketing"
+  ]
+ },
+ {
+  "name": "European Journal of Work and Organizational Psychology",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/pewo20",
+  "areas": [
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "European Management Journal",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/european-management-journal",
+  "areas": [
+   "Accounting",
+   "Dienstleistung",
+   "Int. Management",
+   "Management",
+   "Marketing",
+   "Nachhaltigkeit",
+   "Org",
+   "Personal",
+   "TIE",
+   "WI",
+   "Wissenschaftstheorie"
+  ]
+ },
+ {
+  "name": "European Management Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/17404762",
+  "areas": [
+   "Accounting",
+   "Int. Management",
+   "Management",
+   "Org",
+   "Personal",
+   "TIE",
+   "Wissenschaftstheorie"
+  ]
+ },
+ {
+  "name": "Family Business Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/fbr",
+  "areas": [
+   "Accounting",
+   "Management",
+   "Org",
+   "Personal",
+   "TIE"
+  ]
+ },
+ {
+  "name": "Finance and Stochastics",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/780",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Finance Research Letters",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/finance-research-letters",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Financial Accountability & Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/14680408",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Financial Analysts Journal",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/ufaj20",
+  "areas": [
+   "Accounting",
+   "Finance"
+  ]
+ },
+ {
+  "name": "Financial Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/1755053x",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Financial Markets and Portfolio Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/11408",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Financial Markets, Institutions and Instruments",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/14680416",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Financial Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/15406288",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Finanz-Rundschau",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Otto Schmidt",
+  "homepage": "https://www.otto-schmidt.de",
+  "areas": [
+   "Steuern"
+  ]
+ },
+ {
+  "name": "FinanzArchiv - Public Finance Analysis",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Mohr Siebeck",
+  "homepage": "https://www.mohrsiebeck.com/zeitschrift/finanzarchiv-fa",
+  "areas": [
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Flexible Services and Manufacturing Journal",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/10696",
+  "areas": [
+   "Dienstleistung",
+   "Logistik",
+   "OR",
+   "Produktion"
+  ]
+ },
+ {
+  "name": "Food Quality and Preferences",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/food-quality-and-preference",
+  "areas": [
+   "Marketing"
+  ]
+ },
+ {
+  "name": "Foundations and Trends in Accounting",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Now Publishers",
+  "homepage": "https://www.nowpublishers.com/ACC",
+  "areas": [
+   "Accounting"
+  ]
+ },
+ {
+  "name": "Fuzzy Sets and Systems",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/fuzzy-sets-and-systems",
+  "areas": [
+   "OR"
+  ]
+ },
+ {
+  "name": "Gender & Society",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/gas",
+  "areas": [
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Gender, Work & Organization",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/14680432",
+  "areas": [
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Geneva Papers on Risk and Insurance: Issues and Practice",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/41288",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "German Economic Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "De Gruyter",
+  "homepage": "https://www.degruyter.com/journal/key/ger/html",
+  "areas": [
+   "Personal",
+   "Steuern"
+  ]
+ },
+ {
+  "name": "German Journal of Human Resource Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/gjh",
+  "areas": [
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Global Strategy Journal",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/20425805",
+  "areas": [
+   "Int. Management",
+   "Management",
+   "Org"
+  ]
+ },
+ {
+  "name": "GmbH-Rundschau",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Otto Schmidt",
+  "homepage": "https://www.otto-schmidt.de",
+  "areas": [
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Governance",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/14680491",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Group & Organization Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/gom",
+  "areas": [
+   "Management",
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Group Processes & Intergroup Relations",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/gpi",
+  "areas": [
+   "Personal"
+  ]
+ },
+ {
+  "name": "Harvard Business Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Harvard Business Publishing",
+  "homepage": "https://hbr.org",
+  "areas": [
+   "Int. Management",
+   "Management",
+   "Marketing",
+   "Nachhaltigkeit",
+   "OR",
+   "Org",
+   "Personal",
+   "TIE",
+   "WI",
+   "Wissenschaftstheorie"
+  ]
+ },
+ {
+  "name": "Health Affairs",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Project HOPE",
+  "homepage": "https://www.healthaffairs.org",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Health Care Management Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wolters Kluwer",
+  "homepage": "https://journals.lww.com/hcmrjournal",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Health Care Management Science",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/10729",
+  "areas": [
+   "Logistik",
+   "OR",
+   "Produktion",
+   "WI",
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Health Economics",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/10991050",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Health Economics, Policy and Law",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Cambridge UP",
+  "homepage": "https://www.cambridge.org/core/journals/health-economics-policy-and-law",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Health Policy",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/health-policy",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Health Services Research",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/14756773",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Higher Education",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/10734",
+  "areas": [
+   "Hochschulmanagement"
+  ]
+ },
+ {
+  "name": "Higher Education Quarterly",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/14682273",
+  "areas": [
+   "Hochschulmanagement"
+  ]
+ },
+ {
+  "name": "Human Factors",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/hfs",
+  "areas": [
+   "Produktion"
+  ]
+ },
+ {
+  "name": "Human Relations",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/hum",
+  "areas": [
+   "Management",
+   "Org",
+   "Personal",
+   "TIE"
+  ]
+ },
+ {
+  "name": "Human Resource Management",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/1099050x",
+  "areas": [
+   "Org",
+   "Personal",
+   "TIE"
+  ]
+ },
+ {
+  "name": "Human Resource Management Journal",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/17488583",
+  "areas": [
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Human Resource Management Review",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/human-resource-management-review",
+  "areas": [
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "IEEE Engineering Management Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "IEEE",
+  "homepage": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=46",
+  "areas": [
+   "Produktion",
+   "TIE",
+   "WI"
+  ]
+ },
+ {
+  "name": "IEEE Internet Computing",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "IEEE",
+  "homepage": "https://www.computer.org/csdl/magazine/ic",
+  "areas": [
+   "WI"
+  ]
+ },
+ {
+  "name": "IEEE Transactions on Intelligent Transportation Systems",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "IEEE",
+  "homepage": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979",
+  "areas": [
+   "Logistik"
+  ]
+ },
+ {
+  "name": "IISE Transactions",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/uiie20",
+  "areas": [
+   "Dienstleistung",
+   "Logistik",
+   "OR",
+   "Produktion"
+  ]
+ },
+ {
+  "name": "ILR Review",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/ilr",
+  "areas": [
+   "Int. Management",
+   "Org",
+   "Personal",
+   "TIE"
+  ]
+ },
+ {
+  "name": "IMA Journal of Management Mathematics",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Oxford UP",
+  "homepage": "https://academic.oup.com/imaman",
+  "areas": [
+   "Logistik",
+   "OR",
+   "Produktion"
+  ]
+ },
+ {
+  "name": "Industrial and Corporate Change",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Oxford UP",
+  "homepage": "https://academic.oup.com/icc",
+  "areas": [
+   "Dienstleistung",
+   "Management",
+   "Org",
+   "TIE"
+  ]
+ },
+ {
+  "name": "Industrial Marketing Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/industrial-marketing-management",
+  "areas": [
+   "Dienstleistung",
+   "Management",
+   "Marketing",
+   "Org",
+   "TIE"
+  ]
+ },
+ {
+  "name": "Industrial Relations: A Journal of Economy and Society",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/1468232X",
+  "areas": [
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Industrial Relations Journal",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/14682338",
+  "areas": [
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Industry and Innovation",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/ciai20",
+  "areas": [
+   "Dienstleistung",
+   "Management",
+   "Org",
+   "TIE"
+  ]
+ },
+ {
+  "name": "INFOR: Information Systems and Operational Research",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/tinf20",
+  "areas": [
+   "OR"
+  ]
+ },
+ {
+  "name": "INFORMS Journal on Optimization",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "INFORMS",
+  "homepage": "https://pubsonline.informs.org/journal/ijoo",
+  "areas": [
+   "OR",
+   "Produktion"
+  ]
+ },
+ {
+  "name": "INFORMS Transactions on Education",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "INFORMS",
+  "homepage": "https://pubsonline.informs.org/journal/ited",
+  "areas": [
+   "Logistik",
+   "OR",
+   "Produktion"
+  ]
+ },
+ {
+  "name": "Innovation: Organization & Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/rimp20",
+  "areas": [
+   "Org"
+  ]
+ },
+ {
+  "name": "Insurance: Mathematics & Economics",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/insurance-mathematics-and-economics",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "International Business Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/international-business-review",
+  "areas": [
+   "Int. Management",
+   "Management",
+   "Marketing",
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "International Economic Review",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/14682354",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "International Journal of Auditing",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/10991123",
+  "areas": [
+   "Accounting"
+  ]
+ },
+ {
+  "name": "International Journal of Entrepreneurial Behaviour and Research",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Emerald",
+  "homepage": "https://www.emerald.com/insight/publication/issn/1355-2554",
+  "areas": [
+   "Management",
+   "TIE"
+  ]
+ },
+ {
+  "name": "International Journal of Forecasting",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/international-journal-of-forecasting",
+  "areas": [
+   "OR"
+  ]
+ },
+ {
+  "name": "International Journal of Health Economics and Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/10754",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "International Journal of Human Resource Management",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/rijh20",
+  "areas": [
+   "Int. Management",
+   "Management",
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "International Journal of Humanitarian Logistics and Supply Chain Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Emerald",
+  "homepage": "https://www.emerald.com/insight/publication/issn/2042-6747",
+  "areas": [
+   "Logistik"
+  ]
+ },
+ {
+  "name": "International Journal of Industrial Organization",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/international-journal-of-industrial-organization",
+  "areas": [
+   "Dienstleistung"
+  ]
+ },
+ {
+  "name": "International Journal of Life Cycle Assessment",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/11367",
+  "areas": [
+   "Nachhaltigkeit"
+  ]
+ },
+ {
+  "name": "International Journal of Logistics Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Emerald",
+  "homepage": "https://www.emerald.com/insight/publication/issn/0957-4093",
+  "areas": [
+   "Dienstleistung",
+   "Logistik",
+   "Produktion"
+  ]
+ },
+ {
+  "name": "International Journal of Management Reviews",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/14682370",
+  "areas": [
+   "Dienstleistung",
+   "Int. Management",
+   "Management",
+   "Nachhaltigkeit",
+   "Org",
+   "Personal",
+   "TIE",
+   "WI"
+  ]
+ },
+ {
+  "name": "International Journal of Operations & Production Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Emerald",
+  "homepage": "https://www.emerald.com/insight/publication/issn/0144-3577",
+  "areas": [
+   "Dienstleistung",
+   "Logistik",
+   "OR",
+   "Produktion",
+   "TIE"
+  ]
+ },
+ {
+  "name": "International Journal of Physical Distribution & Logistics Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Emerald",
+  "homepage": "https://www.emerald.com/insight/publication/issn/0960-0035",
+  "areas": [
+   "Dienstleistung",
+   "Logistik",
+   "Produktion"
+  ]
+ },
+ {
+  "name": "International Journal of Production Economics",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/international-journal-of-production-economics",
+  "areas": [
+   "Dienstleistung",
+   "Logistik",
+   "OR",
+   "Produktion"
+  ]
+ },
+ {
+  "name": "International Journal of Production Research",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/tprs20",
+  "areas": [
+   "Logistik",
+   "OR",
+   "Produktion"
+  ]
+ },
+ {
+  "name": "International Journal of Project Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/international-journal-of-project-management",
+  "areas": [
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "International Journal of Public Administration",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/lpad20",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "International Journal of Public Sector Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Emerald",
+  "homepage": "https://www.emerald.com/insight/publication/issn/0951-3558",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "International Journal of Research in Marketing",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/international-journal-of-research-in-marketing",
+  "areas": [
+   "Dienstleistung",
+   "Marketing",
+   "TIE"
+  ]
+ },
+ {
+  "name": "International Journal of Selection and Assessment",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/14682389",
+  "areas": [
+   "Personal"
+  ]
+ },
+ {
+  "name": "International Journal of Technology Assessment in Health Care",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Cambridge UP",
+  "homepage": "https://www.cambridge.org/core/journals/international-journal-of-technology-assessment-in-health-care",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "International Labour Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/1564913X",
+  "areas": [
+   "Personal"
+  ]
+ },
+ {
+  "name": "International Marketing Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Emerald",
+  "homepage": "https://www.emerald.com/insight/publication/issn/0265-1335",
+  "areas": [
+   "Dienstleistung",
+   "Int. Management",
+   "Marketing"
+  ]
+ },
+ {
+  "name": "International Public Management Journal",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/upmj20",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "International Review of Administrative Sciences",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/ras",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "International Review of Financial Analysis",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/international-review-of-financial-analysis",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "International Review of Law and Economics",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/international-review-of-law-and-economics",
+  "areas": [
+   "Accounting",
+   "Finance"
+  ]
+ },
+ {
+  "name": "International Small Business Journal",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/isb",
+  "areas": [
+   "Dienstleistung",
+   "Management",
+   "Org",
+   "TIE"
+  ]
+ },
+ {
+  "name": "International Tax and Public Finance",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/10797",
+  "areas": [
+   "Steuern",
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "International Transactions in Operational Research",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/14753995",
+  "areas": [
+   "Logistik",
+   "OR",
+   "Produktion"
+  ]
+ },
+ {
+  "name": "Internationale Steuer-Rundschau (ISR)",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Otto Schmidt",
+  "homepage": "https://www.otto-schmidt.de/isr",
+  "areas": [
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Internationales Steuerrecht (iStR)",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Beck",
+  "homepage": "https://rsw.beck.de/zeitschriften/istr",
+  "areas": [
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Intertax",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Kluwer Law International",
+  "homepage": "https://kluwerlawonline.com/Journals/Intertax/3",
+  "areas": [
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Issues in Accounting Education",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "AAA",
+  "homepage": "https://publications.aaahq.org/iae",
+  "areas": [
+   "Accounting"
+  ]
+ },
+ {
+  "name": "Jahrbücher für Nationalökonomie und Statistik",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "De Gruyter",
+  "homepage": "https://www.degruyter.com/journal/key/jbnst/html",
+  "areas": [
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Journal of Accounting and Economics",
+  "abbrev": null,
+  "vhb_2024": "A+",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-accounting-and-economics",
+  "areas": [
+   "Accounting",
+   "Finance",
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Journal of Accounting and Public Policy",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-accounting-and-public-policy",
+  "areas": [
+   "Accounting",
+   "Steuern",
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Journal of Accounting, Auditing & Finance",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/jaf",
+  "areas": [
+   "Accounting",
+   "Finance",
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Journal of Accounting Literature",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Emerald",
+  "homepage": "https://www.emerald.com/insight/publication/issn/0737-4607",
+  "areas": [
+   "Accounting"
+  ]
+ },
+ {
+  "name": "Journal of Accounting & Organizational Change",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Emerald",
+  "homepage": "https://www.emerald.com/insight/publication/issn/1832-5912",
+  "areas": [
+   "Accounting"
+  ]
+ },
+ {
+  "name": "Journal of Accounting Research",
+  "abbrev": null,
+  "vhb_2024": "A+",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/1475679x",
+  "areas": [
+   "Accounting",
+   "Finance",
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Journal of Advertising",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/ujoa20",
+  "areas": [
+   "Marketing"
+  ]
+ },
+ {
+  "name": "Journal of Advertising Research",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "WARC",
+  "homepage": "https://www.journalofadvertisingresearch.com",
+  "areas": [
+   "Marketing"
+  ]
+ },
+ {
+  "name": "Journal of Air Transport Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-air-transport-management",
+  "areas": [
+   "Logistik"
+  ]
+ },
+ {
+  "name": "Journal of Alternative Investments",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Portfolio Management Research",
+  "homepage": "https://www.pm-research.com/content/iijaltinv",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Journal of Applied Corporate Finance",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/17456622",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Journal of Applied Psychology",
+  "abbrev": null,
+  "vhb_2024": "A+",
+  "basket11": false,
+  "publisher": "APA",
+  "homepage": "https://www.apa.org/pubs/journals/apl",
+  "areas": [
+   "Int. Management",
+   "Marketing",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Journal of Applied Social Psychology",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/15591816",
+  "areas": [
+   "Personal"
+  ]
+ },
+ {
+  "name": "Journal of Asset Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/41260",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Journal of Banking & Finance",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-banking-and-finance",
+  "areas": [
+   "Finance",
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Journal of Behavioral and Experimental Economics",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-behavioral-and-experimental-economics",
+  "areas": [
+   "Finance",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Journal of Behavioral Decision Making",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/10990771",
+  "areas": [
+   "Marketing"
+  ]
+ },
+ {
+  "name": "Journal of Behavioral Finance",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/hbhf20",
+  "areas": [
+   "Finance",
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Journal of Behavioral Public Administration",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": null,
+  "homepage": "https://journal-bpa.org",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Journal of Business",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Chicago UP",
+  "homepage": "https://www.journals.uchicago.edu/loi/jb",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Journal of Business and Psychology",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/10869",
+  "areas": [
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Journal of Business Economics",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/11573",
+  "areas": [
+   "Accounting",
+   "Finance",
+   "Int. Management",
+   "Logistik",
+   "Marketing",
+   "Nachhaltigkeit",
+   "OR",
+   "Org",
+   "Personal",
+   "Produktion",
+   "Steuern",
+   "TIE",
+   "WI",
+   "Wissenschaftstheorie"
+  ]
+ },
+ {
+  "name": "Journal of Business Ethics",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/10551",
+  "areas": [
+   "Accounting",
+   "Dienstleistung",
+   "Finance",
+   "Int. Management",
+   "Management",
+   "Marketing",
+   "Nachhaltigkeit",
+   "Org",
+   "Personal",
+   "Steuern",
+   "TIE",
+   "WI",
+   "Wissenschaftstheorie"
+  ]
+ },
+ {
+  "name": "Journal of Business Finance & Accounting",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/14685957",
+  "areas": [
+   "Accounting",
+   "Finance",
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Journal of Business Logistics",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/21581592",
+  "areas": [
+   "Dienstleistung",
+   "Logistik"
+  ]
+ },
+ {
+  "name": "Journal of Business Research",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-business-research",
+  "areas": [
+   "Accounting",
+   "Dienstleistung",
+   "Finance",
+   "Int. Management",
+   "Management",
+   "Marketing",
+   "Nachhaltigkeit",
+   "OR",
+   "Org",
+   "Personal",
+   "Steuern",
+   "TIE",
+   "WI",
+   "Wissenschaftstheorie"
+  ]
+ },
+ {
+  "name": "Journal of Business Venturing",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-business-venturing",
+  "areas": [
+   "Management",
+   "Org",
+   "TIE"
+  ]
+ },
+ {
+  "name": "Journal of Business Venturing Design",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-business-venturing-design",
+  "areas": [
+   "Management",
+   "Org",
+   "TIE"
+  ]
+ },
+ {
+  "name": "Journal of Business Venturing Insights",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-business-venturing-insights",
+  "areas": [
+   "Management",
+   "Org",
+   "TIE"
+  ]
+ },
+ {
+  "name": "Journal of Commodity Markets",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-commodity-markets",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Journal of Computational Finance",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Infopro Digital",
+  "homepage": "https://www.risk.net/journal-of-computational-finance",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Journal of Consumer Behaviour",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/14791838",
+  "areas": [
+   "Dienstleistung",
+   "Marketing"
+  ]
+ },
+ {
+  "name": "Journal of Consumer Psychology",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/15327663",
+  "areas": [
+   "Dienstleistung",
+   "Marketing"
+  ]
+ },
+ {
+  "name": "Journal of Consumer Research",
+  "abbrev": null,
+  "vhb_2024": "A+",
+  "basket11": false,
+  "publisher": "Oxford UP",
+  "homepage": "https://academic.oup.com/jcr",
+  "areas": [
+   "Dienstleistung",
+   "Marketing"
+  ]
+ },
+ {
+  "name": "Journal of Corporate Finance",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-corporate-finance",
+  "areas": [
+   "Finance",
+   "Steuern",
+   "TIE"
+  ]
+ },
+ {
+  "name": "Journal of Credit Risk",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Infopro Digital",
+  "homepage": "https://www.risk.net/journal-of-credit-risk",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Journal of Cross-Cultural Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/ccm",
+  "areas": [
+   "Int. Management"
+  ]
+ },
+ {
+  "name": "Journal of Cross-Cultural Psychology",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/jcc",
+  "areas": [
+   "Int. Management",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Journal of Cultural Economics",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/10824",
+  "areas": [
+   "Dienstleistung"
+  ]
+ },
+ {
+  "name": "Journal of Derivatives",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Portfolio Management Research",
+  "homepage": "https://www.pm-research.com/content/iijderiv",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Journal of Econometrics",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-econometrics",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Journal of Economic Behavior & Organization",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-economic-behavior-and-organization",
+  "areas": [
+   "Accounting",
+   "Finance",
+   "Marketing",
+   "Org",
+   "Personal",
+   "Steuern",
+   "TIE"
+  ]
+ },
+ {
+  "name": "Journal of Economic Dynamics & Control",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-economic-dynamics-and-control",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Journal of Economic Literature",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "AEA",
+  "homepage": "https://www.aeaweb.org/journals/jel",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Journal of Economic Perspectives",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "AEA",
+  "homepage": "https://www.aeaweb.org/journals/jep",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Journal of Economic Psychology",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-economic-psychology",
+  "areas": [
+   "Finance",
+   "Management",
+   "Marketing",
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Journal of Economic Theory",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-economic-theory",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Journal of Economics and Management Strategy",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/15309134",
+  "areas": [
+   "Int. Management",
+   "Management",
+   "TIE"
+  ]
+ },
+ {
+  "name": "Journal of Emerging Technologies in Accounting",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "AAA",
+  "homepage": "https://publications.aaahq.org/jeta",
+  "areas": [
+   "Accounting"
+  ]
+ },
+ {
+  "name": "Journal of Empirical Finance",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-empirical-finance",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Journal of Entrepreneurship",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/joe",
+  "areas": [
+   "Org"
+  ]
+ },
+ {
+  "name": "Journal of Environmental Economics and Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-environmental-economics-and-management",
+  "areas": [
+   "Nachhaltigkeit"
+  ]
+ },
+ {
+  "name": "Journal of Environmental Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-environmental-management",
+  "areas": [
+   "Logistik",
+   "Nachhaltigkeit"
+  ]
+ },
+ {
+  "name": "Journal of Environmental Planning and Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/cjep20",
+  "areas": [
+   "Nachhaltigkeit"
+  ]
+ },
+ {
+  "name": "Journal of European Public Policy",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/rjpp20",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Journal of European Social Policy",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/esp",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Journal of Experimental Social Psychology",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-experimental-social-psychology",
+  "areas": [
+   "Management",
+   "Marketing"
+  ]
+ },
+ {
+  "name": "Journal of Family Business Strategy",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-family-business-strategy",
+  "areas": [
+   "Management",
+   "Org",
+   "TIE"
+  ]
+ },
+ {
+  "name": "Journal of Financial and Quantitative Analysis",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Cambridge UP",
+  "homepage": "https://www.cambridge.org/core/journals/journal-of-financial-and-quantitative-analysis",
+  "areas": [
+   "Accounting",
+   "Finance",
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Journal of Financial Econometrics",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Oxford UP",
+  "homepage": "https://academic.oup.com/jfec",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Journal of Financial Economics",
+  "abbrev": null,
+  "vhb_2024": "A+",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-financial-economics",
+  "areas": [
+   "Accounting",
+   "Finance",
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Journal of Financial Intermediation",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-financial-intermediation",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Journal of Financial Markets",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-financial-markets",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Journal of Financial Reporting",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "AAA",
+  "homepage": "https://publications.aaahq.org/jfr",
+  "areas": [
+   "Accounting"
+  ]
+ },
+ {
+  "name": "Journal of Financial Research",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/14756803",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Journal of Financial Services Research",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/10693",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Journal of Financial Stability",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-financial-stability",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Journal of Fixed Income",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Portfolio Management Research",
+  "homepage": "https://www.pm-research.com/content/iijfixinc",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Journal of Forecasting",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/1099131X",
+  "areas": [
+   "Marketing",
+   "OR"
+  ]
+ },
+ {
+  "name": "Journal of Futures Markets",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/10969934",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Journal of Governmental & Nonprofit Accounting",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "AAA",
+  "homepage": "https://publications.aaahq.org/jogna",
+  "areas": [
+   "Accounting"
+  ]
+ },
+ {
+  "name": "Journal of Health Economics",
+  "abbrev": null,
+  "vhb_2024": "A+",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-health-economics",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Journal of Health Services Research & Policy",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/hsr",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Journal of Heuristics",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/10732",
+  "areas": [
+   "OR"
+  ]
+ },
+ {
+  "name": "Journal of Human Resources",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "University of Wisconsin Press",
+  "homepage": "https://jhr.uwpress.org",
+  "areas": [
+   "Personal"
+  ]
+ },
+ {
+  "name": "Journal of Industrial Ecology",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/15309290",
+  "areas": [
+   "Logistik",
+   "Nachhaltigkeit",
+   "OR"
+  ]
+ },
+ {
+  "name": "Journal of Industrial Economics",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/14676451",
+  "areas": [
+   "Dienstleistung"
+  ]
+ },
+ {
+  "name": "Journal of Industrial Relations",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/jir",
+  "areas": [
+   "Personal"
+  ]
+ },
+ {
+  "name": "Journal of Information Systems",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "AAA",
+  "homepage": "https://publications.aaahq.org/jis",
+  "areas": [
+   "Accounting"
+  ]
+ },
+ {
+  "name": "Journal of Institutional and Theoretical Economics",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Mohr Siebeck",
+  "homepage": "https://www.mohrsiebeck.com/zeitschrift/journal-of-institutional-and-theoretical-economics-jite",
+  "areas": [
+   "Steuern",
+   "Wissenschaftstheorie"
+  ]
+ },
+ {
+  "name": "Journal of International Accounting Auditing and Taxation",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-international-accounting-auditing-and-taxation",
+  "areas": [
+   "Accounting",
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Journal of International Accounting Research",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "AAA",
+  "homepage": "https://publications.aaahq.org/jiar",
+  "areas": [
+   "Accounting"
+  ]
+ },
+ {
+  "name": "Journal of International Business Policy",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/42214",
+  "areas": [
+   "Int. Management"
+  ]
+ },
+ {
+  "name": "Journal of International Business Studies",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/41267",
+  "areas": [
+   "Int. Management",
+   "Management",
+   "Marketing",
+   "Org",
+   "Personal",
+   "TIE"
+  ]
+ },
+ {
+  "name": "Journal of International Economics",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-international-economics",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Journal of International Financial Management and Accounting",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/1467646x",
+  "areas": [
+   "Accounting"
+  ]
+ },
+ {
+  "name": "Journal of International Financial Markets, Institutions and Money",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-international-financial-markets-institutions-and-money",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Journal of International Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-international-management",
+  "areas": [
+   "Int. Management",
+   "Management",
+   "Org"
+  ]
+ },
+ {
+  "name": "Journal of International Marketing",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/jig",
+  "areas": [
+   "Int. Management",
+   "Marketing"
+  ]
+ },
+ {
+  "name": "Journal of International Money and Finance",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-international-money-and-finance",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Journal of Labor Economics",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Chicago UP",
+  "homepage": "https://www.journals.uchicago.edu/journals/jole",
+  "areas": [
+   "Finance",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Journal of Law & Economics",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Chicago UP",
+  "homepage": "https://www.journals.uchicago.edu/toc/jle/current",
+  "areas": [
+   "Finance",
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Journal of Law, Economics and Organization",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Oxford UP",
+  "homepage": "https://academic.oup.com/jleo",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Journal of Leadership & Organizational Studies",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/jlo",
+  "areas": [
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Journal of Management",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/jom",
+  "areas": [
+   "Accounting",
+   "Dienstleistung",
+   "Int. Management",
+   "Logistik",
+   "Management",
+   "Marketing",
+   "Nachhaltigkeit",
+   "OR",
+   "Org",
+   "Personal",
+   "TIE",
+   "WI",
+   "Wissenschaftstheorie"
+  ]
+ },
+ {
+  "name": "Journal of Management Accounting Research",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "AAA",
+  "homepage": "https://publications.aaahq.org/jmar",
+  "areas": [
+   "Accounting",
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Journal of Management Control",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/187",
+  "areas": [
+   "Accounting"
+  ]
+ },
+ {
+  "name": "Journal of Management Inquiry",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/jmi",
+  "areas": [
+   "Int. Management",
+   "Management",
+   "Nachhaltigkeit",
+   "Org",
+   "Personal",
+   "Wissenschaftstheorie"
+  ]
+ },
+ {
+  "name": "Journal of Management & Organization",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Cambridge UP",
+  "homepage": "https://www.cambridge.org/core/journals/journal-of-management-and-organization",
+  "areas": [
+   "Management",
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Journal of Management Studies",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/14676486",
+  "areas": [
+   "Accounting",
+   "Dienstleistung",
+   "Int. Management",
+   "Logistik",
+   "Management",
+   "Marketing",
+   "Nachhaltigkeit",
+   "Org",
+   "Personal",
+   "TIE",
+   "WI",
+   "Wissenschaftstheorie"
+  ]
+ },
+ {
+  "name": "Journal of Managerial Psychology",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Emerald",
+  "homepage": "https://www.emerald.com/insight/publication/issn/0268-3946",
+  "areas": [
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Journal of Marketing",
+  "abbrev": null,
+  "vhb_2024": "A+",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/jmx",
+  "areas": [
+   "Dienstleistung",
+   "Marketing",
+   "TIE"
+  ]
+ },
+ {
+  "name": "Journal of Marketing Research",
+  "abbrev": null,
+  "vhb_2024": "A+",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/mrj",
+  "areas": [
+   "Dienstleistung",
+   "Marketing",
+   "TIE"
+  ]
+ },
+ {
+  "name": "Journal of Marketing Theory and Practice",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/mmtp20",
+  "areas": [
+   "Dienstleistung",
+   "Marketing"
+  ]
+ },
+ {
+  "name": "Journal of Media Economics",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/hmec20",
+  "areas": [
+   "Marketing"
+  ]
+ },
+ {
+  "name": "Journal of Monetary Economics",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-monetary-economics",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Journal of Money, Credit and Banking",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/15384616",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Journal of Multi-Criteria Decision Analysis",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/10991360",
+  "areas": [
+   "OR"
+  ]
+ },
+ {
+  "name": "Journal of Occupational and Organizational Psychology",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/20448325",
+  "areas": [
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Journal of Occupational Health Psychology",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "APA",
+  "homepage": "https://www.apa.org/pubs/journals/ocp",
+  "areas": [
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Journal of Organization Design",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/41469",
+  "areas": [
+   "Management"
+  ]
+ },
+ {
+  "name": "Journal of Organizational Behavior",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/10991379",
+  "areas": [
+   "Org",
+   "Personal",
+   "TIE"
+  ]
+ },
+ {
+  "name": "Journal of Organizational Behavior Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/worg20",
+  "areas": [
+   "Personal"
+  ]
+ },
+ {
+  "name": "Journal of Organizational Change Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Emerald",
+  "homepage": "https://www.emerald.com/insight/publication/issn/0953-4814",
+  "areas": [
+   "Management",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Journal of Organizational Sociology",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "De Gruyter",
+  "homepage": "https://www.degruyter.com/journal/key/joso/html",
+  "areas": [
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Journal of Personal Selling & Sales Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/rpss20",
+  "areas": [
+   "Dienstleistung",
+   "Marketing"
+  ]
+ },
+ {
+  "name": "Journal of Personality and Social Psychology",
+  "abbrev": null,
+  "vhb_2024": "A+",
+  "basket11": false,
+  "publisher": "APA",
+  "homepage": "https://www.apa.org/pubs/journals/psp",
+  "areas": [
+   "Marketing",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Journal of Personnel Psychology",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Hogrefe",
+  "homepage": "https://www.hogrefe.com/us/journal/journal-of-personnel-psychology",
+  "areas": [
+   "Personal"
+  ]
+ },
+ {
+  "name": "Journal of Policy Analysis and Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/15206688",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Journal of Political Economy",
+  "abbrev": null,
+  "vhb_2024": "A+",
+  "basket11": false,
+  "publisher": "Chicago UP",
+  "homepage": "https://www.journals.uchicago.edu/toc/jpe/current",
+  "areas": [
+   "Finance",
+   "Int. Management",
+   "Marketing",
+   "Wissenschaftstheorie"
+  ]
+ },
+ {
+  "name": "Journal of Product Innovation Management",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/15405885",
+  "areas": [
+   "Dienstleistung",
+   "Management",
+   "Marketing",
+   "Org",
+   "TIE",
+   "WI"
+  ]
+ },
+ {
+  "name": "Journal of Professions and Organization",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Oxford UP",
+  "homepage": "https://academic.oup.com/jpo",
+  "areas": [
+   "Org"
+  ]
+ },
+ {
+  "name": "Journal of Public Administration Research and Theory",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Oxford UP",
+  "homepage": "https://academic.oup.com/jpart",
+  "areas": [
+   "TIE",
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Journal of Public Economic Theory",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/14679779",
+  "areas": [
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Journal of Public Economics",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-public-economics",
+  "areas": [
+   "Finance",
+   "Steuern",
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Journal of Public Policy & Marketing",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/ppo",
+  "areas": [
+   "Dienstleistung",
+   "Marketing",
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Journal of Purchasing & Supply Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-purchasing-and-supply-management",
+  "areas": [
+   "Dienstleistung",
+   "Logistik",
+   "Produktion"
+  ]
+ },
+ {
+  "name": "Journal of Retailing",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-retailing",
+  "areas": [
+   "Dienstleistung",
+   "Logistik",
+   "Marketing",
+   "OR"
+  ]
+ },
+ {
+  "name": "Journal of Retailing and Consumer Services",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-retailing-and-consumer-services",
+  "areas": [
+   "Dienstleistung",
+   "Logistik",
+   "Marketing"
+  ]
+ },
+ {
+  "name": "Journal of Risk",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Infopro Digital",
+  "homepage": "https://www.risk.net/journal-of-risk",
+  "areas": [
+   "Accounting",
+   "Finance"
+  ]
+ },
+ {
+  "name": "Journal of Risk and Insurance",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/15396975",
+  "areas": [
+   "Accounting",
+   "Finance"
+  ]
+ },
+ {
+  "name": "Journal of Risk and Uncertainty",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/11166",
+  "areas": [
+   "Accounting",
+   "Finance",
+   "OR"
+  ]
+ },
+ {
+  "name": "Journal of Risk Finance",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Emerald",
+  "homepage": "https://www.emerald.com/insight/publication/issn/1526-5943",
+  "areas": [
+   "Accounting",
+   "Finance"
+  ]
+ },
+ {
+  "name": "Journal of Scheduling",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/10951",
+  "areas": [
+   "Logistik",
+   "OR"
+  ]
+ },
+ {
+  "name": "Journal of Small Business Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/ujbm20",
+  "areas": [
+   "Dienstleistung",
+   "Management",
+   "Org",
+   "TIE"
+  ]
+ },
+ {
+  "name": "Journal of Supply Chain Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/1745493x",
+  "areas": [
+   "Dienstleistung",
+   "Logistik",
+   "Produktion",
+   "TIE"
+  ]
+ },
+ {
+  "name": "Journal of Sustainable Finance & Investment",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/tsfi20",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Journal of the Academy of Marketing Science",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/11747",
+  "areas": [
+   "Dienstleistung",
+   "Marketing",
+   "TIE"
+  ]
+ },
+ {
+  "name": "Journal of the Association for Consumer Research",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Chicago UP",
+  "homepage": "https://www.journals.uchicago.edu/journals/jacr",
+  "areas": [
+   "Marketing"
+  ]
+ },
+ {
+  "name": "Journal of the European Economic Association",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Oxford UP",
+  "homepage": "https://academic.oup.com/jeea",
+  "areas": [
+   "Finance",
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Journal of the Operational Research Society",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/tjor20",
+  "areas": [
+   "Logistik",
+   "OR",
+   "Produktion"
+  ]
+ },
+ {
+  "name": "Journal of Transport Geography",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-transport-geography",
+  "areas": [
+   "Logistik"
+  ]
+ },
+ {
+  "name": "Journal of Travel Research",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/jtr",
+  "areas": [
+   "Dienstleistung",
+   "Management",
+   "Marketing"
+  ]
+ },
+ {
+  "name": "Journal of Vocational Behavior",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-vocational-behavior",
+  "areas": [
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Journal of World Business",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/journal-of-world-business",
+  "areas": [
+   "Int. Management",
+   "Management",
+   "Org",
+   "Personal",
+   "TIE"
+  ]
+ },
+ {
+  "name": "Kölner Zeitschrift für Soziologie und Sozialpsychologie",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/11577",
+  "areas": [
+   "Org"
+  ]
+ },
+ {
+  "name": "Kyklos",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/14676435",
+  "areas": [
+   "Int. Management",
+   "Org",
+   "Personal",
+   "Wissenschaftstheorie"
+  ]
+ },
+ {
+  "name": "Labour Economics",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/labour-economics",
+  "areas": [
+   "Personal"
+  ]
+ },
+ {
+  "name": "Labour: Review of Labour Economics and Industrial Relations",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/14679914",
+  "areas": [
+   "Personal"
+  ]
+ },
+ {
+  "name": "Leadership",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/lea",
+  "areas": [
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Leviathan: Berliner Zeitschrift für Sozialwissenschaft",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Nomos",
+  "homepage": "https://www.nomos-elibrary.de/zeitschrift/0340-0425",
+  "areas": [
+   "Org"
+  ]
+ },
+ {
+  "name": "Local Government Studies",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/flgs20",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Long Range Planning",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/long-range-planning",
+  "areas": [
+   "Accounting",
+   "Dienstleistung",
+   "Int. Management",
+   "Logistik",
+   "Management",
+   "Marketing",
+   "OR",
+   "Org",
+   "Personal",
+   "TIE",
+   "WI",
+   "Wissenschaftstheorie"
+  ]
+ },
+ {
+  "name": "M@n@gement",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "AIMS",
+  "homepage": "https://management-aims.com",
+  "areas": [
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Management Accounting Research",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/management-accounting-research",
+  "areas": [
+   "Accounting",
+   "Steuern",
+   "TIE"
+  ]
+ },
+ {
+  "name": "Management and Organization Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Cambridge UP",
+  "homepage": "https://www.cambridge.org/core/journals/management-and-organization-review",
+  "areas": [
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Management Decision",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Emerald",
+  "homepage": "https://www.emerald.com/insight/publication/issn/0025-1747",
+  "areas": [
+   "Dienstleistung",
+   "Int. Management",
+   "Logistik",
+   "Management",
+   "Marketing",
+   "OR",
+   "Org",
+   "Personal",
+   "TIE"
+  ]
+ },
+ {
+  "name": "Management International Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/11575",
+  "areas": [
+   "Int. Management",
+   "Management",
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Management Learning",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/mlq",
+  "areas": [
+   "Management",
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Management Review Quarterly",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/11301",
+  "areas": [
+   "Dienstleistung",
+   "Int. Management",
+   "Management",
+   "Marketing",
+   "Nachhaltigkeit",
+   "OR",
+   "TIE",
+   "WI",
+   "Wissenschaftstheorie"
+  ]
+ },
+ {
+  "name": "Management Revue - Socio-Economic Studies",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Nomos",
+  "homepage": "https://www.mrev.nomos.de",
+  "areas": [
+   "Personal",
+   "Wissenschaftstheorie"
+  ]
+ },
+ {
+  "name": "Managementforschung",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/41113",
+  "areas": [
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Managerial and Decision Economics",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/10991468",
+  "areas": [
+   "Accounting",
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Managerial Auditing Journal",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Emerald",
+  "homepage": "https://www.emerald.com/insight/publication/issn/0268-6902",
+  "areas": [
+   "Accounting"
+  ]
+ },
+ {
+  "name": "Maritime Transport Research",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/maritime-transport-research",
+  "areas": [
+   "Logistik"
+  ]
+ },
+ {
+  "name": "Marketing Letters",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/11002",
+  "areas": [
+   "Dienstleistung",
+   "Marketing"
+  ]
+ },
+ {
+  "name": "Marketing Science",
+  "abbrev": null,
+  "vhb_2024": "A+",
+  "basket11": false,
+  "publisher": "INFORMS",
+  "homepage": "https://pubsonline.informs.org/journal/mksc",
+  "areas": [
+   "Marketing",
+   "TIE"
+  ]
+ },
+ {
+  "name": "Marketing Theory",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/mtq",
+  "areas": [
+   "Dienstleistung",
+   "Marketing"
+  ]
+ },
+ {
+  "name": "Mathematical Finance",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/14679965",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Mathematical Methods of Operations Research",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/186",
+  "areas": [
+   "OR"
+  ]
+ },
+ {
+  "name": "Mathematical Programming",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/10107",
+  "areas": [
+   "OR"
+  ]
+ },
+ {
+  "name": "Mathematics of Operations Research",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "INFORMS",
+  "homepage": "https://pubsonline.informs.org/journal/moor",
+  "areas": [
+   "OR"
+  ]
+ },
+ {
+  "name": "Medical Care",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wolters Kluwer",
+  "homepage": "https://journals.lww.com/lww-medicalcare/pages/default.aspx",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Medical Decision Making",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/mdm",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Multivariate Behavioral Research",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/hmbr20",
+  "areas": [
+   "Marketing"
+  ]
+ },
+ {
+  "name": "National Tax Journal",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Chicago UP",
+  "homepage": "https://www.journals.uchicago.edu/toc/ntj/current",
+  "areas": [
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Nature",
+  "abbrev": null,
+  "vhb_2024": "A+",
+  "basket11": false,
+  "publisher": "Springer Nature",
+  "homepage": "https://www.nature.com/nature/",
+  "areas": [
+   "Marketing",
+   "Nachhaltigkeit",
+   "WI"
+  ]
+ },
+ {
+  "name": "Nature Climate Change",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Springer Nature",
+  "homepage": "https://www.nature.com/nclimate/",
+  "areas": [
+   "Nachhaltigkeit"
+  ]
+ },
+ {
+  "name": "Nature Communications",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Springer Nature",
+  "homepage": "https://www.nature.com/ncomms/",
+  "areas": [
+   "Marketing",
+   "WI"
+  ]
+ },
+ {
+  "name": "Nature Energy",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Springer Nature",
+  "homepage": "https://www.nature.com/nenergy/",
+  "areas": [
+   "Nachhaltigkeit",
+   "WI"
+  ]
+ },
+ {
+  "name": "Nature Sustainability",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Springer Nature",
+  "homepage": "https://www.nature.com/natsustain/",
+  "areas": [
+   "Nachhaltigkeit",
+   "WI"
+  ]
+ },
+ {
+  "name": "Naval Research Logistics",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/15206750",
+  "areas": [
+   "Logistik",
+   "OR"
+  ]
+ },
+ {
+  "name": "Networks",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/10970037",
+  "areas": [
+   "Logistik",
+   "OR"
+  ]
+ },
+ {
+  "name": "Networks and Spatial Economics",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/11067",
+  "areas": [
+   "Logistik"
+  ]
+ },
+ {
+  "name": "New Technology, Work and Employment",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/1468005X",
+  "areas": [
+   "Personal"
+  ]
+ },
+ {
+  "name": "Nonprofit and Voluntary Sector Quarterly",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/nvs",
+  "areas": [
+   "Dienstleistung",
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Nonprofit Management & Leadership",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/15427854",
+  "areas": [
+   "Personal",
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Nonprofit Policy Forum",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "De Gruyter",
+  "homepage": "https://www.degruyter.com/journal/key/npf/html",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Nordic Tax Journal",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "De Gruyter",
+  "homepage": "https://sciendo.com/journal/NTAXJ",
+  "areas": [
+   "Steuern"
+  ]
+ },
+ {
+  "name": "North American Actuarial Journal",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/uaaj20",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "ÖStZ - Österreichische Steuerzeitung",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "LexisNexis",
+  "homepage": null,
+  "areas": [
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Operations Research Forum",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/43069",
+  "areas": [
+   "OR"
+  ]
+ },
+ {
+  "name": "Optimization Letters",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/11590",
+  "areas": [
+   "OR"
+  ]
+ },
+ {
+  "name": "Organization",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/org",
+  "areas": [
+   "Management",
+   "Org",
+   "Personal",
+   "WI"
+  ]
+ },
+ {
+  "name": "Organization & Environment",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/oae",
+  "areas": [
+   "Management",
+   "Nachhaltigkeit",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Organization Studies",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/oss",
+  "areas": [
+   "Accounting",
+   "Dienstleistung",
+   "Int. Management",
+   "Logistik",
+   "Management",
+   "Marketing",
+   "Org",
+   "Personal",
+   "TIE",
+   "WI",
+   "Wissenschaftstheorie"
+  ]
+ },
+ {
+  "name": "Organization Theory",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/ott",
+  "areas": [
+   "Management",
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Organizational Behavior and Human Decision Processes",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/organizational-behavior-and-human-decision-processes",
+  "areas": [
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Organizational Dynamics",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/organizational-dynamics",
+  "areas": [
+   "Management",
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Organizational Psychology Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/opr",
+  "areas": [
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Organizational Research Methods",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/orm",
+  "areas": [
+   "Management",
+   "Marketing",
+   "Org",
+   "Personal",
+   "TIE"
+  ]
+ },
+ {
+  "name": "Personality and Individual Differences",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/personality-and-individual-differences",
+  "areas": [
+   "Personal"
+  ]
+ },
+ {
+  "name": "Personality and Social Psychology Bulletin",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/psp",
+  "areas": [
+   "Personal"
+  ]
+ },
+ {
+  "name": "Personnel Psychology",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/17446570",
+  "areas": [
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Personnel Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Emerald",
+  "homepage": "https://www.emerald.com/insight/publication/issn/0048-3486",
+  "areas": [
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Perspectives on Public Management and Governance",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Oxford UP",
+  "homepage": "https://academic.oup.com/ppmg",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "PharmacoEconomics",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/40273",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "PLOS One",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "PLOS",
+  "homepage": "https://journals.plos.org/plosone/",
+  "areas": [
+   "Int. Management",
+   "Management",
+   "Marketing",
+   "Nachhaltigkeit",
+   "OR",
+   "Org",
+   "WI",
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Proceedings of the National Academy of Sciences",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "National Academy of Sciences",
+  "homepage": "https://www.pnas.org",
+  "areas": [
+   "Marketing"
+  ]
+ },
+ {
+  "name": "Production Planning & Control",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/tppc20",
+  "areas": [
+   "Dienstleistung",
+   "Produktion"
+  ]
+ },
+ {
+  "name": "Project Management Journal",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/pmx",
+  "areas": [
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Psychological Methods",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "APA",
+  "homepage": "https://www.apa.org/pubs/journals/met",
+  "areas": [
+   "Marketing"
+  ]
+ },
+ {
+  "name": "Psychological Science",
+  "abbrev": null,
+  "vhb_2024": "A+",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/pss",
+  "areas": [
+   "Marketing"
+  ]
+ },
+ {
+  "name": "Psychology & Marketing",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/15206793",
+  "areas": [
+   "Dienstleistung",
+   "Marketing"
+  ]
+ },
+ {
+  "name": "Psychometrika",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Cambridge UP",
+  "homepage": "https://www.cambridge.org/core/journals/psychometrika",
+  "areas": [
+   "Marketing"
+  ]
+ },
+ {
+  "name": "Public Administration",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/14679299",
+  "areas": [
+   "Accounting",
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Public Administration Review",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/15406210",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Public Finance Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/pfr",
+  "areas": [
+   "Steuern",
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Public Management Review",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/rpxm20",
+  "areas": [
+   "Accounting",
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Public Money & Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/rpmm20",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Public Performance & Management Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/mpmr20",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Public Policy and Administration",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/ppa",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Qualitative Research in Accounting & Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Emerald",
+  "homepage": "https://www.emerald.com/insight/publication/issn/1176-6093",
+  "areas": [
+   "Accounting",
+   "Dienstleistung"
+  ]
+ },
+ {
+  "name": "Quantitative Finance",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/rquf20",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Quantitative Marketing and Economics",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/11129",
+  "areas": [
+   "Marketing"
+  ]
+ },
+ {
+  "name": "Quarterly Journal of Economics",
+  "abbrev": null,
+  "vhb_2024": "A+",
+  "basket11": false,
+  "publisher": "Oxford UP",
+  "homepage": "https://academic.oup.com/qje",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "R&D Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/14679310",
+  "areas": [
+   "Dienstleistung",
+   "Management",
+   "Marketing",
+   "Org",
+   "TIE"
+  ]
+ },
+ {
+  "name": "Real Estate Economics",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/15406229",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Regional Studies",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/cres20",
+  "areas": [
+   "Org"
+  ]
+ },
+ {
+  "name": "Relations Industrielles / Industrial Relations",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Université Laval",
+  "homepage": "https://www.erudit.org/en/journals/ri/",
+  "areas": [
+   "Personal"
+  ]
+ },
+ {
+  "name": "Renewable and Sustainable Energy Reviews",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/renewable-and-sustainable-energy-reviews",
+  "areas": [
+   "Nachhaltigkeit"
+  ]
+ },
+ {
+  "name": "Research in Higher Education",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/11162",
+  "areas": [
+   "Hochschulmanagement"
+  ]
+ },
+ {
+  "name": "Research in Organizational Behavior",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/research-in-organizational-behavior",
+  "areas": [
+   "Management",
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Research in the Sociology of Organizations",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Emerald",
+  "homepage": "https://www.emerald.com/insight/publication/issn/0733-558X",
+  "areas": [
+   "Management",
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Research Policy",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/research-policy",
+  "areas": [
+   "Management",
+   "Marketing",
+   "Nachhaltigkeit",
+   "Org",
+   "Personal",
+   "TIE",
+   "WI"
+  ]
+ },
+ {
+  "name": "Resource and Energy Economics",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/resource-and-energy-economics",
+  "areas": [
+   "Nachhaltigkeit"
+  ]
+ },
+ {
+  "name": "Resources, Conservation and Recycling",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/resources-conservation-and-recycling",
+  "areas": [
+   "Nachhaltigkeit"
+  ]
+ },
+ {
+  "name": "Review of Accounting and Finance",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Emerald",
+  "homepage": "https://www.emerald.com/insight/publication/issn/1475-7702",
+  "areas": [
+   "Accounting"
+  ]
+ },
+ {
+  "name": "Review of Accounting Studies",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/11142",
+  "areas": [
+   "Accounting",
+   "Finance",
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Review of Derivatives Research",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/11147",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Review of Economic Studies",
+  "abbrev": null,
+  "vhb_2024": "A+",
+  "basket11": false,
+  "publisher": "Oxford UP",
+  "homepage": "https://academic.oup.com/restud",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Review of Finance",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Oxford UP",
+  "homepage": "https://academic.oup.com/rof",
+  "areas": [
+   "Finance",
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Review of Financial Economics",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/18735924",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "Review of Managerial Science",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/11846",
+  "areas": [
+   "Accounting",
+   "Dienstleistung",
+   "Finance",
+   "Int. Management",
+   "Logistik",
+   "Management",
+   "Marketing",
+   "Nachhaltigkeit",
+   "OR",
+   "Org",
+   "Personal",
+   "Produktion",
+   "Steuern",
+   "TIE",
+   "WI"
+  ]
+ },
+ {
+  "name": "Review of Public Personnel Administration",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/rop",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Review of Quantitative Finance and Accounting",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/11156",
+  "areas": [
+   "Accounting",
+   "Finance",
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Scandinavian Journal of Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/scandinavian-journal-of-management",
+  "areas": [
+   "Accounting",
+   "Dienstleistung",
+   "Int. Management",
+   "Management",
+   "Marketing",
+   "Nachhaltigkeit",
+   "Org",
+   "Personal",
+   "TIE",
+   "WI",
+   "Wissenschaftstheorie"
+  ]
+ },
+ {
+  "name": "Schmalenbach Business Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/41464",
+  "areas": [
+   "Finance",
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Schmalenbach Journal of Business Research",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/41471",
+  "areas": [
+   "Accounting",
+   "Dienstleistung",
+   "Finance",
+   "Int. Management",
+   "Logistik",
+   "Management",
+   "Marketing",
+   "Nachhaltigkeit",
+   "OR",
+   "Org",
+   "Personal",
+   "Produktion",
+   "Steuern",
+   "TIE",
+   "WI",
+   "Wissenschaftstheorie"
+  ]
+ },
+ {
+  "name": "Science",
+  "abbrev": null,
+  "vhb_2024": "A+",
+  "basket11": false,
+  "publisher": "AAAS",
+  "homepage": "https://www.science.org/journal/science",
+  "areas": [
+   "Finance",
+   "Int. Management",
+   "Logistik",
+   "Marketing",
+   "Nachhaltigkeit",
+   "OR",
+   "WI",
+   "Wissenschaftstheorie"
+  ]
+ },
+ {
+  "name": "Scientometrics",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/11192",
+  "areas": [
+   "TIE"
+  ]
+ },
+ {
+  "name": "Small Business Economics",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/11187",
+  "areas": [
+   "Accounting",
+   "Dienstleistung",
+   "Management",
+   "Org",
+   "TIE"
+  ]
+ },
+ {
+  "name": "Social and Environmental Accountability Journal",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/reaj20",
+  "areas": [
+   "Nachhaltigkeit"
+  ]
+ },
+ {
+  "name": "Social Forces",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Oxford UP",
+  "homepage": "https://academic.oup.com/sf",
+  "areas": [
+   "Org"
+  ]
+ },
+ {
+  "name": "Social Science & Medicine",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/social-science-and-medicine",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Society and Business Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Emerald",
+  "homepage": "https://www.emerald.com/insight/publication/issn/1746-5680",
+  "areas": [
+   "Wissenschaftstheorie"
+  ]
+ },
+ {
+  "name": "Socio-Economic Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Oxford UP",
+  "homepage": "https://academic.oup.com/ser",
+  "areas": [
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Soziale Systeme: Zeitschrift für soziologische Theorie",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "De Gruyter",
+  "homepage": "https://www.degruyter.com/journal/key/sosys/html",
+  "areas": [
+   "Org"
+  ]
+ },
+ {
+  "name": "Steuer und Wirtschaft",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Otto Schmidt",
+  "homepage": "https://www.otto-schmidt.de/zeitschriften/steuerrecht/stuw-steuer-und-wirtschaft",
+  "areas": [
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Strategic Change",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/10991697",
+  "areas": [
+   "Management"
+  ]
+ },
+ {
+  "name": "Strategic Entrepreneurship Journal",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/1932443X",
+  "areas": [
+   "Dienstleistung",
+   "Management",
+   "Org",
+   "TIE"
+  ]
+ },
+ {
+  "name": "Strategic Management Journal",
+  "abbrev": null,
+  "vhb_2024": "A+",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/10970266",
+  "areas": [
+   "Accounting",
+   "Dienstleistung",
+   "Finance",
+   "Int. Management",
+   "Logistik",
+   "Management",
+   "Marketing",
+   "OR",
+   "Org",
+   "Personal",
+   "TIE",
+   "WI",
+   "Wissenschaftstheorie"
+  ]
+ },
+ {
+  "name": "Strategic Management Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Now Publishers",
+  "homepage": "https://www.nowpublishers.com/SMR",
+  "areas": [
+   "Int. Management",
+   "Management",
+   "Org"
+  ]
+ },
+ {
+  "name": "Strategic Organization",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/soq",
+  "areas": [
+   "Management",
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Strategy Science",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "INFORMS",
+  "homepage": "https://pubsonline.informs.org/journal/stsc",
+  "areas": [
+   "Int. Management",
+   "Management",
+   "Org"
+  ]
+ },
+ {
+  "name": "Structural Equation Modeling: A Multidisciplinary Journal",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/hsem20",
+  "areas": [
+   "Marketing"
+  ]
+ },
+ {
+  "name": "Studies in Higher Education",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/cshe20",
+  "areas": [
+   "Hochschulmanagement",
+   "Org"
+  ]
+ },
+ {
+  "name": "Supply Chain Management: An International Journal",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Emerald",
+  "homepage": "https://www.emerald.com/insight/publication/issn/1359-8546",
+  "areas": [
+   "Dienstleistung",
+   "Logistik",
+   "Produktion"
+  ]
+ },
+ {
+  "name": "Sustainability Accounting, Management and Policy Journal",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Emerald",
+  "homepage": "https://www.emerald.com/insight/publication/issn/2040-8021",
+  "areas": [
+   "Nachhaltigkeit"
+  ]
+ },
+ {
+  "name": "Sustainability Analytics and Modeling",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/sustainability-analytics-and-modeling",
+  "areas": [
+   "Dienstleistung",
+   "Logistik",
+   "Nachhaltigkeit",
+   "OR",
+   "Produktion"
+  ]
+ },
+ {
+  "name": "Sustainability Science",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/11625",
+  "areas": [
+   "Nachhaltigkeit"
+  ]
+ },
+ {
+  "name": "Sustainable Development",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/10991719",
+  "areas": [
+   "Nachhaltigkeit"
+  ]
+ },
+ {
+  "name": "Sustainable Production and Consumption",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/sustainable-production-and-consumption",
+  "areas": [
+   "Nachhaltigkeit"
+  ]
+ },
+ {
+  "name": "SWI - Steuer und Wirtschaft International",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Linde",
+  "homepage": "https://www.lindeverlag.at",
+  "areas": [
+   "Steuern"
+  ]
+ },
+ {
+  "name": "System Dynamics Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/10991727",
+  "areas": [
+   "Logistik",
+   "OR",
+   "Produktion",
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "The American Review of Public Administration",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/arp",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "The British Accounting Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/the-british-accounting-review",
+  "areas": [
+   "Accounting"
+  ]
+ },
+ {
+  "name": "The Economic Journal",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Oxford UP",
+  "homepage": "https://academic.oup.com/ej",
+  "areas": [
+   "Finance",
+   "Steuern"
+  ]
+ },
+ {
+  "name": "The Energy Journal",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/enj",
+  "areas": [
+   "Nachhaltigkeit"
+  ]
+ },
+ {
+  "name": "The European Journal of Health Economics",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/10198",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "The International Journal of Accounting",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "World Scientific",
+  "homepage": "https://www.worldscientific.com/worldscinet/tija",
+  "areas": [
+   "Accounting"
+  ]
+ },
+ {
+  "name": "The International Journal of Advanced Manufacturing Technology",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/170",
+  "areas": [
+   "Logistik",
+   "Produktion"
+  ]
+ },
+ {
+  "name": "The Journal of Applied Behavioral Science",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/jab",
+  "areas": [
+   "Personal"
+  ]
+ },
+ {
+  "name": "The Journal of Finance",
+  "abbrev": null,
+  "vhb_2024": "A+",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/15406261",
+  "areas": [
+   "Finance",
+   "Steuern"
+  ]
+ },
+ {
+  "name": "The Journal of Portfolio Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "With Intelligence",
+  "homepage": "https://www.pm-research.com/content/iijpormgmt",
+  "areas": [
+   "Accounting",
+   "Finance"
+  ]
+ },
+ {
+  "name": "The Journal of Technology Transfer",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/10961",
+  "areas": [
+   "Dienstleistung",
+   "Management",
+   "TIE"
+  ]
+ },
+ {
+  "name": "The Journal of the American Taxation Association",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "AAA",
+  "homepage": "https://publications.aaahq.org/jata",
+  "areas": [
+   "Steuern"
+  ]
+ },
+ {
+  "name": "The Leadership Quarterly",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/the-leadership-quarterly",
+  "areas": [
+   "Int. Management",
+   "Management",
+   "Org",
+   "Personal",
+   "TIE"
+  ]
+ },
+ {
+  "name": "The Quarterly Review of Economics and Finance",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/the-quarterly-review-of-economics-and-finance",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "The RAND Journal of Economics",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/17562171",
+  "areas": [
+   "Finance",
+   "Int. Management",
+   "Marketing",
+   "OR",
+   "TIE"
+  ]
+ },
+ {
+  "name": "The Review of Asset Pricing Studies",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Oxford UP",
+  "homepage": "https://academic.oup.com/raps",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "The Review of Corporate Finance Studies",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Oxford UP",
+  "homepage": "https://academic.oup.com/rcfs",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "The Review of Economics and Statistics",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "MIT Press",
+  "homepage": "https://direct.mit.edu/rest",
+  "areas": [
+   "Finance"
+  ]
+ },
+ {
+  "name": "The Review of Financial Studies",
+  "abbrev": null,
+  "vhb_2024": "A+",
+  "basket11": false,
+  "publisher": "Oxford UP",
+  "homepage": "https://academic.oup.com/rfs",
+  "areas": [
+   "Finance",
+   "Steuern"
+  ]
+ },
+ {
+  "name": "The Scandinavian Journal of Economics",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/14679442",
+  "areas": [
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Thunderbird International Business Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Wiley",
+  "homepage": "https://onlinelibrary.wiley.com/journal/15206874",
+  "areas": [
+   "Personal"
+  ]
+ },
+ {
+  "name": "Tourism Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/tourism-management",
+  "areas": [
+   "Dienstleistung",
+   "Management",
+   "Marketing"
+  ]
+ },
+ {
+  "name": "Transport Policy",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/transport-policy",
+  "areas": [
+   "Logistik"
+  ]
+ },
+ {
+  "name": "Transportation",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/11116",
+  "areas": [
+   "Logistik"
+  ]
+ },
+ {
+  "name": "Transportation Research Part A: Policy and Practice",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/transportation-research-part-a-policy-and-practice",
+  "areas": [
+   "Dienstleistung",
+   "Logistik",
+   "Marketing"
+  ]
+ },
+ {
+  "name": "Transportation Research Part B: Methodological",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/transportation-research-part-b-methodological",
+  "areas": [
+   "Logistik",
+   "OR"
+  ]
+ },
+ {
+  "name": "Transportation Research Part C: Emerging Technologies",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/transportation-research-part-c-emerging-technologies",
+  "areas": [
+   "Logistik",
+   "OR"
+  ]
+ },
+ {
+  "name": "Transportation Research Part D: Transport and Environment",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/transportation-research-part-d-transport-and-environment",
+  "areas": [
+   "Logistik",
+   "Nachhaltigkeit",
+   "OR"
+  ]
+ },
+ {
+  "name": "Transportation Research Part E: Logistics and Transportation Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/transportation-research-part-e-logistics-and-transportation-review",
+  "areas": [
+   "Logistik",
+   "OR"
+  ]
+ },
+ {
+  "name": "Transportation Research Part F: Traffic Psychology and Behaviour",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/transportation-research-part-f-traffic-psychology-and-behaviour",
+  "areas": [
+   "Logistik"
+  ]
+ },
+ {
+  "name": "Umsatzsteuer Rundschau",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Otto Schmidt",
+  "homepage": "https://www.otto-schmidt.de",
+  "areas": [
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Urban Studies",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/usj",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Value in Health",
+  "abbrev": null,
+  "vhb_2024": "A",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/value-in-health",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Voluntary Sector Review",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Bristol UP",
+  "homepage": "https://bristoluniversitypressdigital.com/view/journals/vsr/vsr-overview.xml",
+  "areas": [
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Voluntas: International Journal of Voluntary and Nonprofit Organizations",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Springer",
+  "homepage": "https://link.springer.com/journal/11266",
+  "areas": [
+   "Dienstleistung",
+   "Management",
+   "Org",
+   "Öffentliche BWL"
+  ]
+ },
+ {
+  "name": "Waste Management",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Elsevier",
+  "homepage": "https://www.sciencedirect.com/journal/waste-management",
+  "areas": [
+   "Nachhaltigkeit"
+  ]
+ },
+ {
+  "name": "Work, Aging and Retirement",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Oxford UP",
+  "homepage": "https://academic.oup.com/workar",
+  "areas": [
+   "Personal"
+  ]
+ },
+ {
+  "name": "Work and Occupations",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/wox",
+  "areas": [
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Work, Employment and Society",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Sage",
+  "homepage": "https://journals.sagepub.com/home/wes",
+  "areas": [
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "Work & Stress",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Taylor & Francis",
+  "homepage": "https://www.tandfonline.com/journals/twst20",
+  "areas": [
+   "Org",
+   "Personal"
+  ]
+ },
+ {
+  "name": "World Tax Journal",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "IBFD",
+  "homepage": "https://www.ibfd.org/shop/journal/world-tax-journal",
+  "areas": [
+   "Steuern"
+  ]
+ },
+ {
+  "name": "Zeitschrift für Umweltpolitik & Umweltrecht",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Deutscher Fachverlag",
+  "homepage": null,
+  "areas": [
+   "Nachhaltigkeit"
+  ]
+ },
+ {
+  "name": "Zeitschrift für Wirtschafts- und Unternehmensethik",
+  "abbrev": null,
+  "vhb_2024": "B",
+  "basket11": false,
+  "publisher": "Nomos",
+  "homepage": "https://www.nomos-elibrary.de/zeitschrift/1439-880X",
+  "areas": [
+   "Wissenschaftstheorie"
+  ]
+ }
 ]
