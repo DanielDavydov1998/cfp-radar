@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-21T18:19:00Z",
+ "generated": "2026-07-21T18:46:51Z",
  "journal_count": 618,
  "journals": [
   {
@@ -8301,6 +8301,66 @@
  ],
  "cfps": [
   {
+   "hash": "0d6e8fb2619f6f09f19c3ffa",
+   "journal": "Decision Analysis",
+   "abbrev": null,
+   "vhb_2024": "B",
+   "basket11": false,
+   "title": "Topics of Interest",
+   "url": "https://pubsonline.informs.org/page/deca/calls-for-papers",
+   "deadline": null,
+   "description": null,
+   "source": "informs",
+   "first_seen": "2026-07-21T18:46:51Z",
+   "last_seen": "2026-07-21T18:46:51Z",
+   "active": true
+  },
+  {
+   "hash": "f12dac80504678dbe5ce9fa0",
+   "journal": "Organization",
+   "abbrev": null,
+   "vhb_2024": "B",
+   "basket11": false,
+   "title": "Alternative organising and degrowth: Countering capitalist polycrisis and organising liveable worlds",
+   "url": "/page/org/call-for-papers/alternative-organising-degrowth",
+   "deadline": "2026-09-30",
+   "description": null,
+   "source": "sage",
+   "first_seen": "2026-07-21T18:46:51Z",
+   "last_seen": "2026-07-21T18:46:51Z",
+   "active": true
+  },
+  {
+   "hash": "9713a2cbe4431dfafeb3caae",
+   "journal": "Organization",
+   "abbrev": null,
+   "vhb_2024": "B",
+   "basket11": false,
+   "title": "The (Re)turn to Marx: New Readings of Marx and The Future of Organization",
+   "url": "/page/org/call-for-papers/the-return-to-marx",
+   "deadline": "2027-04-01",
+   "description": null,
+   "source": "sage",
+   "first_seen": "2026-07-21T18:46:51Z",
+   "last_seen": "2026-07-21T18:46:51Z",
+   "active": true
+  },
+  {
+   "hash": "87c5dea055ba57be27f3ed07",
+   "journal": "Organization",
+   "abbrev": null,
+   "vhb_2024": "B",
+   "basket11": false,
+   "title": "Decolonial feminisms in Organizational Studies: “Getting Unstuck",
+   "url": "/page/org/call-for-papers/decolonial-feminisms?pbEditor=true",
+   "deadline": "2027-05-01",
+   "description": null,
+   "source": "sage",
+   "first_seen": "2026-07-21T18:46:51Z",
+   "last_seen": "2026-07-21T18:46:51Z",
+   "active": true
+  },
+  {
    "hash": "efc487d2d7b90a6606a83d2f",
    "journal": "AMS Review",
    "abbrev": null,
@@ -8312,7 +8372,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8327,7 +8387,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8342,7 +8402,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8357,7 +8417,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8372,7 +8432,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8387,7 +8447,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8402,7 +8462,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8417,7 +8477,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8432,7 +8492,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8447,7 +8507,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8462,7 +8522,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8477,7 +8537,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8492,7 +8552,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8507,7 +8567,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8522,7 +8582,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8537,7 +8597,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8552,7 +8612,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8567,22 +8627,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
-   "active": true
-  },
-  {
-   "hash": "2a9a77ab6745632947be37f5",
-   "journal": "Journal of International Business Policy",
-   "abbrev": null,
-   "vhb_2024": "B",
-   "basket11": false,
-   "title": "Call for Proposals: Review Articles and Special Issues",
-   "url": "https://link.springer.com/journal/42214/updates/27816084",
-   "deadline": null,
-   "description": null,
-   "source": "springer",
-   "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8597,22 +8642,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
-   "active": true
-  },
-  {
-   "hash": "afcc209dc97d43d4876e034f",
-   "journal": "Journal of International Business Studies",
-   "abbrev": null,
-   "vhb_2024": "A",
-   "basket11": false,
-   "title": "Call for Proposals: Special Issues and Review Articles",
-   "url": "https://link.springer.com/journal/41267/updates/27815004",
-   "deadline": null,
-   "description": null,
-   "source": "springer",
-   "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8627,7 +8657,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8642,7 +8672,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8657,7 +8687,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8672,7 +8702,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8687,7 +8717,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8702,22 +8732,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
-   "active": true
-  },
-  {
-   "hash": "3a6f3c8d8047aa51d6a05295",
-   "journal": "Mathematical Methods of Operations Research",
-   "abbrev": null,
-   "vhb_2024": "B",
-   "basket11": false,
-   "title": "MMOR Call for Papers",
-   "url": "https://link.springer.com/journal/186/updates/27726726",
-   "deadline": null,
-   "description": null,
-   "source": "springer",
-   "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8732,7 +8747,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8747,7 +8762,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8762,7 +8777,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8777,7 +8792,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8792,7 +8807,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8807,7 +8822,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8822,7 +8837,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8837,7 +8852,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8852,7 +8867,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8867,7 +8882,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8882,7 +8897,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8897,7 +8912,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8912,7 +8927,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8927,7 +8942,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8942,7 +8957,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8957,7 +8972,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8972,7 +8987,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -8987,7 +9002,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9002,7 +9017,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9017,7 +9032,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9032,7 +9047,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9047,7 +9062,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9062,7 +9077,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9077,7 +9092,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9092,7 +9107,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9107,7 +9122,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9122,7 +9137,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9137,7 +9152,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9152,7 +9167,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9167,7 +9182,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9182,7 +9197,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9197,7 +9212,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9212,7 +9227,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9227,7 +9242,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9242,7 +9257,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9257,7 +9272,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9272,7 +9287,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9287,7 +9302,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9302,7 +9317,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9317,7 +9332,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9332,7 +9347,7 @@
    "description": null,
    "source": "emerald",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9347,7 +9362,7 @@
    "description": null,
    "source": "emerald",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9362,7 +9377,7 @@
    "description": null,
    "source": "emerald",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9377,7 +9392,7 @@
    "description": null,
    "source": "emerald",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9392,7 +9407,7 @@
    "description": null,
    "source": "emerald",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9407,7 +9422,7 @@
    "description": null,
    "source": "emerald",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9422,7 +9437,7 @@
    "description": null,
    "source": "emerald",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9437,7 +9452,7 @@
    "description": null,
    "source": "emerald",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9452,7 +9467,7 @@
    "description": null,
    "source": "emerald",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9467,7 +9482,7 @@
    "description": null,
    "source": "emerald",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9482,7 +9497,7 @@
    "description": null,
    "source": "emerald",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9497,7 +9512,7 @@
    "description": null,
    "source": "ieeecs",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9512,7 +9527,7 @@
    "description": null,
    "source": "ieeecs",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9527,7 +9542,7 @@
    "description": null,
    "source": "ieeecs",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9542,7 +9557,7 @@
    "description": null,
    "source": "ieeecs",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9557,7 +9572,7 @@
    "description": null,
    "source": "ieeecs",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9572,7 +9587,7 @@
    "description": null,
    "source": "ieeecs",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9587,7 +9602,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9602,7 +9617,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9617,7 +9632,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9632,7 +9647,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9647,7 +9662,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9662,7 +9677,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9677,7 +9692,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9692,7 +9707,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9707,7 +9722,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9722,7 +9737,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9737,7 +9752,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9752,7 +9767,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9767,7 +9782,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9782,22 +9797,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
-   "active": true
-  },
-  {
-   "hash": "55862e2b6655f1392bf5ee4e",
-   "journal": "INFORMS Transactions on Education",
-   "abbrev": null,
-   "vhb_2024": "B",
-   "basket11": false,
-   "title": "Anticipated Editorial Timeline",
-   "url": "https://pubsonline.informs.org/page/ited/calls-for-papers",
-   "deadline": null,
-   "description": null,
-   "source": "informs",
-   "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9812,7 +9812,7 @@
    "description": null,
    "source": "sage",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9827,7 +9827,7 @@
    "description": null,
    "source": "acm",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9842,7 +9842,7 @@
    "description": null,
    "source": "acm",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9857,7 +9857,7 @@
    "description": null,
    "source": "cfpsorg",
    "first_seen": "2026-07-07T19:53:52Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9872,7 +9872,7 @@
    "description": null,
    "source": "cfpsorg",
    "first_seen": "2026-07-07T19:53:52Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9887,7 +9887,7 @@
    "description": null,
    "source": "cfpsorg",
    "first_seen": "2026-07-07T19:53:52Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9902,7 +9902,7 @@
    "description": null,
    "source": "cfpsorg",
    "first_seen": "2026-07-07T19:53:52Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9917,7 +9917,7 @@
    "description": null,
    "source": "cfpsorg",
    "first_seen": "2026-07-07T19:53:52Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9932,7 +9932,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-07T19:53:52Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9947,7 +9947,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-07T19:53:52Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
@@ -9962,7 +9962,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-07T19:53:52Z",
-   "last_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-07-21T18:46:51Z",
    "active": true
   },
   {
