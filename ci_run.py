@@ -33,7 +33,7 @@ DOCS = ROOT / "docs"
 DATA_FILE = DOCS / "data.json"
 
 SOURCES = ("cfpsorg", "springer", "emerald", "ieeecs", "informs", "sage",
-           "acm", "tandf", "misq", "aisworld", "wikicfp")
+           "acm", "tandf", "misq", "aisworld", "wkwilist", "wikicfp")
 DEADLINE_GRACE_DAYS = 14
 UNSEEN_EXPIRY_DAYS = 45
 
@@ -109,8 +109,8 @@ def coverage(j):
         return False, "tandfonline.com Special-Issues-Seite", \
             "Liste wird per JavaScript geladen, bleibt auch im Proxy leer"
     if pub == "AIS":
-        return False, "AIS-Plattform (AIS Engage)", \
-            "CFPs nur hinter Login; öffentliches AISWorld-Archiv seit 2025 inaktiv"
+        return True, "AISWorld-Mailingliste (listserv.isworld.org)", \
+            "Calls werden über die Liste gestreut, nicht von einer Journalseite gescrapt"
     if pub == "Springer Nature":
         return False, "nature.com", "kaum klassische Special-Issue-CFPs"
     if pub == "JMIR":

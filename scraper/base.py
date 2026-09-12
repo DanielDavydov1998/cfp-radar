@@ -222,7 +222,9 @@ def get_html_hard(url):
 
 DEADLINE_RE = re.compile(
     r"(?:submission\s+deadline|deadline(?:\s+for\s+(?:full\s+)?(?:paper\s+)?submissions?)?|"
-    r"submissions?\s+due|due\s+date|papers?\s+due)\s*[:\-–]?\s*"
+    r"submissions?\s+due|due\s+date|papers?\s+due|"
+    r"(?:initial|first|full)\s+submissions?(?:\s+of\s+papers?)?|"
+    r"submissions?\s+of\s+papers?|manuscript\s+submissions?)\s*[:\-–]?\s*"
     r"([A-Za-z]{3,9}\.?\s+\d{1,2}\s*(?:st|nd|rd|th)?\s*,?\s+\d{4}|"
     r"\d{1,2}\s*(?:st|nd|rd|th)?\.?\s+(?:of\s+)?[A-Za-z]{3,9}\.?,?\s+\d{4}|"
     r"\d{4}-\d{2}-\d{2}|\d{1,2}[./]\d{1,2}[./]\d{4})",
@@ -301,6 +303,16 @@ GENERIC_NAMES = {
 }
 
 
+# Wörter, die vor einem Journalnamen anzeigen, dass es sich um ein ANDERES,
+# längeres Journal handelt ("Asia Pacific Journal of ...", "European Accounting Review")
+NAME_EXTENDERS = {
+    "pacific", "asia", "asian", "european", "american", "british",
+    "international", "australasian", "african", "scandinavian", "nordic",
+    "canadian", "australian", "chinese", "japanese", "korean", "indian",
+    "global", "iberoamerican", "latin",
+}
+
+
 def match_journals(text, journals):
     """Findet Journals, deren Name oder Abkürzung im Text vorkommt.
 
@@ -313,6 +325,14 @@ def match_journals(text, journals):
         name = (j.get("name") or "").lower()
         if name and name not in GENERIC_NAMES:
             for m in re.finditer(r"(?<![a-z0-9])" + re.escape(name) + r"(?![a-z0-9])", lower):
+                # Fehltreffer vermeiden, wenn der Name Teil eines längeren
+                # Journalnamens ist ("Asia Pacific Journal of Information
+                # Systems" enthält "Journal of Information Systems"):
+                # typisches Erweiterungswort direkt davor => überspringen
+                before = lower[:m.start()].rstrip()
+                pw = re.search(r"([a-z][\w\-]*)$", before)
+                if pw and pw.group(1) in NAME_EXTENDERS:
+                    continue
                 spans.append((m.start(), m.end(), j))
         abbrev = j.get("abbrev") or ""
         if len(abbrev) >= 4 and abbrev.isalnum():

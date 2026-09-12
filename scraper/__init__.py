@@ -15,7 +15,7 @@ log = logging.getLogger("cfp.scraper")
 # elsevier/wiley bleiben deaktiviert: deren Bot-Erkennung greift überall
 # (auch Jina bekommt nur "Are you a robot?"-Seiten).
 SOURCES = ("cfpsorg", "springer", "emerald", "ieeecs", "informs", "sage",
-           "acm", "tandf", "misq", "aisworld", "wikicfp")
+           "acm", "tandf", "misq", "aisworld", "wkwilist", "wikicfp")
 
 # CFPs, deren Deadline länger her ist, werden weder aufgenommen noch angezeigt
 DEADLINE_GRACE_DAYS = 14
