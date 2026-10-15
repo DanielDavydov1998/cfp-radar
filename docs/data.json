@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T21:23:25Z",
+ "generated": "2026-10-15T12:10:39Z",
  "journal_count": 618,
  "journals": [
   {
@@ -8312,7 +8312,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-10-14T21:23:25Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -8357,21 +8357,6 @@
    "description": null,
    "source": "aisworld",
    "first_seen": "2026-09-13T13:30:21Z",
-   "last_seen": "2026-10-08T22:41:37Z",
-   "active": true
-  },
-  {
-   "hash": "f0e4d06f6ac1d0ec59f13c59",
-   "journal": "Scandinavian Journal of Information Systems",
-   "abbrev": "SJIS",
-   "vhb_2024": "B",
-   "basket11": false,
-   "title": "Synthetic Organising in Digital Transformation with Algorithmic Systems (SJIS)",
-   "url": "https://listserv.isworld.org/scripts/wa-ISWORLD.exe?A2=AISWORLD;ade69445.2609A&S=",
-   "deadline": "2026-09-30",
-   "description": null,
-   "source": "aisworld",
-   "first_seen": "2026-09-12T20:23:40Z",
    "last_seen": "2026-10-08T22:41:37Z",
    "active": true
   },
@@ -8432,7 +8417,7 @@
    "description": null,
    "source": "wkwilist",
    "first_seen": "2026-09-12T20:23:40Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -8447,7 +8432,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-08-31T14:32:23Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -8492,7 +8477,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-08-17T18:15:22Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -8552,7 +8537,7 @@
    "description": null,
    "source": "ieeecs",
    "first_seen": "2026-07-30T09:32:55Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -8567,7 +8552,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-27T19:16:52Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -8582,7 +8567,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-25T18:38:49Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -8597,7 +8582,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-25T18:38:49Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -8612,7 +8597,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-25T18:38:49Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -8627,7 +8612,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-25T18:38:49Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -8661,21 +8646,6 @@
    "active": true
   },
   {
-   "hash": "9f43fb74820ddd5d74d978a7",
-   "journal": "Organization Studies",
-   "abbrev": null,
-   "vhb_2024": "A",
-   "basket11": false,
-   "title": "Embodying Processes",
-   "url": "/page/oss/call-for-papers/embodying-processes",
-   "deadline": "2026-09-30",
-   "description": null,
-   "source": "sage",
-   "first_seen": "2026-07-22T09:29:08Z",
-   "last_seen": "2026-07-27T19:16:52Z",
-   "active": true
-  },
-  {
    "hash": "6159ff8ed5a9e27035bac7ed",
    "journal": "Organization Studies",
    "abbrev": null,
@@ -8703,21 +8673,6 @@
    "source": "sage",
    "first_seen": "2026-07-22T09:29:08Z",
    "last_seen": "2026-07-27T19:16:52Z",
-   "active": true
-  },
-  {
-   "hash": "f12dac80504678dbe5ce9fa0",
-   "journal": "Organization",
-   "abbrev": null,
-   "vhb_2024": "B",
-   "basket11": false,
-   "title": "Alternative organising and degrowth: Countering capitalist polycrisis and organising liveable worlds",
-   "url": "/page/org/call-for-papers/alternative-organising-degrowth",
-   "deadline": "2026-09-30",
-   "description": null,
-   "source": "sage",
-   "first_seen": "2026-07-21T18:46:51Z",
-   "last_seen": "2026-07-28T09:37:26Z",
    "active": true
   },
   {
@@ -8762,7 +8717,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -8777,7 +8732,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -8792,7 +8747,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -8807,7 +8762,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -8822,7 +8777,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -8837,7 +8792,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -8852,7 +8807,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -8867,7 +8822,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -8882,7 +8837,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -8927,7 +8882,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -8942,7 +8897,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -8957,7 +8912,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -8972,7 +8927,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9002,7 +8957,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9017,7 +8972,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9032,7 +8987,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9047,7 +9002,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9062,7 +9017,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9077,7 +9032,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9092,7 +9047,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9107,7 +9062,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9122,7 +9077,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9137,7 +9092,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9152,7 +9107,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9167,7 +9122,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9182,7 +9137,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9197,7 +9152,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9212,7 +9167,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9227,7 +9182,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9242,7 +9197,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9257,7 +9212,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9272,7 +9227,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9287,7 +9242,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9302,7 +9257,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9317,7 +9272,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9332,7 +9287,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9347,7 +9302,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9362,7 +9317,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9377,7 +9332,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9392,7 +9347,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9407,7 +9362,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9422,7 +9377,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9437,7 +9392,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9452,7 +9407,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9467,7 +9422,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9482,7 +9437,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9497,7 +9452,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9512,7 +9467,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9527,7 +9482,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9542,7 +9497,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9557,7 +9512,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9572,7 +9527,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9587,7 +9542,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9602,7 +9557,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9617,7 +9572,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9632,7 +9587,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9647,7 +9602,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9662,7 +9617,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9677,7 +9632,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9692,7 +9647,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9707,7 +9662,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9722,7 +9677,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9857,7 +9812,7 @@
    "description": null,
    "source": "ieeecs",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9917,7 +9872,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9932,7 +9887,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9947,7 +9902,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9977,7 +9932,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -9992,7 +9947,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -10056,21 +10011,6 @@
    "active": true
   },
   {
-   "hash": "b78be0ec318348cef8d1fa67",
-   "journal": "The Journal of Strategic Information Systems",
-   "abbrev": "JSIS",
-   "vhb_2024": "A",
-   "basket11": true,
-   "title": "India at the Intersection: Reconfiguring Commerce, Capabilities and Culture in Age of Technological Acceleration",
-   "url": "https://www.sciencedirect.com/special-issue/327852/india-at-the-intersection-reconfiguring-commerce-capabilities-and-culture-in-age-of-technological-acceleration",
-   "deadline": "2026-09-30",
-   "description": null,
-   "source": "cfpsorg",
-   "first_seen": "2026-07-07T19:53:52Z",
-   "last_seen": "2026-10-05T15:23:31Z",
-   "active": true
-  },
-  {
    "hash": "38aa98763ac1a33e524966cc",
    "journal": "European Journal of Information Systems",
    "abbrev": "EJIS",
@@ -10097,7 +10037,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-07T19:53:52Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -10112,7 +10052,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-07T19:53:52Z",
-   "last_seen": "2026-10-14T21:23:25Z",
+   "last_seen": "2026-10-15T12:10:39Z",
    "active": true
   },
   {
@@ -10144,6 +10084,66 @@
    "first_seen": "2026-07-07T19:53:52Z",
    "last_seen": "2026-07-07T19:53:52Z",
    "active": true
+  },
+  {
+   "hash": "f0e4d06f6ac1d0ec59f13c59",
+   "journal": "Scandinavian Journal of Information Systems",
+   "abbrev": "SJIS",
+   "vhb_2024": "B",
+   "basket11": false,
+   "title": "Synthetic Organising in Digital Transformation with Algorithmic Systems (SJIS)",
+   "url": "https://listserv.isworld.org/scripts/wa-ISWORLD.exe?A2=AISWORLD;ade69445.2609A&S=",
+   "deadline": "2026-09-30",
+   "description": null,
+   "source": "aisworld",
+   "first_seen": "2026-09-12T20:23:40Z",
+   "last_seen": "2026-10-08T22:41:37Z",
+   "active": false
+  },
+  {
+   "hash": "9f43fb74820ddd5d74d978a7",
+   "journal": "Organization Studies",
+   "abbrev": null,
+   "vhb_2024": "A",
+   "basket11": false,
+   "title": "Embodying Processes",
+   "url": "/page/oss/call-for-papers/embodying-processes",
+   "deadline": "2026-09-30",
+   "description": null,
+   "source": "sage",
+   "first_seen": "2026-07-22T09:29:08Z",
+   "last_seen": "2026-07-27T19:16:52Z",
+   "active": false
+  },
+  {
+   "hash": "f12dac80504678dbe5ce9fa0",
+   "journal": "Organization",
+   "abbrev": null,
+   "vhb_2024": "B",
+   "basket11": false,
+   "title": "Alternative organising and degrowth: Countering capitalist polycrisis and organising liveable worlds",
+   "url": "/page/org/call-for-papers/alternative-organising-degrowth",
+   "deadline": "2026-09-30",
+   "description": null,
+   "source": "sage",
+   "first_seen": "2026-07-21T18:46:51Z",
+   "last_seen": "2026-07-28T09:37:26Z",
+   "active": false
+  },
+  {
+   "hash": "b78be0ec318348cef8d1fa67",
+   "journal": "The Journal of Strategic Information Systems",
+   "abbrev": "JSIS",
+   "vhb_2024": "A",
+   "basket11": true,
+   "title": "India at the Intersection: Reconfiguring Commerce, Capabilities and Culture in Age of Technological Acceleration",
+   "url": "https://www.sciencedirect.com/special-issue/327852/india-at-the-intersection-reconfiguring-commerce-capabilities-and-culture-in-age-of-technological-acceleration",
+   "deadline": "2026-09-30",
+   "description": null,
+   "source": "cfpsorg",
+   "first_seen": "2026-07-07T19:53:52Z",
+   "last_seen": "2026-10-05T15:23:31Z",
+   "active": false
   },
   {
    "hash": "e37679ae4c228faccc80c0c9",
