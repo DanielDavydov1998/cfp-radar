@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T20:10:19Z",
+ "generated": "2026-10-26T13:54:09Z",
  "journal_count": 618,
  "journals": [
   {
@@ -8312,7 +8312,7 @@
    "description": null,
    "source": "aisworld",
    "first_seen": "2026-10-19T14:04:33Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -8327,7 +8327,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-10-14T21:23:25Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -8342,7 +8342,7 @@
    "description": null,
    "source": "aisworld",
    "first_seen": "2026-10-08T22:41:37Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -8357,7 +8357,7 @@
    "description": null,
    "source": "aisworld",
    "first_seen": "2026-09-21T13:27:20Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -8372,7 +8372,7 @@
    "description": null,
    "source": "aisworld",
    "first_seen": "2026-09-13T13:30:21Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -8432,7 +8432,7 @@
    "description": null,
    "source": "wkwilist",
    "first_seen": "2026-09-12T20:23:40Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -8451,36 +8451,6 @@
    "active": true
   },
   {
-   "hash": "8f4f415421f279aa416e6e90",
-   "journal": "International Journal of Logistics Management",
-   "abbrev": null,
-   "vhb_2024": "B",
-   "basket11": false,
-   "title": "Harnessing Technological Innovation for Managing Volatility and Advancing Sustainable and Regenerative Supply Chains",
-   "url": "https://www.emeraldgrouppublishing.com/calls-for-papers/harnessing-technological-innovation-managing-volatility-and-advancing-sustainable",
-   "deadline": null,
-   "description": null,
-   "source": "emerald",
-   "first_seen": "2026-08-24T18:15:56Z",
-   "last_seen": "2026-09-10T11:56:19Z",
-   "active": true
-  },
-  {
-   "hash": "4f09ceb81395080c21fd669c",
-   "journal": "International Marketing Review",
-   "abbrev": null,
-   "vhb_2024": "B",
-   "basket11": false,
-   "title": "Servitization in International Markets: Capabilities, Ecosystems and the Orchestration of Value Across International Borders",
-   "url": "https://www.emeraldgrouppublishing.com/calls-for-papers/servitization-international-markets-capabilities-ecosystems-and-orchestration",
-   "deadline": null,
-   "description": null,
-   "source": "emerald",
-   "first_seen": "2026-08-18T18:20:10Z",
-   "last_seen": "2026-09-10T11:56:19Z",
-   "active": true
-  },
-  {
    "hash": "d6011105fa6ca7a991965303",
    "journal": "Marketing Letters",
    "abbrev": null,
@@ -8492,52 +8462,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-08-17T18:15:22Z",
-   "last_seen": "2026-10-25T20:10:19Z",
-   "active": true
-  },
-  {
-   "hash": "62d80f45e3b296d8aeeeaf6a",
-   "journal": "International Journal of Operations & Production Management",
-   "abbrev": null,
-   "vhb_2024": "B",
-   "basket11": false,
-   "title": "(Un)ethical Decision-Making in Supply Chains: Understanding the Drivers of Ethical Failure in Operations and Supply Chain Management",
-   "url": "https://www.emeraldgrouppublishing.com/calls-for-papers/unethical-decision-making-supply-chains-understanding-drivers-ethical-failure",
-   "deadline": null,
-   "description": null,
-   "source": "emerald",
-   "first_seen": "2026-08-07T08:12:44Z",
-   "last_seen": "2026-09-10T11:56:19Z",
-   "active": true
-  },
-  {
-   "hash": "025de893108fb39d3cdeff9a",
-   "journal": "International Journal of Operations & Production Management",
-   "abbrev": null,
-   "vhb_2024": "B",
-   "basket11": false,
-   "title": "Managing Operational Tensions in Scaling Emerging Technologies",
-   "url": "https://www.emeraldgrouppublishing.com/calls-for-papers/managing-operational-tensions-scaling-emerging-technologies",
-   "deadline": null,
-   "description": null,
-   "source": "emerald",
-   "first_seen": "2026-08-07T08:12:44Z",
-   "last_seen": "2026-09-10T11:56:19Z",
-   "active": true
-  },
-  {
-   "hash": "d4931d8db167b7056f1cfb22",
-   "journal": "Personnel Review",
-   "abbrev": null,
-   "vhb_2024": "B",
-   "basket11": false,
-   "title": "Measuring GenAI and Productivity in Work and Careers",
-   "url": "https://www.emeraldgrouppublishing.com/calls-for-papers/measuring-genai-and-productivity-work-and-careers",
-   "deadline": null,
-   "description": null,
-   "source": "emerald",
-   "first_seen": "2026-07-30T19:16:56Z",
-   "last_seen": "2026-09-10T11:56:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -8552,7 +8477,7 @@
    "description": null,
    "source": "ieeecs",
    "first_seen": "2026-07-30T09:32:55Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -8567,7 +8492,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-27T19:16:52Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -8582,7 +8507,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-25T18:38:49Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -8597,7 +8522,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-25T18:38:49Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -8612,7 +8537,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-25T18:38:49Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -8627,7 +8552,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-25T18:38:49Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -8642,22 +8567,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-25T18:38:49Z",
-   "last_seen": "2026-10-25T20:10:19Z",
-   "active": true
-  },
-  {
-   "hash": "bdf477394b9dbcc801ad9d45",
-   "journal": "British Food Journal",
-   "abbrev": null,
-   "vhb_2024": "B",
-   "basket11": false,
-   "title": "Alternative Proteins for Sustainable and Ethical Food Systems: Consumer, Production, and Supply-Chain Perspectives",
-   "url": "https://www.emeraldgrouppublishing.com/calls-for-papers/alternative-proteins-sustainable-and-ethical-food-systems-consumer-production-and",
-   "deadline": null,
-   "description": null,
-   "source": "emerald",
-   "first_seen": "2026-07-22T19:02:27Z",
-   "last_seen": "2026-09-10T11:56:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -8732,7 +8642,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -8747,7 +8657,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -8762,7 +8672,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -8777,7 +8687,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -8792,7 +8702,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -8807,7 +8717,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -8822,7 +8732,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -8837,7 +8747,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -8852,7 +8762,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -8897,7 +8807,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -8912,7 +8822,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -8927,7 +8837,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -8942,7 +8852,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -8972,7 +8882,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -8987,7 +8897,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9002,7 +8912,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9017,7 +8927,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9032,7 +8942,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9047,7 +8957,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9062,7 +8972,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9077,7 +8987,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9092,7 +9002,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9107,7 +9017,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9122,7 +9032,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9137,7 +9047,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9152,7 +9062,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9167,7 +9077,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9182,7 +9092,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9197,7 +9107,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9212,7 +9122,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9227,7 +9137,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9242,7 +9152,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9257,7 +9167,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9272,7 +9182,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9287,7 +9197,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9302,7 +9212,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9317,7 +9227,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9332,7 +9242,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9347,7 +9257,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9362,7 +9272,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9377,7 +9287,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9392,7 +9302,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9407,7 +9317,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9422,7 +9332,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9437,7 +9347,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9452,7 +9362,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9467,7 +9377,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9482,7 +9392,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9497,7 +9407,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9512,7 +9422,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9527,7 +9437,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9542,7 +9452,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9557,7 +9467,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9572,7 +9482,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9587,7 +9497,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9602,7 +9512,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9617,7 +9527,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9632,7 +9542,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9647,7 +9557,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9662,7 +9572,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9677,7 +9587,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9692,22 +9602,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
-   "active": true
-  },
-  {
-   "hash": "d743887b79cbf3c5d587fe8c",
-   "journal": "Equality, Diversity and Inclusion: An International Journal",
-   "abbrev": null,
-   "vhb_2024": "B",
-   "basket11": false,
-   "title": "Artificial Intelligence, Employment Inequality, and the Future of Inclusive Work",
-   "url": "https://www.emeraldgrouppublishing.com/calls-for-papers/artificial-intelligence-employment-inequality-and-future-inclusive-work",
-   "deadline": null,
-   "description": null,
-   "source": "emerald",
-   "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-09-10T11:56:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9726,96 +9621,6 @@
    "active": true
   },
   {
-   "hash": "b160904c566d5f45cc63a945",
-   "journal": "European Journal of Marketing",
-   "abbrev": null,
-   "vhb_2024": "B",
-   "basket11": false,
-   "title": "Creating, Measuring, and Managing Impact in Complex Service Systems",
-   "url": "https://www.emeraldgrouppublishing.com/calls-for-papers/creating-measuring-and-managing-impact-complex-service-systems",
-   "deadline": null,
-   "description": null,
-   "source": "emerald",
-   "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-09-10T11:56:19Z",
-   "active": true
-  },
-  {
-   "hash": "8cfbefd6a2caf99338f7bd68",
-   "journal": "Journal of Managerial Psychology",
-   "abbrev": null,
-   "vhb_2024": "B",
-   "basket11": false,
-   "title": "Thriving Through Transformation: Employee Experience, Resilience, and Human Sustainability in Changing Workplaces",
-   "url": "https://www.emeraldgrouppublishing.com/calls-for-papers/thriving-through-transformation-employee-experience-resilience-and-human",
-   "deadline": null,
-   "description": null,
-   "source": "emerald",
-   "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-09-10T11:56:19Z",
-   "active": true
-  },
-  {
-   "hash": "4c449b32c019ba1cc179f010",
-   "journal": "Journal of Managerial Psychology",
-   "abbrev": null,
-   "vhb_2024": "B",
-   "basket11": false,
-   "title": "Rethinking managerial preoccupation with business tournament rituals",
-   "url": "https://www.emeraldgrouppublishing.com/calls-for-papers/rethinking-managerial-preoccupation-business-tournament-rituals",
-   "deadline": null,
-   "description": null,
-   "source": "emerald",
-   "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-09-10T11:56:19Z",
-   "active": true
-  },
-  {
-   "hash": "bf1de3165b7d50c009e49438",
-   "journal": "Journal of Organizational Change Management",
-   "abbrev": null,
-   "vhb_2024": "B",
-   "basket11": false,
-   "title": "Reimagining Sustainable Future and Managing Change",
-   "url": "https://www.emeraldgrouppublishing.com/calls-for-papers/reimagining-sustainable-future-and-managing-change",
-   "deadline": null,
-   "description": null,
-   "source": "emerald",
-   "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-09-10T11:56:19Z",
-   "active": true
-  },
-  {
-   "hash": "87ae850c2e6d3e7b09d2881e",
-   "journal": "European Journal of Marketing",
-   "abbrev": null,
-   "vhb_2024": "B",
-   "basket11": false,
-   "title": "​Redefining luxury consumption in the age of Artificial Intelligence​",
-   "url": "https://www.emeraldgrouppublishing.com/calls-for-papers/redefining-luxury-consumption-age-artificial-intelligence",
-   "deadline": null,
-   "description": null,
-   "source": "emerald",
-   "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-09-10T11:56:19Z",
-   "active": true
-  },
-  {
-   "hash": "3a0a29928a95bcd1ea55f7f0",
-   "journal": "Personnel Review",
-   "abbrev": null,
-   "vhb_2024": "B",
-   "basket11": false,
-   "title": "Navigating the Work–Family Interface in the Digital Era: Challenges and Strategies",
-   "url": "https://www.emeraldgrouppublishing.com/calls-for-papers/navigating-work-family-interface-digital-era-challenges-and-strategies",
-   "deadline": null,
-   "description": null,
-   "source": "emerald",
-   "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-09-10T11:56:19Z",
-   "active": true
-  },
-  {
    "hash": "5bd106d6cdfae5f738c35b9a",
    "journal": "IEEE Software",
    "abbrev": null,
@@ -9827,7 +9632,7 @@
    "description": null,
    "source": "ieeecs",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9887,7 +9692,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T12:11:10Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9902,7 +9707,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T12:11:10Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9917,7 +9722,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9947,7 +9752,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -9962,7 +9767,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-10-25T20:10:19Z",
+   "last_seen": "2026-10-26T13:54:09Z",
    "active": true
   },
   {
@@ -10099,6 +9904,201 @@
    "first_seen": "2026-07-07T19:53:52Z",
    "last_seen": "2026-07-07T19:53:52Z",
    "active": true
+  },
+  {
+   "hash": "8f4f415421f279aa416e6e90",
+   "journal": "International Journal of Logistics Management",
+   "abbrev": null,
+   "vhb_2024": "B",
+   "basket11": false,
+   "title": "Harnessing Technological Innovation for Managing Volatility and Advancing Sustainable and Regenerative Supply Chains",
+   "url": "https://www.emeraldgrouppublishing.com/calls-for-papers/harnessing-technological-innovation-managing-volatility-and-advancing-sustainable",
+   "deadline": null,
+   "description": null,
+   "source": "emerald",
+   "first_seen": "2026-08-24T18:15:56Z",
+   "last_seen": "2026-09-10T11:56:19Z",
+   "active": false
+  },
+  {
+   "hash": "4f09ceb81395080c21fd669c",
+   "journal": "International Marketing Review",
+   "abbrev": null,
+   "vhb_2024": "B",
+   "basket11": false,
+   "title": "Servitization in International Markets: Capabilities, Ecosystems and the Orchestration of Value Across International Borders",
+   "url": "https://www.emeraldgrouppublishing.com/calls-for-papers/servitization-international-markets-capabilities-ecosystems-and-orchestration",
+   "deadline": null,
+   "description": null,
+   "source": "emerald",
+   "first_seen": "2026-08-18T18:20:10Z",
+   "last_seen": "2026-09-10T11:56:19Z",
+   "active": false
+  },
+  {
+   "hash": "62d80f45e3b296d8aeeeaf6a",
+   "journal": "International Journal of Operations & Production Management",
+   "abbrev": null,
+   "vhb_2024": "B",
+   "basket11": false,
+   "title": "(Un)ethical Decision-Making in Supply Chains: Understanding the Drivers of Ethical Failure in Operations and Supply Chain Management",
+   "url": "https://www.emeraldgrouppublishing.com/calls-for-papers/unethical-decision-making-supply-chains-understanding-drivers-ethical-failure",
+   "deadline": null,
+   "description": null,
+   "source": "emerald",
+   "first_seen": "2026-08-07T08:12:44Z",
+   "last_seen": "2026-09-10T11:56:19Z",
+   "active": false
+  },
+  {
+   "hash": "025de893108fb39d3cdeff9a",
+   "journal": "International Journal of Operations & Production Management",
+   "abbrev": null,
+   "vhb_2024": "B",
+   "basket11": false,
+   "title": "Managing Operational Tensions in Scaling Emerging Technologies",
+   "url": "https://www.emeraldgrouppublishing.com/calls-for-papers/managing-operational-tensions-scaling-emerging-technologies",
+   "deadline": null,
+   "description": null,
+   "source": "emerald",
+   "first_seen": "2026-08-07T08:12:44Z",
+   "last_seen": "2026-09-10T11:56:19Z",
+   "active": false
+  },
+  {
+   "hash": "d4931d8db167b7056f1cfb22",
+   "journal": "Personnel Review",
+   "abbrev": null,
+   "vhb_2024": "B",
+   "basket11": false,
+   "title": "Measuring GenAI and Productivity in Work and Careers",
+   "url": "https://www.emeraldgrouppublishing.com/calls-for-papers/measuring-genai-and-productivity-work-and-careers",
+   "deadline": null,
+   "description": null,
+   "source": "emerald",
+   "first_seen": "2026-07-30T19:16:56Z",
+   "last_seen": "2026-09-10T11:56:19Z",
+   "active": false
+  },
+  {
+   "hash": "bdf477394b9dbcc801ad9d45",
+   "journal": "British Food Journal",
+   "abbrev": null,
+   "vhb_2024": "B",
+   "basket11": false,
+   "title": "Alternative Proteins for Sustainable and Ethical Food Systems: Consumer, Production, and Supply-Chain Perspectives",
+   "url": "https://www.emeraldgrouppublishing.com/calls-for-papers/alternative-proteins-sustainable-and-ethical-food-systems-consumer-production-and",
+   "deadline": null,
+   "description": null,
+   "source": "emerald",
+   "first_seen": "2026-07-22T19:02:27Z",
+   "last_seen": "2026-09-10T11:56:19Z",
+   "active": false
+  },
+  {
+   "hash": "d743887b79cbf3c5d587fe8c",
+   "journal": "Equality, Diversity and Inclusion: An International Journal",
+   "abbrev": null,
+   "vhb_2024": "B",
+   "basket11": false,
+   "title": "Artificial Intelligence, Employment Inequality, and the Future of Inclusive Work",
+   "url": "https://www.emeraldgrouppublishing.com/calls-for-papers/artificial-intelligence-employment-inequality-and-future-inclusive-work",
+   "deadline": null,
+   "description": null,
+   "source": "emerald",
+   "first_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-09-10T11:56:19Z",
+   "active": false
+  },
+  {
+   "hash": "b160904c566d5f45cc63a945",
+   "journal": "European Journal of Marketing",
+   "abbrev": null,
+   "vhb_2024": "B",
+   "basket11": false,
+   "title": "Creating, Measuring, and Managing Impact in Complex Service Systems",
+   "url": "https://www.emeraldgrouppublishing.com/calls-for-papers/creating-measuring-and-managing-impact-complex-service-systems",
+   "deadline": null,
+   "description": null,
+   "source": "emerald",
+   "first_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-09-10T11:56:19Z",
+   "active": false
+  },
+  {
+   "hash": "8cfbefd6a2caf99338f7bd68",
+   "journal": "Journal of Managerial Psychology",
+   "abbrev": null,
+   "vhb_2024": "B",
+   "basket11": false,
+   "title": "Thriving Through Transformation: Employee Experience, Resilience, and Human Sustainability in Changing Workplaces",
+   "url": "https://www.emeraldgrouppublishing.com/calls-for-papers/thriving-through-transformation-employee-experience-resilience-and-human",
+   "deadline": null,
+   "description": null,
+   "source": "emerald",
+   "first_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-09-10T11:56:19Z",
+   "active": false
+  },
+  {
+   "hash": "4c449b32c019ba1cc179f010",
+   "journal": "Journal of Managerial Psychology",
+   "abbrev": null,
+   "vhb_2024": "B",
+   "basket11": false,
+   "title": "Rethinking managerial preoccupation with business tournament rituals",
+   "url": "https://www.emeraldgrouppublishing.com/calls-for-papers/rethinking-managerial-preoccupation-business-tournament-rituals",
+   "deadline": null,
+   "description": null,
+   "source": "emerald",
+   "first_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-09-10T11:56:19Z",
+   "active": false
+  },
+  {
+   "hash": "bf1de3165b7d50c009e49438",
+   "journal": "Journal of Organizational Change Management",
+   "abbrev": null,
+   "vhb_2024": "B",
+   "basket11": false,
+   "title": "Reimagining Sustainable Future and Managing Change",
+   "url": "https://www.emeraldgrouppublishing.com/calls-for-papers/reimagining-sustainable-future-and-managing-change",
+   "deadline": null,
+   "description": null,
+   "source": "emerald",
+   "first_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-09-10T11:56:19Z",
+   "active": false
+  },
+  {
+   "hash": "87ae850c2e6d3e7b09d2881e",
+   "journal": "European Journal of Marketing",
+   "abbrev": null,
+   "vhb_2024": "B",
+   "basket11": false,
+   "title": "​Redefining luxury consumption in the age of Artificial Intelligence​",
+   "url": "https://www.emeraldgrouppublishing.com/calls-for-papers/redefining-luxury-consumption-age-artificial-intelligence",
+   "deadline": null,
+   "description": null,
+   "source": "emerald",
+   "first_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-09-10T11:56:19Z",
+   "active": false
+  },
+  {
+   "hash": "3a0a29928a95bcd1ea55f7f0",
+   "journal": "Personnel Review",
+   "abbrev": null,
+   "vhb_2024": "B",
+   "basket11": false,
+   "title": "Navigating the Work–Family Interface in the Digital Era: Challenges and Strategies",
+   "url": "https://www.emeraldgrouppublishing.com/calls-for-papers/navigating-work-family-interface-digital-era-challenges-and-strategies",
+   "deadline": null,
+   "description": null,
+   "source": "emerald",
+   "first_seen": "2026-07-21T18:19:00Z",
+   "last_seen": "2026-09-10T11:56:19Z",
+   "active": false
   },
   {
    "hash": "f0e4d06f6ac1d0ec59f13c59",
