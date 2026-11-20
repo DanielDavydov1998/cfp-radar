@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T16:01:37Z",
+ "generated": "2026-11-20T23:37:31Z",
  "journal_count": 618,
  "journals": [
   {
@@ -8301,6 +8301,21 @@
  ],
  "cfps": [
   {
+   "hash": "df611139617f5d33818c29cb",
+   "journal": "Information and Organization",
+   "abbrev": "I&O",
+   "vhb_2024": "B",
+   "basket11": true,
+   "title": "Information and Organization Special Issue “Societal Transformation through Digital Infrastructures in Times of Change”, deadline 30 March 2027",
+   "url": "https://listserv.isworld.org/scripts/wa-ISWORLD.exe?A2=AISWORLD;f0909993.2611C&S=",
+   "deadline": "2027-03-30",
+   "description": null,
+   "source": "aisworld",
+   "first_seen": "2026-11-20T23:37:31Z",
+   "last_seen": "2026-11-20T23:37:31Z",
+   "active": true
+  },
+  {
    "hash": "f47f4c8e6c541e610880485f",
    "journal": "Information Systems Frontiers",
    "abbrev": "ISF",
@@ -8312,7 +8327,7 @@
    "description": null,
    "source": "aisworld",
    "first_seen": "2026-11-18T00:17:09Z",
-   "last_seen": "2026-11-19T16:18:36Z",
+   "last_seen": "2026-11-20T23:37:31Z",
    "active": true
   },
   {
@@ -8327,7 +8342,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-11-11T23:55:51Z",
-   "last_seen": "2026-11-20T16:01:37Z",
+   "last_seen": "2026-11-20T23:37:31Z",
    "active": true
   },
   {
@@ -8342,7 +8357,7 @@
    "description": null,
    "source": "wkwilist",
    "first_seen": "2026-11-10T01:09:08Z",
-   "last_seen": "2026-11-20T16:01:37Z",
+   "last_seen": "2026-11-20T23:37:31Z",
    "active": true
   },
   {
@@ -8372,7 +8387,7 @@
    "description": null,
    "source": "ieeecs",
    "first_seen": "2026-11-03T00:21:23Z",
-   "last_seen": "2026-11-20T16:01:37Z",
+   "last_seen": "2026-11-20T23:37:31Z",
    "active": true
   },
   {
@@ -8432,7 +8447,7 @@
    "description": null,
    "source": "aisworld",
    "first_seen": "2026-10-28T13:38:13Z",
-   "last_seen": "2026-11-19T16:18:36Z",
+   "last_seen": "2026-11-20T23:37:31Z",
    "active": true
   },
   {
@@ -8447,7 +8462,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-10-27T21:47:51Z",
-   "last_seen": "2026-11-20T16:01:37Z",
+   "last_seen": "2026-11-20T23:37:31Z",
    "active": true
   },
   {
@@ -8462,7 +8477,7 @@
    "description": null,
    "source": "aisworld",
    "first_seen": "2026-10-19T14:04:33Z",
-   "last_seen": "2026-11-19T16:18:36Z",
+   "last_seen": "2026-11-20T23:37:31Z",
    "active": true
   },
   {
@@ -8492,7 +8507,7 @@
    "description": null,
    "source": "aisworld",
    "first_seen": "2026-10-08T22:41:37Z",
-   "last_seen": "2026-11-19T16:18:36Z",
+   "last_seen": "2026-11-20T23:37:31Z",
    "active": true
   },
   {
@@ -8507,7 +8522,7 @@
    "description": null,
    "source": "aisworld",
    "first_seen": "2026-09-21T13:27:20Z",
-   "last_seen": "2026-11-19T16:18:36Z",
+   "last_seen": "2026-11-20T23:37:31Z",
    "active": true
   },
   {
@@ -8552,7 +8567,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-08-31T14:32:23Z",
-   "last_seen": "2026-11-20T16:01:37Z",
+   "last_seen": "2026-11-20T23:37:31Z",
    "active": true
   },
   {
@@ -8567,7 +8582,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-08-17T18:15:22Z",
-   "last_seen": "2026-11-20T16:01:37Z",
+   "last_seen": "2026-11-20T23:37:31Z",
    "active": true
   },
   {
@@ -8582,7 +8597,7 @@
    "description": null,
    "source": "ieeecs",
    "first_seen": "2026-07-30T09:32:55Z",
-   "last_seen": "2026-11-20T16:01:37Z",
+   "last_seen": "2026-11-20T23:37:31Z",
    "active": true
   },
   {
@@ -8597,7 +8612,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-27T19:16:52Z",
-   "last_seen": "2026-11-20T16:01:37Z",
+   "last_seen": "2026-11-20T23:37:31Z",
    "active": true
   },
   {
@@ -8792,7 +8807,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-11-20T16:01:37Z",
+   "last_seen": "2026-11-20T23:37:31Z",
    "active": true
   },
   {
@@ -8822,7 +8837,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-11-20T16:01:37Z",
+   "last_seen": "2026-11-20T23:37:31Z",
    "active": true
   },
   {
@@ -8837,7 +8852,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-11-20T16:01:37Z",
+   "last_seen": "2026-11-20T23:37:31Z",
    "active": true
   },
   {
@@ -8852,7 +8867,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-11-20T16:01:37Z",
+   "last_seen": "2026-11-20T23:37:31Z",
    "active": true
   },
   {
@@ -8867,7 +8882,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-11-20T16:01:37Z",
+   "last_seen": "2026-11-20T23:37:31Z",
    "active": true
   },
   {
@@ -8972,7 +8987,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-11-20T16:01:37Z",
+   "last_seen": "2026-11-20T23:37:31Z",
    "active": true
   },
   {
@@ -8987,7 +9002,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-11-20T16:01:37Z",
+   "last_seen": "2026-11-20T23:37:31Z",
    "active": true
   },
   {
@@ -9107,7 +9122,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-11-20T16:01:37Z",
+   "last_seen": "2026-11-20T23:37:31Z",
    "active": true
   },
   {
@@ -9137,7 +9152,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-11-20T16:01:37Z",
+   "last_seen": "2026-11-20T23:37:31Z",
    "active": true
   },
   {
@@ -9152,7 +9167,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-11-20T16:01:37Z",
+   "last_seen": "2026-11-20T23:37:31Z",
    "active": true
   },
   {
@@ -9167,7 +9182,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-11-20T16:01:37Z",
+   "last_seen": "2026-11-20T23:37:31Z",
    "active": true
   },
   {
@@ -9467,7 +9482,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-11-20T16:01:37Z",
+   "last_seen": "2026-11-20T23:37:31Z",
    "active": true
   },
   {
@@ -9737,7 +9752,7 @@
    "description": null,
    "source": "informs",
    "first_seen": "2026-07-21T18:19:00Z",
-   "last_seen": "2026-11-20T16:01:37Z",
+   "last_seen": "2026-11-20T23:37:31Z",
    "active": true
   },
   {
@@ -9872,7 +9887,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-07T19:53:52Z",
-   "last_seen": "2026-11-20T16:01:37Z",
+   "last_seen": "2026-11-20T23:37:31Z",
    "active": true
   },
   {
@@ -9887,7 +9902,7 @@
    "description": null,
    "source": "springer",
    "first_seen": "2026-07-07T19:53:52Z",
-   "last_seen": "2026-11-20T16:01:37Z",
+   "last_seen": "2026-11-20T23:37:31Z",
    "active": true
   },
   {
